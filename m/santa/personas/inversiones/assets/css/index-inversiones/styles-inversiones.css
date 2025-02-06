@@ -1,0 +1,709 @@
+.ajustaContenidoBanner-seguros
+{
+    padding-top: 71px;
+}
+
+.link-header{
+    text-decoration:none;
+    font-family: 'Santander Micro Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #767676;
+}
+
+.linkConsultaDuda
+{
+    color: #FFFFFF;
+    margin: 14px 0px;
+    
+}
+
+.title_banner1
+{
+    font-family: 'Santander Headline';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100%;
+    color: #EC0000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px 0px 0px;
+
+    width: auto;
+    height: auto;
+
+    max-width: auto;
+
+}
+
+.title_banner2
+{
+    font-family: 'Santander Headline';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: #EC0000;
+
+    width: auto;
+    text-align: center;
+    max-width: auto;
+}
+
+.title_banner_buenfin
+{
+    font-weight: 400;
+    font-size: 2.5rem;
+}
+
+.parrafo_banner1
+{
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #404040;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 27px 0px 0px 0px;
+}
+
+.parrafo_banner2
+{
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #404040;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 27px 0px 0px 0px;
+}
+
+.parrafo_banner2 a
+{
+    color: #EC0000;
+}
+
+
+.breadcrumb-header
+{
+    padding: 0px 0px 0px 0px;
+}
+
+.ajutar-botones-seguros
+{
+    padding: 0px 0px 0px 0px;
+    margin: 0px 26px 16px 0px;
+}
+
+
+
+.formaDelBtn{
+    margin: 0px;
+    padding: 0px;
+}
+
+.bloqueSiniestroImg
+{
+    padding: 0px;
+    
+}
+
+.tamanoCarroAudi
+{
+    margin: 0.17px 0px 0px 0px;
+    width: 563px; 
+    height:536px;
+}
+
+.tamanobannerBuenFin
+{
+    margin: 0.17px 0px 0px 0px;
+}
+
+
+
+.divImagenMujerSiniestro
+{
+    text-align: right;
+}
+
+.imagenSiniestro
+{
+    width: 471px;
+    height: 471px;
+    /* margin: 156px 92.5px 0px 0px; */
+    margin: 117px 92.5px 0px 0px;
+}
+
+.imagenCelularSeguros
+{
+    width: 419px;
+    height: 488px;
+    margin: 117px 0px 0px 0px;
+}
+
+
+.divParrafoSiniestro
+{
+    margin: 214px 0px 0px 0px;
+    text-align: left;
+}
+
+.parrafoTituloTextoApp
+{
+height: 50px;
+left: 215px;
+top: 3136.16px;
+font-family: 'Santander Headline';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 125%;
+color: #EC0000;
+margin: 288px 0px 23px 0px;
+
+}
+
+.parrafoTexto
+{
+    font-family: 'Santander Text';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+color: #404040;
+
+margin: 0px 0px 33px 0px;
+
+}
+
+.divSeleccionBotones
+    {
+        margin: 97px 0px 0px 0px;
+    }
+
+.divAppSeguros
+{
+    width: auto;
+}
+
+.quitarBordesParrafo
+{
+    padding: 0px;
+    padding: 0px 0px 0px 100px;
+    
+}
+
+
+
+.posionarColumna
+{
+    text-align: left;
+}
+
+.barra-AppSeguros
+{
+    margin: 209px 0px 0px 0px;
+    height: 355.18px;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(222, 237, 242, 0.6) 0.05%, #FFFFFF 100%);
+    opacity: 0.5;
+    position: absolute;
+
+}
+
+
+.preg_frec_rojo
+{
+    font-family: 'Santander Micro Text';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: 0.2em;
+text-transform: uppercase;
+color: #EC0000;
+mix-blend-mode: normal;
+
+margin: 188px 0px 0px 0px;
+}
+
+.preg_frec_admiracion
+{
+    font-family: 'Santander Headline';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 125%;
+    color: #191919;
+
+}
+
+.card-body
+{
+    background: #F3F8FA;
+border-radius: 4px;
+border: 0px solid #EC0000;
+}
+
+.card
+{
+    margin: 0px 0px 0px 0px;
+}
+
+.quitarBordeCard
+{
+    border: 0px solid #EC0000;
+    padding: 0px;
+}
+
+.pregunta
+{
+    font-family: 'Santander Headline';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 125%;
+color: #191919;
+}
+
+.respuesta
+{
+    font-family: 'Santander Text';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: #404040;
+width: auto;
+}
+
+.icono
+{
+    font-family: 'Santander Micro Text';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 150%;
+text-align: center;
+color: #EC0000;
+}
+
+
+.lineaMenuPrincipal-Column
+{
+    display: none;
+}
+
+.divImagenCarruselBanners
+{
+    text-align: center;
+}
+
+.imagenEscudo
+{
+    margin: 0px 8px 10px 0px;
+    width: 32px;
+    height: 32px;
+    display: inline;
+}
+
+.contenedorFijoBullet .parrafo_negritas
+{
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    color: #404040;
+    margin-left: 5px;
+    width: fit-content;
+}
+
+.margenEntreCards
+    {
+        margin: 0px 0px 0px 0px;
+    }
+
+    .divBotonUnico
+    {
+        text-align: left;
+    }
+
+    /* .scrollMenuRivs :hover
+    {
+        font-weight: 700;
+    } */
+
+    .quitarBordesPadding
+    {
+        padding-left : 15px;
+        padding-right : 15px;
+    }
+
+    .btn-mobile
+    {
+        display: none;
+    }
+
+    
+
+@media(max-width: 992px)
+{
+    .imagenEscudo
+    {
+        margin: 0px 0px 10px 0px;
+        width: 32px;
+        height: 32px;
+        display: block;
+    }
+
+    .divSeleccionBotones
+    {
+        margin: 75px 0px 0px 0px;
+        text-align: -webkit-center;
+    }
+
+    .imagenSiniestro
+{
+    width: 324.87px;
+    height: 326.04px;
+    margin: 40px 0px 0px 0px;
+}
+
+.divImagenMujerSiniestro
+{
+    text-align: center;
+}
+
+.bloqueSiniestroImg
+{
+    text-align: center;   
+}
+
+.imagenCelularSeguros
+{
+    width: 327px;
+    height: 380px;
+    margin: 108px 0px 0px 0px;
+}
+
+.respuesta
+{
+    width: auto;
+}
+
+.card
+{
+    margin: 24px 0px 0px 0px;
+}
+
+.quitarBordesParrafo
+{
+    padding: 0px;
+}
+
+.formaDelBtn
+{
+    width: 156px;
+}
+
+.barra-AppSeguros
+{
+    width: 100%;
+    height: 567px;
+    background: linear-gradient(180deg, rgba(222, 237, 242, 0.6) 0%, #FFFFFF 100%);
+    opacity: 0.5;
+    margin: 156px 0px 0px -24px;
+}
+
+.ponerMargenSecciones 
+    {
+        padding: 0px 24px 0px 24px;
+    }
+
+.tamanoCarroAudi
+    {
+        width: 357px; 
+        height:350px;
+        margin: 70px 0px 0px 45px;
+    }
+
+    .tamanobannerBuenFin
+    {
+        width: 357px; 
+        height:350px;
+    }
+
+    .divTextoCarrusel
+    {
+        text-align: center;
+        padding: 0px 40px;
+        height: 100%;
+        margin: -51px 0px 0px 0px;
+        
+    }
+
+    .divImagenCarrusel
+    {
+        text-align: center;
+        padding: 0px 0px;
+        height: 40%;
+    }
+
+    .title_banner1
+    {
+        font-size: 32px;
+        margin: 0px 0px 0px 0px;
+        
+    }
+
+    .parrafo_banner1
+    {
+        font-size: 18px;
+        max-width: 900;
+        width: 100%;
+    }
+
+    .TextoSiniestro
+    {
+        text-align: center;
+    }    
+
+    .divParrafoSiniestro
+    {
+        margin: 125px 0px 0px 0px;
+        text-align: center;
+    }
+
+    .divAppSeguros
+    {
+        text-align: center;
+    }
+
+    .parrafoTituloTextoApp
+    {
+        margin: 8px 0px 0px 0px;
+        font-size: 26px;
+        height: auto;
+    }
+
+    .parrafoTexto
+    {
+        margin: 16px 0px 56px 0px;
+        font-size: 16px;
+    }
+
+    #rowFlotante
+    {
+        text-align: center;
+    }
+
+    .linkConsultaDuda
+    {
+        color: #FFFFFF;
+        margin: 12px 0px;
+    }
+
+    .margenCards
+    {
+        margin: 66px 0px 0px 0px;
+    }
+
+
+    .margen-bloque-botones
+    {
+        margin: 16px 0px 0px 0px;
+    }
+
+    .preg_frec_admiracion
+    {
+        margin: 8px 0px 0px 0px;
+        font-size: 26px;
+        line-height: 125%;
+        width: 291px;
+    }
+
+    .preg_frec_rojo
+    {
+        font-size: 16px;
+    }
+
+    .breadcrumb-header
+    {
+        padding:0px;
+    }
+
+    .posionarColumna
+    {
+        text-align: center;
+    }
+
+    .quitarBordesPadding
+    {
+        padding: 0px;
+    }
+
+    .pregunta
+    {
+        font-size: 16px;
+    }
+
+    .margenEntreCards
+    {
+        margin: 0px 0px 0px 0px;
+    }
+
+    
+}
+
+
+
+@media(max-width: 992px)
+{
+    .contenerdor-filtros
+    {
+        padding: 0px 72px 0px 72px;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    .divBotonUnico
+    {
+        text-align: center;
+    }
+
+    .contenedorFijoBullet .parrafo_negritas
+    {
+        font-family: 'Santander Text';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 150%;
+        color: #404040;
+        margin-left: 5px;
+    }
+
+    
+
+    
+}
+
+@media screen and (max-width:767px) {
+    .btn-web
+    {
+        display: none;
+    }
+    .btn-mobile
+    {
+        display: inline;
+    }
+
+}
+
+
+
+
+
+
+@media(max-width: 520px)
+{
+    .contenerdor-filtros
+    {
+        padding: 0px 24px 0px 24px;
+    }
+}
+
+
+
+@media(max-width: 1340px)
+{
+    .lineaMenuPrincipal-dFlex
+{
+    display: none;
+    
+}
+
+
+}
+
+@media (min-width: 300px) and (max-width: 1340px) {
+    .lineaMenuPrincipal-Column
+{
+    display: flex;
+}
+}
+
+@media (min-width: 992px) and (max-width: 1300px) {
+    .title_banner1
+    {
+        font-size: 52px;
+    }
+
+    .title_banner_buenfin
+    {
+        font-size: 2.4rem;
+    }
+
+}
+
+@media(min-width: 992px) and (max-width: 1200px) 
+{
+
+    .divParrafoSiniestro
+    {
+        margin: 130px 0px 0px 0px;
+        text-align: left;
+    }
+    
+    .imagenSiniestro {
+        width: 371px;
+        height: 371px;
+        /* margin: 156px 92.5px 0px 0px; */
+        margin: 117px 92.5px 0px 0px;
+
+    }
+
+    .parrafoTituloTextoApp
+    {
+        
+        height: 50px;
+        left: 215px;
+        top: 3136.16px;
+        font-family: 'Santander Headline';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 125%;
+        color: #EC0000;
+        margin: 288px 0px 23px 0px;
+    }
+
+    .preg_frec_admiracion
+    {
+        font-size: 26px;
+        color: #191919;
+
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 992px) {
+    .divTextoCarrusel
+    {
+        text-align: left;
+        padding: 0px;
+        margin: 0px;
+    }
+    
+}

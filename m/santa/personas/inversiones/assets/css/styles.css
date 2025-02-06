@@ -1,0 +1,919 @@
+#seccionHeader {
+    margin-top: 156px;
+}
+
+.scrollMenuRivs::-webkit-scrollbar,
+#sectionSubMenuSeguros .content-submenu::-webkit-scrollbar,
+.section-show-info .content-submenu::-webkit-scrollbar {
+    display: none;
+}
+
+.scrollMenuRivs,
+#sectionSubMenuSeguros .content-submenu,
+.section-show-info .content-submenu::-webkit-scrollbar {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.breadcrumb-header {
+    position: absolute;
+    top: -52px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumb-header a {
+    font-family: 'Santander Micro Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #767676;
+    width: max-content;
+}
+
+.breadcrumb-header a.title-active {
+    color: #404040;
+}
+
+.breadcrumb-header img,
+.breadcrumb-header-banner img {
+    width: 16px;
+    height: 16px;
+    margin: 0 10px;
+}
+
+.breadcrumb-header-banner a {
+    font-family: 'Santander Micro Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #767676;
+    width: max-content;
+}
+
+.breadcrumb-header-banner {
+    position: absolute;
+    top: -52px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.div-content a,
+.section-mas-opciones a {
+    text-decoration: none;
+}
+
+a:link, a:visited, a:active {
+    text-decoration: none;
+}
+
+.div-content .header .div-text {
+    max-width: 600px;
+}
+
+#seccionHeader .title-header {
+    margin-bottom: 16px;
+}
+
+.div-content .header .title-header {
+    font-family: 'Santander Headline';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100%;
+    color: #EC0000;
+}
+
+.div-content .header .subtitle-header {
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #404040;
+    margin-bottom: 40px;
+}
+
+#seccionHeader button {
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 255px;
+    height: 48px;
+    background: #EC0000;
+    border: 1px solid #EC0000;
+    border-radius: 48px;
+}
+
+.section-generico {
+    padding-top: 128px;
+}
+
+.beneficios .bannerBeneficios {
+    width: 100%;
+    max-width: 1440px;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    margin-top: 240px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.beneficios .bannerBeneficios img {
+    width: 100%;
+}
+
+.beneficios .title-beneficios {
+    font-family: 'Santander Headline';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    text-align: center;
+    color: #191919;
+    margin-bottom: 16px;
+}
+
+.beneficios .subtitle-beneficios {
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    color: #404040;
+    margin-bottom: 72px;
+}
+
+.beneficios .carousel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.beneficios .carousel-cell {
+    width: 33%;
+    text-align: center;
+    margin-bottom: 72px;
+}
+
+.beneficios .elipseExterior img {
+    width: 46px;
+    height: 46px;
+    margin-bottom: 22px;
+}
+
+.beneficios .h2IconosBeneficios, .beneficios .pIconosBeneficios {
+    max-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.beneficios .h2IconosBeneficios {
+    font-family: 'Santander Headline';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 125%;
+    text-align: center;
+    color: #191919;
+    max-width: 320px;
+    margin-bottom: 16px;
+}
+
+
+.beneficios .pIconosBeneficios {
+    font-family: 'Santander Micro Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    color: #404040;
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+.section-generico h2 {
+    font-family: 'Santander Headline';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    text-align: center;
+    color: #191919;
+    margin-bottom: 16px;
+}
+
+.section-generico p {
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #404040;
+}
+
+.section-caracteristicas .subtitle-caracteristicas,
+.section-conoce-mas p {
+    margin-bottom: 64px;
+}
+
+.section-generico h3 {
+    font-family: 'Santander Headline';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #EC0000;
+}
+
+
+
+.img-caracteristicas-conoce-mas,
+.img-legales {
+    max-width: 471.52px;
+    width: 100%;
+}
+
+.section-generico .contenedor-bullet {
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #404040;
+    margin-top: 16px;
+    align-items: start;
+}
+
+.section-generico .align-h2
+{
+    margin-bottom: 0px;
+    line-height: 125%;
+    text-align: left;
+    font-size: 32px;
+
+}
+
+.section-generico .subtitle-ofrece-santander
+{
+    margin-bottom: 40px;
+}
+
+.section-generico .contenedor-bullet img {
+    width: 24px;
+    height: 24  px;
+    margin-right: 8px;
+}
+
+.section-generico .contenedor-bullet .text {
+    padding-top: 3px;
+}
+
+.section-caracteristicas .bonos-dolares,
+.section-caracteristicas .aviso-caracteristicas {
+    font-family: 'Santander Micro Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #404040;
+    text-align: left;
+}
+
+.section-caracteristicas .bonos-dolares {
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+.section-caracteristicas .aviso-caracteristicas {
+    margin-top: 16px;
+}
+
+.section-caracteristicas h4 {
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    color: #191919;
+}
+
+.section-table {
+    padding-top: 104px;
+}
+
+.section-table .table thead {
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+    background: #EC0000;
+}
+
+.section-table .table thead th {
+    vertical-align: middle;
+    border: none;
+    width: 33.333333%;
+    background: #EC0000;
+}
+
+.section-table .table-striped tbody tr:nth-of-type(odd) {
+    background: #F2F2F2;
+}
+
+.section-table .table-striped tbody tr:last-child {
+    border-style: hidden;
+}
+
+.section-table .table tbody .cell-bold {
+    font-weight: 700;
+}
+
+.section-table .table tbody td {
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #191919;
+    height: 59px;
+    vertical-align: middle;
+}
+
+.section-legales .text-que-necesito,
+.section-legales h3 {
+    margin-bottom: 16px;
+}
+
+.section-legales p {
+    margin-bottom: 24px;
+}
+
+.section-legales button {
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 139px;
+    height: 48px;
+    background: #EC0000;
+    border: 1px solid #EC0000;
+    border-radius: 48px;
+}
+
+.section-legales .title-info-regulatoria {
+    font-family: 'Santander Micro Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+    color: #404040;
+    margin-top: 22px;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+.section-legales .title-info-regulatoria[aria-expanded="false"] .expandir {
+    transform: rotate(180deg);
+}
+
+.section-legales .content-info-regulatoria {
+    font-family: 'Santander Micro Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #767676;
+}
+
+.section-legales .content-info-regulatoria a {
+    font-weight: bolder;
+    color: #767676;
+}
+
+.section-legales .content-info-regulatoria a:hover {
+    text-decoration: underline;
+}
+
+.table-elige-c,
+.table-elige-p {
+    display: none;
+}
+
+.section-conoce-mas h3 {
+    margin-top: 40px;
+}
+
+.section-legales h2 {
+    font-family: 'Santander Headline';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 125%;
+    color: #191919;
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+.text-red {
+    color: #EC0000 !important;
+}
+
+.no-wrap {
+    white-space: nowrap;
+}
+
+.text-break-all {
+    word-break: break-all;
+}
+
+.section-conoce-mas .consulta-aqui {
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #404040;
+    text-align: left;
+    margin-top: 24px;
+}
+
+.section-generico-web
+{
+    padding-top: 96px;
+}
+
+
+@media (min-width: 992px) and (max-width: 1140px) {
+    .div-content .header .title-header {
+        font-size: 50px;
+    }
+
+    .beneficios .title-beneficios,
+    .section-generico h2 {
+        font-size: 44px;
+    }
+
+    .beneficios .carousel-cell {
+        margin-bottom: 32px;
+    }
+}
+
+
+
+@media (max-width: 991px) {
+
+    .section-generico .margin-mobile
+    {
+        margin-top: 16px;
+    }
+
+    .section-generico .subtitle-ofrece-santander
+    {
+        margin-bottom: 32px;
+    }
+
+    .section-generico {
+        padding-top: 96px;
+    }    
+
+    .header-image img {
+        padding-top: 0px !important;
+    }
+
+    .div-content .header .title-header {
+        font-size: 42px;
+    }
+
+    .div-content .header .subtitle-header {
+        font-size: 18px;
+    }
+
+    #seccionHeader button {
+        width: 213px;
+        font-size: 16px;
+    }
+
+    .beneficios .title-beneficios {
+        font-size: 32px;
+    }
+
+    .beneficios .subtitle-beneficios {
+        font-size: 18px;
+    }
+
+    .section-generico h2 {
+        font-size: 32px;
+    }
+
+    .section-generico p {
+        font-size: 18px;
+    }
+
+    .beneficios .carousel-cell {
+        margin-bottom: 52px;
+    }
+
+    .beneficios .h2IconosBeneficios {
+        max-width: 260px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 22px;
+    }
+
+    .section-caracteristicas .aviso-caracteristicas {
+        margin-bottom: 48px;
+    }
+
+    .section-table .table thead {
+        font-size: 18px;
+    }
+
+    .section-table .table thead th {
+        width: max-content;
+    }
+
+    .section-table .table tbody td {
+        font-size: 16px;
+    }
+
+    .img-caracteristicas-conoce-mas {
+        margin-top: 48px;
+    }
+
+    .section-caracteristicas .subtitle-caracteristicas {
+        margin-bottom: 32px;
+    }
+
+    .section-conoce-mas p {
+        margin-bottom: 16px;
+    }
+
+    .breadcrumb-header a {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .beneficios .title-beneficios,
+    .section-generico h2 {
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .beneficios .pIconosBeneficios {
+        max-width: 260px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media (min-width: 768px) {
+    .beneficios .carousel-cell:nth-child(4),
+    .beneficios .carousel-cell:nth-child(5),
+    .beneficios .carousel-cell:nth-child(6) {
+        margin-bottom: 0px;
+    }
+
+    
+}
+
+
+
+
+@media (max-width: 767px) {
+
+    .div-content .header .div-text
+    {
+        max-width: 100%;
+    }
+
+    .section-generico .align-h2
+    {
+        text-align: center;
+        font-size: 28px;
+    }
+
+    .img-caracteristicas-conoce-mas, .img-legales {
+        max-width: 327px;
+    }
+
+    .breadcrumb-header {
+        display: none;
+    }
+
+    #seccionHeader .div-text {
+        position: relative;
+        text-align: center;
+        max-width: 100%;
+    }
+
+    .div-content .header .title-header {
+        font-family: 'Santander Headline';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 125%;
+        text-align: center;
+        color: #EC0000;
+    }
+
+    #seccionHeader p {
+        max-width: none;
+    }
+
+    .beneficios .bannerBeneficios {
+        display: none;
+    }
+
+    .beneficios .title-beneficios {
+        font-family: 'Santander Headline';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 125%;
+        text-align: center;
+        color: #191919;
+    }
+
+    .beneficios .carousel {
+        display: block !important;
+    }
+
+    .beneficios .carousel:after {
+        content: 'flickity';
+        display: none;
+    }
+
+    .beneficios .carousel-cell {
+        margin-bottom: 40px;
+    }
+
+    .beneficios .carousel .carousel-cell {
+        width: 100%;
+    }
+
+    .beneficios .flickity-page-dots {
+        bottom: 00px;
+    }
+
+    .beneficios .flickity-page-dots {
+        position: relative;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        text-align: center;
+        line-height: 1;
+    }
+
+    .beneficios .flickity-page-dots .dot {
+        width: 8px;
+        height: 8px;
+        background-color: #D9D9D9;
+        border: 0;
+        margin: 0 4px;
+    }
+
+    .beneficios .flickity-button:disabled {
+        width: 32px;
+        height: 32px;
+        background: #CEDEE7;
+        border-radius: 44px;
+        color: #767676;
+    }
+
+    .beneficios .flickity-prev-next-button {
+        width: 32px;
+        height: 32px;
+        background: #FFFFFF;
+        box-shadow: 0px 6px 10px rgb(0 0 0 / 12%);
+        border-radius: 44px;
+        color: #EC0000;
+    }
+
+    .beneficios .flickity-prev-next-button.previous {
+        left: 0;
+    }
+
+    .beneficios .flickity-prev-next-button.next {
+        right: 0;
+    }
+
+    .beneficios .flickity-page-dots .dot.is-selected {
+        width: 16px;
+        background: #000000;
+        border-radius: 40px;
+    }
+
+    .beneficios .flickity-prev-next-button {
+        top: 60px;
+    }
+
+    .beneficios .h2IconosBeneficios,
+    .beneficios .pIconosBeneficios {
+        max-width: 260px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .beneficios .h2IconosBeneficios {
+        font-family: 'Santander Headline';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 125%;
+        text-align: center;
+        color: #191919;
+    }
+
+    .beneficios .pIconosBeneficios {
+        font-family: 'Santander Micro Text';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        text-align: center;
+        color: #404040;
+    }
+
+    .section-generico h2 {
+        font-family: 'Santander Headline';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 125%;
+        text-align: center;
+        color: #000000;
+    }
+
+    .section-generico p {
+        font-family: 'Santander Text';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+        text-align: center;
+        color: #404040;
+    }
+
+    .section-generico h3 {
+        font-family: 'Santander Headline';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: #EC0000;
+    }
+
+    .section-generico .contenedor-bullet {
+        font-family: 'Santander Text';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+        color: #191919;
+    }
+
+    .section-caracteristicas .bonos-dolares {
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+
+    .section-caracteristicas .bonos-dolares,
+    .section-caracteristicas .aviso-caracteristicas {
+        font-family: 'Santander Micro Text';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 150%;
+        color: #404040;
+    }
+
+
+    .section-caracteristicas h4 {
+        font-family: 'Santander Text';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 150%;
+        color: #404040;
+    }
+
+    .section-caracteristicas .aviso-caracteristicas {
+        margin-bottom: 24px;
+    }
+
+    .section-table {
+        padding-top: 48px;
+    }
+
+    .table-elige-c,
+    .table-elige-p {
+        display: block;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .table-elige-c {
+        margin-bottom: 32px;
+    }
+
+    .table-desktop {
+        display: none;
+    }
+
+    .section-table .table thead {
+        font-family: 'Santander Headline';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 125%;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .section-table .table-elige-c thead th,
+    .section-table .table-elige-p thead th {
+        padding: 16px;
+    }
+
+    .section-table .table-elige-c tbody td,
+    .section-table .table-elige-p tbody td {
+        width: 50%;
+        padding: 16px;
+    }
+
+    .section-table .table-elige-c tbody .cell-bold,
+    .section-table .table-elige-p tbody .cell-bold {
+        background: #F2F2F2;
+    }
+
+    .section-table .table-elige-c>:not(caption)>*>*,
+    .section-table .table-elige-p>:not(caption)>*>* {
+        border-bottom-width: 0px;
+        border-top: 0px;
+    }
+
+    .section-table .table tbody td {
+        font-family: 'Santander Micro Text';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        text-align: center;
+        color: #404040;
+    }
+
+    .section-legales {
+        text-align: center;
+    }
+
+    .section-legales .title-info-regulatoria {
+        text-align: center;
+    }
+
+    .section-legales .content-info-regulatoria {
+        text-align: justify;
+    }
+
+    .img-legales,
+    .img-caracteristicas-conoce-mas {
+        margin-top: 24px;
+    }
+
+    .beneficios .title-beneficios,
+    .section-generico h2 {
+        margin-bottom: 16px;
+    }
+}
+
+@media (max-width: 375px) {
+    .section-legales .title-info-regulatoria,
+    .section-legales .content-info-regulatoria {
+        text-align: left;
+    }
+}

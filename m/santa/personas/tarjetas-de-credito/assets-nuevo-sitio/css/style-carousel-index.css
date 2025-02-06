@@ -1,0 +1,192 @@
+.section-header .carousel .carousel-cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0 52px 0 52px;
+    margin-bottom: 104px;
+}
+
+.section-header .carousel .carousel-cell > div {
+    width: 50%;
+}
+
+.section-header .carousel .carousel-cell h3 {
+    font-family: 'Santander Headline';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #EC0000;
+    margin-bottom: 4px;
+}
+
+.section-header .carousel .carousel-cell h4 {
+    font-family: 'Santander Headline';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100%;
+    color: #EC0000;
+    margin-bottom: 16px;
+}
+
+.section-header .carousel .carousel-cell p {
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #404040;
+    margin-bottom: 8px;
+}
+
+.section-header .carousel .carousel-cell button {
+    background: #EC0000;
+    border-radius: 48px;
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 12px 40px;
+    border: 0;
+    margin-top: 40px;
+}
+
+.section-header .carousel .carousel-cell .header-image img,
+.section-header .carousel .carousel-cell .imgHeader {
+    max-width: 460px;
+    padding: 0;
+ }
+
+ .section-header .carousel .flickity-prev-next-button.previous {
+    left: 0;
+ }
+
+ .section-header .carousel .flickity-prev-next-button.next {
+    right: 0;
+ }
+
+ .section-header .carousel .flickity-page-dots {
+    display: none;
+ }
+
+ .section-tarjetas {
+    padding-top: 0px;
+}
+
+.section-header .carousel .flickity-prev-next-button {
+    top: 205px;
+    right: 0px;
+    width: 32px;
+    height: 32px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 10px rgb(0 0 0 / 12%);
+    border-radius: 44px;
+    color: #EC0000;
+    padding: 0px 0px;
+}
+
+.section-header .carousel .carousel-cell .header-image .header-sombra {
+    bottom: 0;
+}
+
+@media(max-width: 991px) {
+    .section-header .carousel .carousel-cell {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+
+    .section-header .carousel .carousel-cell > div {
+        width: 100%;
+        max-width: 480px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .section-header .carousel .carousel-cell .header-image {
+        width: fit-content;
+        margin: auto;
+    }
+
+    .section-header .carousel .carousel-cell .imgHeader,
+    .section-header .carousel .carousel-cell .header-image img {
+        max-width: 327px;
+        min-width: auto;
+        height: auto;
+    }
+
+    .section-header .carousel .carousel-cell h3 {
+        font-size: 16px;
+        line-height: 100%;
+    }
+
+    .section-header .carousel .carousel-cell h4 {
+        font-size: 32px;
+        line-height: 125%;
+    }
+}
+
+@media(max-width: 767px) {
+    .section-header .carousel .carousel-cell .header-image .header-sombra {
+        bottom: 20px;
+    }
+}
+
+@media(max-width: 575px) {
+    .section-header .carousel .carousel-cell {
+        padding-left: 0;
+        padding-right: 0;
+        min-height: 445px;
+    }
+
+    .section-header .carousel .carousel-cell p {
+        font-size: 18px;
+        line-height: 150%;
+    }
+
+    .section-header .carousel .carousel-cell .containerCheckRed {
+        font-size: 18px;
+        line-height: 150%;
+        text-align: left;
+    }
+
+    .section-header .contenedor {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+
+    .section-header .col-12 {
+        padding: 0 !important;
+    }
+    
+    .section-header .carousel .carousel-cell {
+        margin-bottom: 96px;
+    }
+
+    .section-header .carousel .carousel-cell button {
+        margin-top: 32px;
+    }
+
+    .section-header .carousel .flickity-prev-next-button {
+        top: 130px;
+    }
+
+    .section-header .carousel .flickity-prev-next-button.previous {
+        left: 12px;
+    }
+    
+    .section-header .carousel .flickity-prev-next-button.next {
+        right: 12px;
+    }
+
+    .section-header .px-24 {
+        padding: 0 24px;
+    }
+}
