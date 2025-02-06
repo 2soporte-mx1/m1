@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HSBC Homepage</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+     <link href="../css/animate.css" rel="stylesheet">
+    <link href="../css/custom.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+
+
+
+<!-- Fixed navbar -->
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="../index.html"><img src="../images/logo.png" class="img-responsive"/> </a>
+        </div>
+    </div>
+</nav>
+
+
+
+
+<div class="container">
+
+    <div class="row margin-bottom-20">
+        <div class="col-sm-12">
+            <h1 class="main-heading">
+                Let’s find the best account<br>
+                that suits your needs
+            </h1>
+        </div>
+    </div>
+
+
+    <div class="row margin-bottom-30">
+        <div class="col-sm-2 hidden-xs"></div>
+        <div class="col-sm-4 mobile-spacing clearfix">
+            <input type="text" name="name" class="border-input tooltip-added" placeholder="Monthly Income (AED)" required>
+            <div class="custom-tooltip">
+                <div class="tooltip-box">This amount will be based on your salary income only</div>
+            </div>
+        </div>
+        <div class="col-sm-4 text-center ">
+            <div class="tooltip-added">
+                <select>
+                    <option value="">Average monthly balance</option>
+                    <option value="1">AED 0 - 100,000</option>
+                    <option value="2">AED 100,000 - 350,000</option>
+                    <option value="3">AED 350,000 and above</option>
+                </select>
+            </div>
+            <div class="custom-tooltip">
+                <div class="tooltip-box">This amount will be based on your salary income only</div>
+            </div>
+        </div>
+        <div class="col-sm-2 hidden-xs"></div>
+    </div>
+
+    <div class="row margin-bottom-30">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-4">
+            <select>
+                <option value="">UAE Residency Status</option>
+                <option value="1">Resident</option>
+                <option value="2">Residency In Process</option>
+                <option value="3">Not A Resident</option>
+            </select>
+        </div>
+        <div class="col-sm-4">
+            <select>
+                <option value="">Sole Account</option>
+                <option value="1">Joint Account</option>
+            </select>
+        </div>
+        <div class="col-sm-2"></div>
+    </div>
+
+
+    <div class="row margin-bottom-30">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-5 col-md-6">
+            <div class="form-question mobile-spacing">
+                Some of our Accounts and Credit cards require salary transfer. Will you transfer your salary to HSBC?
+            </div>
+        </div>
+        <div class="col-sm-3 col-md-2 special-background">
+            <a class="radio-yes-3">
+                yes
+            </a>
+            <a class="radio-no-3">
+                no
+            </a>
+        </div>
+        <div class="col-sm-2"></div>
+    </div>
+
+
+    <div class="row ">
+        <div class="col-sm-12 text-center">
+            <a href="step-2.html" class="red-button with-background"> Choose the right account <span class="hidden-xs">for me  </a>
+        </div>
+    </div>
+
+
+</div>
+
+
+<div class="footer-spacing"></div>
+
+<div class="position-relative">
+<footer class="footer">
+<div class="foo-box1 animated animated4 fadeInUp"><img src="../images/footer/suit.png"></div>
+<div class="foo-box2 animated animated4 fadeInUp"><img src="../images/footer/card.png"></div>
+<div class="foo-box3 animated animated4 fadeInUp"><img src="../images/footer/watch.png"></div>
+<div class="foo-box4 animated animated4 fadeInUp"><img src="../images/footer/bottle.png"></div>
+<div class="foo-box5 animated animated4 fadeInUp"><img src="../images/footer/phone.png"></div>
+<div class="foo-box6 animated animated4 fadeInUp"><img src="../images/footer/shoes.png"></div>
+</footer>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="../js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../js/select-buttons.js"></script>
+
+<!-- Remove When Using Proper Header -->
+<script src="https://www.w3schools.com/lib/w3data.js"></script>
+<script>
+    w3IncludeHTML();
+</script>
+<!-- End Remove -->
+
+
+<script>
+    $(window).load(function() {
+        $('.radio-yes-3').addClass('active-button');
+    });
+</script>
+
+
+</body>
+</html>

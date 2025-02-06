@@ -1,0 +1,984 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HSBC Homepage</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Custom CSS -->
+    <link href="../css/animate.css" rel="stylesheet" />
+    <link href="../css/custom.css" rel="stylesheet" />
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../css/ie10-viewport-bug-workaround.css" rel="stylesheet" />
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body class="solid-background">
+    <div class="contactopeneroverlay"></div>
+    <div class="floating-form" id="contact_form">
+      <span class="close">X</span>
+      <div class="contact-opener">Retrieve Application</div>
+      <h3>
+        To retrieve your previously saved application, kindly fill in the below
+        details
+      </h3>
+
+      <div id="contact_body">
+        <form>
+          <input
+            type="text"
+            placeholder="First name"
+            name="fname"
+            class="input-field"
+          />
+          <input
+            type="text"
+            placeholder="Last name"
+            name="lname"
+            class="input-field"
+          />
+          <input
+            type="text"
+            placeholder="Reference number"
+            name="refnum"
+            class="input-field"
+          />
+          <input type="submit" class="red-btn" value="Retrieve" />
+        </form>
+      </div>
+    </div>
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle collapsed"
+            data-toggle="collapse"
+            data-target="#navbar"
+            aria-expanded="false"
+            aria-controls="navbar"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../index.html"
+            ><img src="../images/logo.png" class="img-responsive" />
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row margin-bottom-30">
+        <div class="col-md-7 col-sm-6 mobile-spacing">
+          <div class="row">
+            <div class="col-sm-12">
+              <h1 class="main-heading-style-two">
+                HSBC Premier Credit Card
+              </h1>
+            </div>
+          </div>
+
+          <div class="row margin-top-10">
+            <div class="col-md-12">
+              <div class="position-relative">
+                <div class="account-added">
+                  <img
+                    src="../images/premier-card.png"
+                    class="img-responsive"
+                  />
+                </div>
+                <div class="for-you-ribbon"></div>
+
+                <div class="account-positioned empty-account">
+                  <a
+                    href="#myModal-accounts-creditcards"
+                    role="button"
+                    data-toggle="modal"
+                  >
+                    <div class="circle">
+                      <div class="circle__inner">
+                        <div class="circle__wrapper">
+                          <div class="circle__content">
+                            <div class="add-account">+</div>
+                            <div class="accounts-title margin-top-30">
+                              Add an account to this Credit Card?
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="account-positioned filled-account hide">
+                  <div class="circle">
+                    <div class="circle__inner">
+                      <div class="circle__wrapper">
+                        <div class="circle__content">
+                          <div class="accounts-title">
+                            HSBC Premier Current Account
+                          </div>
+                          <div class="accounts-subtitle">
+                            Minimum Monthly Income
+                          </div>
+                          <div class="accounts-amount">
+                            <span>aed </span> 15,000
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Add An Account Pop Up  -->
+        <div id="myModal-accounts-creditcards" class="modal fade">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-hidden="true"
+              >
+                &times;
+              </button>
+              <div class="col-sm-12">
+                <h2 class="sub-heading margin-bottom-30">
+                  Please select an option to continue
+                </h2>
+              </div>
+              <div class="modal-body">
+                <div class="row margin-bottom-40">
+                  <!-- First Option  -->
+                  <div
+                    class="col-md-4 col-sm-6 mobile-spacing tablet-spacing col-same-height"
+                  >
+                    <a
+                      class="white-box text-center"
+                      data-dismiss="modal"
+                      aria-hidden="true"
+                    >
+                      <div class="position-relative">
+                        <div
+                          class="small-circle center-block position-relative"
+                        >
+                          <div class="small-circle__inner">
+                            <div class="small-circle__wrapper">
+                              <div class="small-circle__content">
+                                <div class="white-box-title">
+                                  HSBC eSaver Account
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="row margin-top-20">
+                        <div class="col-md-6 remove-padding">
+                          <div class="accounts-subtitle">
+                            Minimum <br />Monthly Income
+                          </div>
+                          <div class="accounts-amount">
+                            <span>aed<br /> </span> 12,000
+                          </div>
+                        </div>
+                        <div class="col-md-6 remove-padding">
+                          <div class="accounts-subtitle">
+                            Average <br />monthly balance
+                          </div>
+                          <div class="accounts-amount color-grey">
+                            <span>aed<br /> </span>7,000
+                          </div>
+                        </div>
+                      </div>
+
+                      <div
+                        class="white-box-description text-left margin-top-10"
+                      >
+                        Your HSBC Premier Credit Card provides a number of
+                        privileges and...
+                      </div>
+                      <div class="text-center">
+                        <div
+                          class="white-box-button fill-account-button text-center"
+                          data-dismiss="modal"
+                          aria-hidden="true"
+                        >
+                          Add Account
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-5 col-sm-6">
+          <div class="padding-left-20">
+            <div class="title-style-one">At a glance</div>
+            <div class="small-divider"></div>
+            <div class="description-text margin-bottom-20">
+              Whether you're at home or travelling, your HSBC Premier Credit
+              Card is part of your seamless banking experience, providing you
+              with a complete range of exclusive benefits and rewards - all with
+              no annual fee and low interest rates.
+            </div>
+
+            <div class="accordian-title">This card benefits</div>
+
+            <div
+              class="panel-group"
+              id="accordion-at-a-glance"
+              role="tablist"
+              aria-multiselectable="true"
+            >
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingZero">
+                  <h4 class="panel-title">
+                    <a
+                      role="button"
+                      data-toggle="collapse"
+                      data-parent="#accordion"
+                      href="#collapseZero"
+                      aria-expanded="false"
+                      aria-controls="collapseZero"
+                    >
+                      Premier Privileges</a
+                    >
+                  </h4>
+                </div>
+                <div
+                  id="collapseZero"
+                  class="panel-collapse collapse"
+                  role="tabpanel"
+                  aria-labelledby="headingZero"
+                >
+                  <div class="panel-body">
+                    With HSBC Premier Privileges Programme, you can take
+                    advantage of special offers on travel, dining, shopping and
+                    entertainment around the world when you pay using your HSBC
+                    Premier Credit Card. Visit
+                    <a
+                      href="https://www.privileges.hsbcpremier.com"
+                      target="_blank"
+                    ></a
+                    >to find out more.
+                  </div>
+                </div>
+              </div>
+
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingOne">
+                  <h4 class="panel-title">
+                    <a
+                      role="button"
+                      data-toggle="collapse"
+                      data-parent="#accordion"
+                      href="#collapseOne"
+                      aria-expanded="false"
+                      aria-controls="collapseOne"
+                    >
+                      Lounge Access</a
+                    >
+                  </h4>
+                </div>
+                <div
+                  id="collapseOne"
+                  class="panel-collapse collapse"
+                  role="tabpanel"
+                  aria-labelledby="headingOne"
+                >
+                  <div class="panel-body">
+                    You can enjoy access to special lounges and related services
+                    at select airports around the world.
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingTwo">
+                  <h4 class="panel-title">
+                    <a
+                      class="collapsed"
+                      role="button"
+                      data-toggle="collapse"
+                      data-parent="#accordion"
+                      href="#collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="collapseTwo"
+                    >
+                      HSBC Entertainer Mobile App</a
+                    >
+                  </h4>
+                </div>
+                <div
+                  id="collapseTwo"
+                  class="panel-collapse collapse"
+                  role="tabpanel"
+                  aria-labelledby="headingTwo"
+                >
+                  <div class="panel-body">
+                    Free download of our ’Buy 1 Get 1 Free’ mobile app with over
+                    8,000 offers across 15 countries.
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingThree">
+                  <h4 class="panel-title">
+                    <a
+                      class="collapsed"
+                      role="button"
+                      data-toggle="collapse"
+                      data-parent="#accordion"
+                      href="#collapseThree"
+                      aria-expanded="false"
+                      aria-controls="collapseThree"
+                    >
+                      Valet Parking
+                    </a>
+                  </h4>
+                </div>
+                <div
+                  id="collapseThree"
+                  class="panel-collapse collapse"
+                  role="tabpanel"
+                  aria-labelledby="headingThree"
+                >
+                  <div class="panel-body">
+                    Get up to 4 free valet parking at selected Valtrans
+                    locations.
+                  </div>
+                </div>
+                <div class="panel-heading" role="tab" id="headingFour">
+                  <h4 class="panel-title">
+                    <a
+                      role="button"
+                      data-toggle="collapse"
+                      data-parent="#accordion"
+                      href="#collapseFour"
+                      aria-expanded="false"
+                      aria-controls="collapseFour"
+                    >
+                      Dining
+                    </a>
+                  </h4>
+                </div>
+                <div
+                  id="collapseFour"
+                  class="panel-collapse collapse"
+                  role="tabpanel"
+                  aria-labelledby="headingFour"
+                >
+                  <div class="panel-body">
+                    Get up to 25% discounts at selected restaurants across the
+                    UAE
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <a
+              href="#myModal"
+              role="button"
+              class="red-button hidden-xs"
+              data-toggle="modal"
+            >
+              Apply Now
+            </a>
+            <!-- Pop Up Styling -->
+            <div id="myModal" class="modal fade">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <button
+                    type="button"
+                    class="close"
+                    data-dismiss="modal"
+                    aria-hidden="true"
+                  >
+                    &times;
+                  </button>
+                  <div class="col-sm-12">
+                    <h2 class="sub-heading margin-bottom-30">
+                      What type of customer are you?
+                    </h2>
+                  </div>
+                  <div class="modal-body">
+                    <div class="row margin-bottom-40 fix-modal-padding">
+                      <div class="col-sm-4 col-xs-6 text-center mobile-spacing">
+                        <a class="circle-style" href="step-3.html">
+                          <div
+                            class="circle-button center-block icon-customer"
+                          ></div>
+                          <div class="circle-link">
+                            New <br />
+                            to HSBC
+                          </div>
+                        </a>
+                      </div>
+
+                      <div class="col-sm-4 col-xs-6 text-center mobile-spacing">
+                        <a class="circle-style circle-style-1" href="#">
+                          <div
+                            class="circle-button center-block icon-hsbc"
+                          ></div>
+                          <div class="circle-link">
+                            Existing HSBC <br />UAE Customer
+                          </div>
+                        </a>
+                      </div>
+
+                      <div
+                        class="col-sm-4 col-xs-12 text-center mobile-spacing"
+                      >
+                        <a class="circle-style circle-style-1" href="#">
+                          <div
+                            class="circle-button center-block icon-hsbc"
+                          ></div>
+                          <div class="circle-link">
+                            Global HSBC <br />Premier Customer
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row margin-top-60">
+        <div class="col-sm-12">
+          <a href="#" class="learn-more-show more-block"
+            >+ Benefits of an HSBC Premier Credit Card</a
+          >
+          <a href="#" class="learn-more-hide more-block hide"
+            >- Hide Benefits</a
+          >
+        </div>
+      </div>
+
+      <div class="learn-more-block">
+        <div class="title-style-one">Card benefits</div>
+        <div class="small-divider"></div>
+        <div class="row margin-bottom-30">
+          <div class="col-md-6 col-sm-6">
+            <h3>50% Cash Advance</h3>
+            <p>Get up to 50% of your available credit limit as cash advance.</p>
+            <h3>0% Balance Transfer</h3>
+            <p>
+              For the first 6 months enjoy 0% interest on the balance you
+              transfer from another bank to a new HSBC Premier Credit Card
+              account.
+            </p>
+            <h3>1 Air Mile for every AED 1 spent</h3>
+            <p>
+              Earn Air Miles on retail purchases with our HSBC Premier Air Miles
+              Reward Programme.
+            </p>
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <h3>Unlimited Supplementary Cards</h3>
+            <p>
+              Get an unlimited number of free supplementary credit cards to
+              share among your family and friends.
+            </p>
+            <h3>Cinema Offers</h3>
+            <p>
+              Use your HSBC Premier Credit Card to get discounted tickets at VOX
+              Cinemas in the UAE.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-sm-6">
+            <div class="title-style-one">Rewards</div>
+            <div class="small-divider"></div>
+            <p class="margin-top-20">
+              Your HSBC Premier Credit Card provides a number of privileges and
+              rewards in and around the United Arab Emirates.
+            </p>
+            <ul>
+              <li>
+                Dining, hotels and entertainment discounts across the Emirates
+              </li>
+              <li>Cinema offers at VOX Cinemas</li>
+              <li>
+                Redeem Air Miles for shopping vouchers, electronics,
+                entertainment or donations to charity
+              </li>
+            </ul>
+            <div class="title-style-one">Travel Privileges</div>
+            <div class="small-divider"></div>
+            <p class="margin-top-20">
+              Your HSBC Premier Credit Card provides you with exclusive travel
+              benefits and 24 hour international support wherever you are in the
+              world.
+            </p>
+            <ul>
+              <li>Lounge access</li>
+              <li>
+                Exclusive dining, hotel, and entertainment discounts around the
+                world
+              </li>
+              <li>
+                24 hour worldwide assistance with an emergency Cash Advance if
+                your card is lost or stolen
+              </li>
+              <li>Redeem Air Miles for flights with any airline</li>
+              <li>
+                Meet and Assist service with Al Rostamani Travel and Holidays
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-8 col-sm-8">
+            <div class="title-style-one">Protection</div>
+            <div class="small-divider"></div>
+
+            <div class="row">
+              <div class="col-md-6">
+                <h3>Travel Insurance</h3>
+                <p>
+                  As an HSBC Premier MasterCard® Credit Cardholder, travel
+                  insurance is available to you free of cost provided that your
+                  travel tickets are purchased using your HSBC Premier
+                  MasterCard Credit Card.
+                </p>
+                <p>
+                  This travel insurance is provided by Zurich Insurance Middle
+                  East S.A.L. (“Zurich”), and will protect you and your family
+                  against Accidental Death, Medical Expenses for
+                  Accident/Sickness, Emergency Medical Evacuation and Flight
+                  Delay, while you travel.
+                </p>
+
+                <h3>Purchase Protection</h3>
+                <p>
+                  Shop and be automatically protected against accidental damage
+                  up to a maximum of USD 5,000 annually.
+                </p>
+                <ul>
+                  <li>
+                    Travel Insurance is provided by Zurich Insurance Middle
+                    East.
+                  </li>
+                  <li>
+                    Credit Shield Plus is provided by American Life Insurance
+                    Company (MetLife).
+                  </li>
+                  <li>
+                    Purchase Protection is provided by MasterCard International
+                    in association with American Home Assurance Company.
+                  </li>
+                </ul>
+              </div>
+
+              <div class="col-md-6">
+                <h3>Credit Shield Plus</h3>
+                <p>
+                  Credit Shield Plus (CSP) is an optional insurance cover that
+                  you can apply for if you have an HSBC Credit Card issued by
+                  HSBC Bank Middle East Limited in the UAE (HSBC).
+                </p>
+                <p>
+                  It provides insurance cover for the situation where you are
+                  unable to pay your credit card debts in the event of:
+                </p>
+                <ul>
+                  <li>Loss of life</li>
+                  <li>Permanent Total Disability</li>
+                  <li>Critical Illness</li>
+                  <li>
+                    Involuntary Loss of Employment (for salaried cardholders
+                    only)
+                  </li>
+                  <li>
+                    Temporary Total Disability (for self-employed cardholders
+                    only)
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row margin-top-30">
+        <div class="col-md-12">
+          <div class="white-box-intro-title">
+            Here are some more options
+          </div>
+        </div>
+      </div>
+
+      <div class="row row-same-height">
+        <div
+          class="col-md-3 col-sm-6 mobile-spacing tablet-spacing col-same-height"
+        >
+          <a class="white-box position-relative" href="step-3.html">
+            <div class="position-relative">
+              <div class="white-box-image">
+                <img
+                  src="../images/black-card.png"
+                  class="img-responsive center-block"
+                />
+              </div>
+            </div>
+            <div class="white-box-title">HSBC Black Credit Card</div>
+            <div class="white-box-description">
+              Your HSBC Premier Credit Card provides a number of privileges and
+              rewards in and around the United Arab Emirates.
+            </div>
+            <div class="text-center">
+              <div class="white-box-button text-center">
+                More Info
+              </div>
+            </div>
+
+            <div class="red-overlay">
+              <div class="red-overlay-title">
+                Minimum annual income requirement:
+              </div>
+              <div class="red-overlay-subtitle">AED 36,000 per annum</div>
+
+              <div class="red-overlay-title">
+                Minimum age for primary cardholder
+              </div>
+              <div class="red-overlay-subtitle">21 Years Old</div>
+
+              <div class="red-overlay-title">
+                Minimum age for supplementary cardholder
+              </div>
+              <div class="red-overlay-subtitle">18 Years Old</div>
+              <div class="text-center">
+                <div class="white-box-button">
+                  More Info
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div
+          class="col-md-3 hidden-xs col-sm-6 mobile-spacing tablet-spacing col-same-height"
+        >
+          <a class="white-box" href="step-3.html">
+            <div class="position-relative">
+              <div class="white-box-image">
+                <img
+                  src="../images/advance-card.png"
+                  class="img-responsive center-block"
+                />
+              </div>
+            </div>
+            <div class="white-box-title">HSBC Advance Credit Card</div>
+            <div class="white-box-description">
+              Your HSBC Advance Credit Card provides a number of privileges and
+              rewards in and around the United Arab Emirates. card.
+            </div>
+            <div class="text-center">
+              <div class="white-box-button text-center">
+                More Info
+              </div>
+            </div>
+            <div class="red-overlay">
+              <div class="red-overlay-title">
+                Minimum annual income requirement:
+              </div>
+              <div class="red-overlay-subtitle">AED 36,000 per annum</div>
+
+              <div class="red-overlay-title">
+                Minimum age for primary cardholder
+              </div>
+              <div class="red-overlay-subtitle">21 Years Old</div>
+
+              <div class="red-overlay-title">
+                Minimum age for supplementary cardholder
+              </div>
+              <div class="red-overlay-subtitle">18 Years Old</div>
+              <div class="text-center">
+                <div class="white-box-button">
+                  More Info
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div
+          class="col-md-3 hidden-xs col-sm-6 mobile-spacing tablet-spacing col-same-height"
+        >
+          <a class="white-box" href="step-3.html">
+            <div class="position-relative">
+              <div class="white-box-image">
+                <img
+                  src="../images/platnium-card.png"
+                  class="img-responsive center-block"
+                />
+              </div>
+
+              <div class="small-account-circle-positioned">
+                <div class="small-circle position-relative">
+                  <div class="small-circle__inner">
+                    <div class="small-circle__wrapper">
+                      <div class="small-circle__content">
+                        <div class="white-box-title">HSBC Platnium Account</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="white-box-title">
+              HSBC Platinum Credit Card &amp; Bank Account
+            </div>
+            <div class="white-box-description">
+              Your HSBC Platnium Credit Card provides a number of privileges and
+              rewards in and around the United Arab Emirates. card.
+            </div>
+            <div class="text-center">
+              <div class="white-box-button text-center">
+                More Info
+              </div>
+            </div>
+            <div class="red-overlay">
+              <div class="red-overlay-title">
+                Minimum annual income requirement:
+              </div>
+              <div class="red-overlay-subtitle">AED 36,000 per annum</div>
+
+              <div class="red-overlay-title">
+                Minimum age for primary cardholder
+              </div>
+              <div class="red-overlay-subtitle">21 Years Old</div>
+
+              <div class="red-overlay-title">
+                Minimum age for supplementary cardholder
+              </div>
+              <div class="red-overlay-subtitle">18 Years Old</div>
+              <div class="text-center">
+                <div class="white-box-button">
+                  More Info
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div
+          class="col-md-3 hidden-xs col-sm-6 mobile-spacing tablet-spacing col-same-height"
+        >
+          <a class="white-box" href="step-3.html">
+            <div class="white-box-image">
+              <img
+                src="../images/select-card.png"
+                class="img-responsive center-block"
+              />
+            </div>
+            <div class="white-box-title">HSBC Platinum Select Card</div>
+            <div class="white-box-description">
+              Your HSBC Gold Credit Card provides a number of privileges and
+              rewards in and around the United Arab Emirates.
+            </div>
+            <div class="text-center">
+              <div class="white-box-button text-center">
+                More Info
+              </div>
+            </div>
+            <div class="red-overlay">
+              <div class="red-overlay-title">
+                Minimum annual income requirement:
+              </div>
+              <div class="red-overlay-subtitle">AED 36,000 per annum</div>
+
+              <div class="red-overlay-title">
+                Minimum age for primary cardholder
+              </div>
+              <div class="red-overlay-subtitle">21 Years Old</div>
+
+              <div class="red-overlay-title">
+                Minimum age for supplementary cardholder
+              </div>
+              <div class="red-overlay-subtitle">18 Years Old</div>
+              <div class="text-center">
+                <div class="white-box-button">
+                  More Info
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="visible-xs">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="pagination-block center-block">
+              <ul class="pagination">
+                <li class="pagination-item active"></li>
+                <li class="pagination-item"></li>
+                <li class="pagination-item"></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row margin-top-30">
+        <div class="col-md-12 text-center">
+          <a class="red-button experience-all-button"
+            >Experience all HSBC digital products</a
+          >
+        </div>
+      </div>
+
+      <div class="collapse experience-all">
+        <div class="row">
+          <div class="col-md-3 col-sm-6 mobile-spacing tablet-spacing">
+            <a class="white-box" href="step-3.html">
+              <div class="white-box-image">
+                <img
+                  src="../images/premier-card.png"
+                  class="img-responsive center-block"
+                />
+              </div>
+              <div class="white-box-title">HSBC Premier Credit Card</div>
+              <div class="white-box-description">
+                Your HSBC Premier Credit Card provides a number of privileges
+                and rewards in and around the United Arab Emirates.
+              </div>
+              <div class="text-center">
+                <div class="white-box-button text-center">
+                  More Info
+                </div>
+              </div>
+            </a>
+          </div>
+          <div
+            class="col-md-3 col-sm-6 mobile-spacing tablet-spacing hidden-xs"
+          >
+            <a class="white-box" href="step-3.html">
+              <div class="white-box-image">
+                <img
+                  src="../images/advance-card.png"
+                  class="img-responsive center-block"
+                />
+              </div>
+              <div class="white-box-title">HSBC Advance Credit Card</div>
+              <div class="white-box-description">
+                Your HSBC Advance Credit Card provides a number of privileges
+                and rewards in and around the United Arab Emirates. card.
+              </div>
+              <div class="text-center">
+                <div class="white-box-button text-center">
+                  More Info
+                </div>
+              </div>
+            </a>
+          </div>
+          <div
+            class="col-md-3 col-sm-6 mobile-spacing tablet-spacing hidden-xs"
+          >
+            <a class="white-box" href="step-3.html">
+              <div class="white-box-image">
+                <img
+                  src="../images/platnium-card.png"
+                  class="img-responsive center-block"
+                />
+              </div>
+              <div class="white-box-title">HSBC Platinum Credit Card</div>
+              <div class="white-box-description">
+                Your HSBC Platnium Credit Card provides a number of privileges
+                and rewards in and around the United Arab Emirates. card.
+              </div>
+              <div class="text-center">
+                <div class="white-box-button text-center">
+                  More Info
+                </div>
+              </div>
+            </a>
+          </div>
+          <div
+            class="col-md-3 col-sm-6 mobile-spacing tablet-spacing hidden-xs"
+          >
+            <a class="white-box" href="step-3.html">
+              <div class="white-box-image">
+                <img
+                  src="../images/gold-card.png"
+                  class="img-responsive center-block"
+                />
+              </div>
+              <div class="white-box-title">HSBC Gold Credit Card</div>
+              <div class="white-box-description">
+                Your HSBC Gold Credit Card provides a number of privileges and
+                rewards in and around the United Arab Emirates.
+              </div>
+              <div class="text-center">
+                <div class="white-box-button text-center">
+                  More Info
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-spacing"></div>
+
+    <div class="position-relative">
+      <footer class="footer">
+        <div class="foo-box1 animated animated4 fadeInUp">
+          <img src="../images/footer/suit.png" />
+        </div>
+        <div class="foo-box2 animated animated4 fadeInUp">
+          <img src="../images/footer/card.png" />
+        </div>
+        <div class="foo-box3 animated animated4 fadeInUp">
+          <img src="../images/footer/watch.png" />
+        </div>
+        <div class="foo-box4 animated animated4 fadeInUp">
+          <img src="../images/footer/bottle.png" />
+        </div>
+        <div class="foo-box5 animated animated4 fadeInUp">
+          <img src="../images/footer/phone.png" />
+        </div>
+        <div class="foo-box6 animated animated4 fadeInUp">
+          <img src="../images/footer/shoes.png" />
+        </div>
+      </footer>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-latest.min.js"
+      type="text/javascript"
+    ></script>
+    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../js/select-buttons.js"></script>
+
+    <!-- Remove When Using Proper Header -->
+    <script src="https://www.w3schools.com/lib/w3data.js"></script>
+    <script>
+      w3IncludeHTML();
+    </script>
+    <!-- End Remove -->
+  </body>
+</html>

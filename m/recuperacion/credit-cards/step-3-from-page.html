@@ -1,0 +1,2494 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HSBC Homepage</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Custom CSS -->
+    <link href="../css/animate.css" rel="stylesheet" />
+    <link href="../css/custom.css" rel="stylesheet" />
+    <link href="../css/circle-dashboard.css" rel="stylesheet" />
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../css/ie10-viewport-bug-workaround.css" rel="stylesheet" />
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <!-- Pop Up Styling -->
+  <div id="myModal" class="modal fade">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <button
+          type="button"
+          class="close"
+          data-dismiss="modal"
+          aria-hidden="true"
+        >
+          &times;
+        </button>
+
+        <div class="option-select">
+          <!-- First Stage -->
+          <div class="col-sm-12">
+            <h2 class="sub-heading margin-bottom-30">
+              Please select an option to continue
+            </h2>
+          </div>
+          <div class="modal-body">
+            <div class="row margin-bottom-40 fix-modal-padding">
+              <div class="col-sm-4 col-xs-6 text-center mobile-spacing">
+                <a class="circle-style ntb-0">
+                  <div class="circle-button center-block icon-customer"></div>
+                  <div class="circle-link">
+                    New <br />
+                    to HSBC
+                  </div>
+                </a>
+              </div>
+
+              <div class="col-sm-4 col-xs-6 text-center mobile-spacing">
+                <a class="circle-style circle-style-1 etb-0">
+                  <div class="circle-button center-block icon-hsbc"></div>
+                  <div class="circle-link">Existing <br />UAE Customer</div>
+                </a>
+              </div>
+
+              <div class="col-sm-4 col-xs-6 text-center mobile-spacing">
+                <a class="circle-style circle-style-1 etb-0">
+                  <div class="circle-button center-block icon-hsbc"></div>
+                  <div class="circle-link">
+                    Global HSBC <br />Premier Customer
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hide ntb-1">
+          <!-- New To Bank 1 -->
+          <div class="col-sm-12">
+            <h2 class="sub-heading margin-bottom-30">your salary</h2>
+          </div>
+          <div class="modal-body">
+            <div class="row margin-bottom-40 fix-modal-padding text-center">
+              <div class="row">
+                <div class="col-md-12">
+                  <input type="text" name="name" class="popup-input" />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="popup-description">
+                    Please enter your monthly salary
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-12">
+                  <a href="#" class="red-button">
+                    Continue
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hide ntb-2">
+          <!-- New To Bank 2 -->
+          <div class="col-sm-12">
+            <h2 class="sub-heading margin-bottom-30">company information</h2>
+          </div>
+          <div class="modal-body">
+            <div class="row margin-bottom-40 fix-modal-padding text-center">
+              <div class="row">
+                <div class="col-md-12">
+                  <input type="text" name="name" class="popup-input" />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="popup-description">
+                    Please enter your company name
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-12">
+                  <a href="#" class="red-button">
+                    Continue
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hide ntb-3">
+          <!-- New To Bank 3 -->
+          <div class="col-sm-12">
+            <h2 class="sub-heading margin-bottom-30">residency status</h2>
+          </div>
+          <div class="modal-body">
+            <div class="row margin-bottom-40 fix-modal-padding text-center">
+              <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8 margin-bottom-20">
+                  <select>
+                    <option value="">UAE Residency Status</option>
+                    <option value="1">Resident</option>
+                    <option value="2">Residency In Process</option>
+                    <option value="3">Not A Resident</option>
+                  </select>
+                </div>
+                <div class="col-md-2"></div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-12">
+                  <a href="#" class="red-button">
+                    Continue
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hide ntb-3-error">
+          <!-- New To Bank 1 -->
+          <div class="col-sm-12">
+            <h2 class="sub-heading margin-bottom-30">were here to help</h2>
+          </div>
+          <div class="modal-body">
+            <div class="row margin-bottom-40 fix-modal-padding text-center">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="popup-search">
+                    <img
+                      src="../images/red-search.png"
+                      class="center-block img-responsive"
+                    />
+                  </div>
+                  <div class="popup-description">
+                    We are sorry however your salary does not match the
+                    <span>minimum requirements</span> of this card but we have
+                    found the perfect credit card for you
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-12">
+                  <a href="../credit-cards/step-2.html" class="red-button">
+                    Show me my card
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hide etb-1">
+          <!-- Existing To Bank 1 -->
+          <div class="col-sm-12">
+            <h2 class="sub-heading margin-bottom-30">Internet Banking ID</h2>
+          </div>
+          <div class="modal-body">
+            <div class="row margin-bottom-40 fix-modal-padding text-center">
+              <div class="row">
+                <div class="col-md-12">
+                  <input type="text" name="name" class="popup-input" />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="popup-description">
+                    Please enter your Internet Banking ID
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-12">
+                  <a href="#" class="red-button">
+                    Continue
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hide etb-2">
+          <!-- Existing To Bank 2 -->
+          <div class="col-sm-12">
+            <h2 class="sub-heading margin-bottom-30">enter memorable answer</h2>
+          </div>
+          <div class="modal-body">
+            <div class="row margin-bottom-40 fix-modal-padding text-center">
+              <div class="row">
+                <div class="col-md-12">
+                  <input type="text" name="name" class="popup-input" />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="popup-description">
+                    Name a memorable movie star
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-12">
+                  <a href="#" class="red-button">
+                    Continue
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hide etb-3">
+          <!-- Existing To Bank 3 -->
+          <div class="col-sm-12">
+            <h2 class="sub-heading margin-bottom-30">
+              enter existing password
+            </h2>
+          </div>
+          <div class="modal-body">
+            <div class="row margin-bottom-40 fix-modal-padding text-center">
+              <div class="row">
+                <div class="col-md-12">
+                  <input type="password" name="name" class="popup-input" />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="popup-description">
+                    Enter the <span>fourth</span>, <span>sixth</span> and
+                    <span>ninth</span> characters of your password
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-12">
+                  <a href="#" class="red-button">
+                    Continue
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hide etb-3a">
+          <!-- Existing To Bank 3a Security  -->
+          <div class="col-sm-12">
+            <h2 class="sub-heading margin-bottom-30">enter security code</h2>
+          </div>
+          <div class="modal-body">
+            <div class="row margin-bottom-40 fix-modal-padding text-center">
+              <div class="row">
+                <div class="col-md-2"></div>
+
+                <div class="col-md-2">
+                  <img
+                    src="../images/securitycode-step-1.png"
+                    class="img-responsive"
+                  />
+                </div>
+
+                <div class="col-md-7">
+                  <div class="popup-description text-left">
+                    <p>
+                      Once HSBC appears on the display screen, press the
+                      <span class="green"> green button</span>.
+                    </p>
+                    <p>This will generate a security code.</p>
+                  </div>
+                </div>
+
+                <div class="col-md-1"></div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-12">
+                  <a href="#" class="red-button">
+                    Continue
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hide etb-3b">
+          <!-- Existing To Bank 3b Security  -->
+          <div class="col-sm-12">
+            <h2 class="sub-heading margin-bottom-30">enter security code</h2>
+          </div>
+          <div class="modal-body">
+            <div class="row margin-bottom-40 fix-modal-padding text-center">
+              <div class="row">
+                <div class="col-md-2"></div>
+
+                <div class="col-md-2">
+                  <img
+                    src="../images/securitycode-step-1.png"
+                    class="img-responsive"
+                  />
+                </div>
+
+                <div class="col-md-7">
+                  <div class="popup-description text-left">
+                    <p>
+                      Press and hold the
+                      <span class="green">green button</span> to turn on your
+                      secure key.
+                    </p>
+                    <p>Then enter your Secure Key PIN</p>
+                  </div>
+                </div>
+
+                <div class="col-md-1"></div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-12">
+                  <a href="#" class="red-button">
+                    Continue
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hide etb-3c">
+          <!-- Existing To Bank 3c Security  -->
+          <div class="col-sm-12">
+            <h2 class="sub-heading margin-bottom-30">enter security code</h2>
+          </div>
+          <div class="modal-body">
+            <div class="row margin-bottom-40 fix-modal-padding text-center">
+              <div class="row">
+                <div class="col-md-12">
+                  <input type="text" name="name" class="popup-input" />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="popup-description">
+                    Enter the security code on your Secure Key above.
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-12">
+                  <a href="#" class="red-button" data-dismiss="modal">
+                    Continue
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <body class="solid-background">
+    <div class="click-to-call-box animated fadeIn hide text-center">
+      <div class="click-call-title">
+        <span>Need help?</span>
+      </div>
+      <a href="tel:800-4722" class="click-call-number">
+        800 4722
+      </a>
+
+      <div class="click-call-subtitle">
+        your application reference number
+      </div>
+
+      <a href="tel:800-4722" class="click-call-link">
+        AE-242528
+      </a>
+
+      <div class="click-call-small">
+        Our opening hours are 9am - 10pm <br />
+        please call us at anytime.
+      </div>
+    </div>
+
+    <div class="call-button"></div>
+
+    <!-- This is replicating a filled form -->
+    <!--<div id="phone-number" class="hide">-->
+    <!--056-345-6789-->
+    <!--</div>-->
+
+    <div id="emirates-id-number" class="hide">
+      784-1111-2222222-6
+    </div>
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header position-relative">
+          <button
+            type="button"
+            class="navbar-toggle collapsed"
+            data-toggle="collapse"
+            data-target="#navbar"
+            aria-expanded="false"
+            aria-controls="navbar"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../index.html"
+            ><img src="../images/logo.png" class="img-responsive" />
+          </a>
+
+          <!--<div class="header-reference-number">-->
+          <!--Application Reference Number: <strong>AE242528</strong>-->
+          <!--</div>-->
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="main-content">
+            <div class="row">
+              <!-- This will be the welcome intro -->
+              <div class="col-md-12">
+                <h2 class="main-greeting">
+                  Hello <span class="start-text"></span>
+                  <span class="start-text-last"></span>
+                </h2>
+                <p class="gray-text">
+                  Let’s get started with your documents. You can upload your
+                  documents online or choose to give them to our sales executive
+                  later.
+                </p>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-12">
+                <!-- Start Main Panels  -->
+                <div
+                  class="panel-group"
+                  id="accordion"
+                  role="tablist"
+                  aria-multiselectable="true"
+                >
+                  <div class="panel panel-default visible-xs visible-sm">
+                    <div class="panel-heading" role="tab" id="headingMobile">
+                      <h4 class="panel-title">
+                        <a
+                          role="button"
+                          data-toggle="collapse"
+                          data-parent="#accordion"
+                          href="#collapseMobile"
+                          aria-expanded="false"
+                          aria-controls="collapseMobile"
+                        >
+                          HSBC Premier MasterCard
+                        </a>
+                      </h4>
+                    </div>
+                    <div
+                      id="collapseMobile"
+                      class="panel-collapse collapse"
+                      role="tabpanel"
+                      aria-labelledby="headingMobile"
+                    >
+                      <div class="panel-body">
+                        <div class="sidebar-card">
+                          <div class="row">
+                            <div class="col-sm-4 col-xs-12">
+                              <!-- INSERT -->
+                              <img
+                                src="../images/premier-card.png"
+                                class="img-responsive"
+                              />
+                              <div class="position-relative">
+                                <div class="card-example">
+                                  <span class="card-example-first"></span>
+                                  <span class="card-example-second"></span>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="col-sm-8 col-xs-12">
+                              <h1 class="main-heading-style-two">
+                                The HSBC Premier Credit Card &amp; Account
+                              </h1>
+
+                              <div class="position-relative">
+                                <div class="card-example"></div>
+                                <div class="card-example-last"></div>
+                              </div>
+                              <div class="title-style-one">At a glance</div>
+                              <div class="small-divider"></div>
+                              <div class="description-text margin-bottom-20">
+                                Whether you're at home or travelling, your HSBC
+                                Premier Credit Card is part of your seamless
+                                banking experience, providing you with a
+                                complete range of exclusive benefits and rewards
+                                - all with no annual fee and low interest rates.
+                              </div>
+                              <div class="accordian-title">
+                                This account benefits
+                              </div>
+                              <div
+                                class="panel-group"
+                                id="accordion-at-a-glance"
+                                role="tablist"
+                                aria-multiselectable="true"
+                              >
+                                <div class="panel panel-default">
+                                  <div
+                                    class="panel-heading"
+                                    role="tab"
+                                    id="headingOne-2"
+                                  >
+                                    <h4 class="panel-title">
+                                      <a
+                                        role="button"
+                                        data-toggle="collapse"
+                                        data-parent="#accordion-2"
+                                        href="#collapseOne-2"
+                                        aria-expanded="false"
+                                        aria-controls="collapseOne-2"
+                                      >
+                                        Lounge Access
+                                      </a>
+                                    </h4>
+                                  </div>
+                                  <div
+                                    id="collapseOne-2"
+                                    class="panel-collapse collapse"
+                                    role="tabpanel"
+                                    aria-labelledby="headingOne-2"
+                                  >
+                                    <div class="panel-body">
+                                      You can enjoy access to special lounges
+                                      and related services at select airports
+                                      around the world.
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="panel panel-default">
+                                  <div
+                                    class="panel-heading"
+                                    role="tab"
+                                    id="headingTwo-2"
+                                  >
+                                    <h4 class="panel-title">
+                                      <a
+                                        class="collapsed"
+                                        role="button"
+                                        data-toggle="collapse"
+                                        data-parent="#accordion-2"
+                                        href="#collapseTwo-2"
+                                        aria-expanded="false"
+                                        aria-controls="collapseTwo-2"
+                                      >
+                                        Preferential rates
+                                      </a>
+                                    </h4>
+                                  </div>
+                                  <div
+                                    id="collapseTwo-2"
+                                    class="panel-collapse collapse"
+                                    role="tabpanel"
+                                    aria-labelledby="headingTwo-2"
+                                  >
+                                    <div class="panel-body">
+                                      Preferential rates on foreign exchange,
+                                      term deposits and personal lending with
+                                      access to the best offers and
+                                      international services
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="panel panel-default">
+                                  <div
+                                    class="panel-heading"
+                                    role="tab"
+                                    id="headingThree-2"
+                                  >
+                                    <h4 class="panel-title">
+                                      <a
+                                        class="collapsed"
+                                        role="button"
+                                        data-toggle="collapse"
+                                        data-parent="#accordion-2"
+                                        href="#collapseThree-2"
+                                        aria-expanded="false"
+                                        aria-controls="collapseThree-2"
+                                      >
+                                        HSBC Entertainer Mobile App</a
+                                      >
+                                    </h4>
+                                  </div>
+                                  <div
+                                    id="collapseThree-2"
+                                    class="panel-collapse collapse"
+                                    role="tabpanel"
+                                    aria-labelledby="headingThree-2"
+                                  >
+                                    <div class="panel-body">
+                                      Free download of our ’Buy 1 Get 1 Free’
+                                      mobile app with over 8,000 offers across
+                                      15 countries.
+                                    </div>
+                                  </div>
+                                  <div
+                                    class="panel-heading"
+                                    role="tab"
+                                    id="headingFour-2"
+                                  >
+                                    <h4 class="panel-title">
+                                      <a
+                                        role="button"
+                                        data-toggle="collapse"
+                                        data-parent="#accordion-2"
+                                        href="#collapseFour-2"
+                                        aria-expanded="false"
+                                        aria-controls="collapseFour-2"
+                                      >
+                                        Valet Parking
+                                      </a>
+                                    </h4>
+                                  </div>
+                                  <div
+                                    id="collapseFour-2"
+                                    class="panel-collapse collapse"
+                                    role="tabpanel"
+                                    aria-labelledby="headingFour-2"
+                                  >
+                                    <div class="panel-body">
+                                      Get up to 4 free valet parking at selected
+                                      Valtrans locations.
+                                    </div>
+                                  </div>
+                                </div>
+                                <div
+                                  class="panel-heading"
+                                  role="tab"
+                                  id="headingFive-2"
+                                >
+                                  <h4 class="panel-title">
+                                    <a
+                                      role="button"
+                                      data-toggle="collapse"
+                                      data-parent="#accordion-2"
+                                      href="#collapseFive-2"
+                                      aria-expanded="false"
+                                      aria-controls="collapseFive-2"
+                                    >
+                                      Dining</a
+                                    >
+                                  </h4>
+                                </div>
+                                <div
+                                  id="collapseFive-2"
+                                  class="panel-collapse collapse"
+                                  role="tabpanel"
+                                  aria-labelledby="headingFive-2"
+                                >
+                                  <div class="panel-body">
+                                    Get up to 25% discounts at selected
+                                    restaurants across the UAE
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Tell Us A Bit Start - PANEL 1 -->
+                  <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingOne">
+                      <h4 class="panel-title">
+                        <a
+                          role="button"
+                          data-toggle="collapse"
+                          data-parent="#accordion"
+                          href="#collapseOne"
+                          aria-expanded="true"
+                          aria-controls="collapseOne"
+                        >
+                          Tell us a bit about yourself
+                        </a>
+                      </h4>
+                    </div>
+                    <div
+                      id="collapseOne"
+                      class="panel-collapse collapse in"
+                      role="tabpanel"
+                      aria-labelledby="headingOne"
+                    >
+                      <div class="panel-body">
+                        <!-- Row Start -->
+                        <div class="row form-spacing">
+                          <div class="col-sm-2">
+                            <select>
+                              <option value="">Mr</option>
+                              <option value="1">Miss</option>
+                              <option value="2">Mrs</option>
+                              <option value="3">Dr</option>
+                            </select>
+                          </div>
+
+                          <div class="col-sm-5 clearfix">
+                            <input
+                              type="text"
+                              name="name"
+                              class="border-input tooltip-added"
+                              id="first_name"
+                              placeholder="First name on passport"
+                              required
+                            />
+                            <div class="custom-tooltip">
+                              <div class="tooltip-box">
+                                Please enter your first name as appears on
+                                passport
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-sm-5 clearfix">
+                            <input
+                              type="text"
+                              name="name"
+                              class="border-input"
+                              id="last_name"
+                              placeholder="Last name on passport"
+                              required
+                            />
+                          </div>
+                        </div>
+
+                        <!-- Row Start -->
+                        <div class="row form-spacing">
+                          <div class="col-sm-6">
+                            <input
+                              type="text"
+                              name="email"
+                              class="border-input"
+                              placeholder="Email Address"
+                              required
+                            />
+                          </div>
+
+                          <div class="col-sm-6">
+                            <input
+                              type="number"
+                              name="number2"
+                              class="border-input"
+                              placeholder="Mobile Number"
+                              required
+                            />
+
+                            <!--<input type="text" name="name" class="border-input" id="phone-number-input" placeholder="Mobile number" required>-->
+                          </div>
+                        </div>
+
+                        <!-- Row Start -->
+                        <div class="row form-spacing">
+                          <div class="col-sm-6">
+                            <input
+                              type="text"
+                              name="name"
+                              class="border-input date-input"
+                              placeholder="Date of birth"
+                              required
+                            />
+                          </div>
+                        </div>
+
+                        <div class="row">
+                          <div class="col-md-12 text-center margin-bottom-20">
+                            <!-- The more complete each section is the more this will be completed -->
+                            <a
+                              href="#"
+                              class="status-button"
+                              style="background-position: -300px 0px;"
+                            >
+                              Continue</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Tell Us A Bit End -->
+
+                  <!-- Personal Information - PANEL 2 -->
+                  <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingTwo">
+                      <h4 class="panel-title">
+                        <a
+                          class="collapsed"
+                          role="button"
+                          data-toggle="collapse"
+                          data-parent="#accordion"
+                          href="#collapseTwo"
+                          aria-expanded="false"
+                          aria-controls="collapseTwo"
+                        >
+                          Personal Information
+                        </a>
+                      </h4>
+                    </div>
+                    <div
+                      id="collapseTwo"
+                      class="panel-collapse collapse"
+                      role="tabpanel"
+                      aria-labelledby="headingTwo"
+                    >
+                      <div class="panel-body">
+                        <div class="row">
+                          <div class="col-sm-12">
+                            <div class="row margin-bottom-20">
+                              <div class="col-md-12">
+                                <div class="form-subheading remove-margin-top">
+                                  <span>Save time</span>
+                                </div>
+
+                                <div class="form-question">
+                                  Autofill the form below by simply taking a
+                                  photo your <strong>Passport</strong> and
+                                  <strong>Emirates ID</strong>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="row margin-bottom-40">
+                              <div class="col-md-2"></div>
+
+                              <div class="col-md-4 col-xs-6">
+                                <a href="#" class="circle-style text-center">
+                                  <div
+                                    class="circle-button center-block icon-picture"
+                                  ></div>
+                                  <div class="circle-link">Take a photo</div>
+                                </a>
+                              </div>
+
+                              <div class="col-md-4 col-xs-6">
+                                <a href="#" class="circle-style text-center">
+                                  <div
+                                    class="circle-button center-block icon-upload"
+                                  ></div>
+                                  <div class="circle-link">Upload doc</div>
+                                </a>
+                              </div>
+
+                              <div class="col-md-2"></div>
+
+                              <!--<div class="col-md-4 col-xs-12">-->
+                              <!--<a href="#" class="circle-style text-center">-->
+                              <!--<div class="circle-button center-block icon-swipe"></div>-->
+                              <!--<div class="circle-link"> Swipe your card</div>-->
+                              <!--</a>-->
+                              <!--</div>-->
+                            </div>
+
+                            <div class="form-subheading remove-margin-top">
+                              <span
+                                ><img
+                                  src="../images/icon-small-passport-red.png"
+                                />
+                                Passport</span
+                              >
+                            </div>
+                            <div class="row form-spacing">
+                              <div class="col-sm-6">
+                                <input
+                                  type="text"
+                                  name="name"
+                                  class="border-input"
+                                  placeholder="Passport number"
+                                  required
+                                />
+                              </div>
+
+                              <div class="col-sm-6">
+                                <input
+                                  type="text"
+                                  name="name"
+                                  class="border-input date-input"
+                                  placeholder="Passport expiry date"
+                                  required
+                                />
+                              </div>
+                            </div>
+
+                            <div class="row form-spacing">
+                              <div class="col-sm-6">
+                                <input
+                                  type="text"
+                                  name="name"
+                                  class="border-input"
+                                  placeholder="Country of citizenship"
+                                  required
+                                />
+                              </div>
+
+                              <div class="col-sm-6">
+                                <input
+                                  type="text"
+                                  name="name"
+                                  class="border-input"
+                                  placeholder="Country of birth"
+                                  required
+                                />
+                              </div>
+                            </div>
+
+                            <div class="form-subheading">
+                              <span
+                                ><img
+                                  src="../images/icon-small-emiratesid-red.png"
+                                />
+                                Emirates ID</span
+                              >
+                            </div>
+                            <div class="row form-spacing">
+                              <div class="col-sm-6">
+                                <input
+                                  type="text"
+                                  name="name"
+                                  class="border-input"
+                                  id="emirates-id-number-input"
+                                  placeholder="Emirates ID number"
+                                  required
+                                />
+                              </div>
+
+                              <div class="col-sm-6">
+                                <input
+                                  type="text"
+                                  name="name"
+                                  class="border-input date-input"
+                                  placeholder="Emirates ID expiry date"
+                                  required
+                                />
+                              </div>
+                            </div>
+
+                            <div class="form-subheading">
+                              <span>Other Details</span>
+                            </div>
+                            <!-- Row Start -->
+                            <div class="row form-spacing">
+                              <div class="col-sm-9">
+                                <div class="form-question">
+                                  Have you ever had any other previous names or
+                                  are you known by any other names
+                                </div>
+                              </div>
+
+                              <div class="col-sm-3 clearfix">
+                                <a class="radio-yes-1">
+                                  yes
+                                </a>
+                                <a class="radio-no-1">
+                                  no
+                                </a>
+                              </div>
+                            </div>
+
+                            <div
+                              class="collapse form-option-yes collapseExample-1"
+                            >
+                              <div class="row form-spacing">
+                                <div class="col-sm-6">
+                                  <input
+                                    type="text"
+                                    name="name"
+                                    class="border-input"
+                                    placeholder="Previous/other first name(s) "
+                                    required
+                                  />
+                                </div>
+
+                                <div class="col-sm-6">
+                                  <input
+                                    type="text"
+                                    name="name"
+                                    class="border-input"
+                                    placeholder="Previous/other last name(s) "
+                                    required
+                                  />
+                                </div>
+                              </div>
+                            </div>
+                            <!-- Row Start -->
+                            <div class="row form-spacing">
+                              <div class="col-sm-6">
+                                <select>
+                                  <option value="">Gender</option>
+                                  <option value="1">Male</option>
+                                  <option value="2">female</option>
+                                </select>
+                              </div>
+
+                              <div class="col-sm-6">
+                                <select>
+                                  <option value="">Marital status</option>
+                                  <option value="1">Married</option>
+                                  <option value="2">Single</option>
+                                  <option value="3">Divorced</option>
+                                </select>
+                              </div>
+                            </div>
+
+                            <!-- Row Start -->
+                            <div class="row form-spacing">
+                              <div class="col-sm-6">
+                                <select>
+                                  <option value="">No. of dependants</option>
+                                  <option value="1">1</option>
+                                  <option value="2">2</option>
+                                  <option value="2">3</option>
+                                  <option value="2">5</option>
+                                  <option value="2">5+</option>
+                                </select>
+                              </div>
+
+                              <div class="col-sm-6">
+                                <select>
+                                  <option value="">Education</option>
+                                  <option value="1">Diploma</option>
+                                  <option value="1">High School</option>
+                                  <option value="1">No Education</option>
+                                </select>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="row form-spacing">
+                            <div class="col-sm-12">
+                              <div class="full-length-checkbox">
+                                <input
+                                  type="checkbox"
+                                  name="custom_checkbox"
+                                  id="custom_checkbox1"
+                                  value="custom_checkbox1"
+                                />
+                                <label
+                                  class="checkbox-label"
+                                  for="custom_checkbox1"
+                                  >You agree that we can share information with
+                                  credit reference agencies / bureaus and use
+                                  information available from public sources to
+                                  verify your identity and suitability for our
+                                  product
+                                </label>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="row">
+                          <div class="col-md-12 text-center margin-bottom-20">
+                            <!-- The more complete each section is the more this will be completed -->
+                            <a
+                              href="#"
+                              class="status-button"
+                              style="background-position: -0px 0px;"
+                            >
+                              Continue
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- END -->
+
+                  <!-- Address Information - PANEL 3 -->
+                  <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingThree">
+                      <h4 class="panel-title">
+                        <a
+                          class="collapsed"
+                          role="button"
+                          data-toggle="collapse"
+                          data-parent="#accordion"
+                          href="#collapseThree"
+                          aria-expanded="false"
+                          aria-controls="collapseThree"
+                        >
+                          Address Information
+                        </a>
+                      </h4>
+                    </div>
+                    <div
+                      id="collapseThree"
+                      class="panel-collapse collapse"
+                      role="tabpanel"
+                      aria-labelledby="headingThree"
+                    >
+                      <div class="panel-body">
+                        <!-- Start New Section -->
+                        <div class="form-subheading remove-margin-top">
+                          <span>Residence Address</span>
+                        </div>
+                        <!-- Row Start -->
+                        <div class="row form-spacing">
+                          <div class="col-sm-12">
+                            <input
+                              type="text"
+                              name="name"
+                              class="border-input location-input"
+                              placeholder="Flat no / villa no / building name / street name"
+                              required
+                            />
+                          </div>
+                        </div>
+
+                        <!-- Row Start -->
+                        <div class="row form-spacing">
+                          <div class="col-sm-6">
+                            <input
+                              type="text"
+                              name="name"
+                              class="border-input"
+                              placeholder="Area"
+                              required
+                            />
+                          </div>
+
+                          <div class="col-sm-6">
+                            <select>
+                              <option value="">Emirate / city</option>
+                              <option value="1">Yes</option>
+                              <option value="2">No</option>
+                            </select>
+                          </div>
+                        </div>
+
+                        <!-- Row Start -->
+                        <div class="row form-spacing">
+                          <div class="col-sm-6">
+                            <select>
+                              <option value="">Country of Residence</option>
+                              <option value="1">Option</option>
+                              <option value="2">Option</option>
+                            </select>
+                          </div>
+
+                          <div class="col-sm-6">
+                            <select>
+                              <option value="">Type of accomodation</option>
+                              <option value="1">Rented</option>
+                              <option value="2">Provided by employer</option>
+                              <option value="1">Owned</option>
+                            </select>
+                          </div>
+                        </div>
+
+                        <!-- Start New Section -->
+                        <div class="form-subheading">
+                          <span>Home Country Address</span>
+                        </div>
+                        <!-- Row Start -->
+                        <div class="row form-spacing">
+                          <div class="col-sm-12">
+                            <input
+                              type="text"
+                              name="name"
+                              class="border-input"
+                              placeholder="Flat no / villa no / building name / street name"
+                              required
+                            />
+                          </div>
+                        </div>
+
+                        <!-- Row Start -->
+                        <div class="row form-spacing">
+                          <div class="col-sm-6">
+                            <input
+                              type="text"
+                              name="name"
+                              class="border-input"
+                              placeholder="Area"
+                              required
+                            />
+                          </div>
+
+                          <div class="col-sm-6">
+                            <select>
+                              <option value="">Country</option>
+                              <option value="1">Option</option>
+                              <option value="2">Option</option>
+                            </select>
+                          </div>
+                        </div>
+
+                        <!-- Row Start -->
+                        <div class="row form-spacing">
+                          <div class="col-sm-6">
+                            <input
+                              type="text"
+                              name="name"
+                              class="border-input"
+                              placeholder="Postal / zip code"
+                              required
+                            />
+                          </div>
+                        </div>
+
+                        <div class="row">
+                          <div class="col-md-12 text-center margin-bottom-20">
+                            <!-- The more complete each section is the more this will be completed -->
+                            <a
+                              href="#"
+                              class="status-button"
+                              style="background-position: -400px 0px;"
+                            >
+                              Continue
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- END -->
+
+                  <!-- Employment Details - PANEL 4 -->
+                  <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingFour">
+                      <h4 class="panel-title">
+                        <a
+                          role="button"
+                          data-toggle="collapse"
+                          data-parent="#accordion"
+                          href="#collapseFour"
+                          aria-expanded="false"
+                          aria-controls="collapseFour"
+                        >
+                          Employment details
+                        </a>
+                      </h4>
+                    </div>
+                    <div
+                      id="collapseFour"
+                      class="panel-collapse collapse"
+                      role="tabpanel"
+                      aria-labelledby="headingFour"
+                    >
+                      <div class="panel-body">
+                        <!-- Row Start -->
+                        <div class="form-subheading remove-margin-top">
+                          <span
+                            ><img
+                              src="../images/icon-small-residency-red.png"
+                            />
+                            Residency Visa</span
+                          >
+                        </div>
+
+                        <div class="row form-spacing">
+                          <div class="col-sm-6">
+                            <input
+                              type="text"
+                              name="name"
+                              class="border-input"
+                              placeholder="Residency visa number"
+                              required
+                            />
+                          </div>
+
+                          <div class="col-sm-6">
+                            <input
+                              type="text"
+                              name="name"
+                              class="border-input date-input"
+                              placeholder="Residency visa expiry date"
+                              required
+                            />
+                          </div>
+                        </div>
+
+                        <!-- Start New Section -->
+                        <div class="form-subheading">
+                          <span>Your job details</span>
+                        </div>
+
+                        <!-- Row Start -->
+                        <div class="row form-spacing">
+                          <div class="col-sm-6">
+                            <input
+                              type="text"
+                              name="name"
+                              class="border-input"
+                              placeholder="Job title"
+                              required
+                            />
+                          </div>
+
+                          <div class="col-sm-6">
+                            <select>
+                              <option value="">Occupation</option>
+                              <option value="student" class="show-student"
+                                >Student</option
+                              >
+                              <option value="other" class="show-other"
+                                >Web Developer</option
+                              >
+                            </select>
+                          </div>
+                        </div>
+
+                        <!-- Optional Fields -->
+                        <div class="row form-spacing other-block collapse">
+                          <div class="col-sm-5">
+                            <div class="form-question">
+                              Have you ever served in the following capacities?
+                            </div>
+                          </div>
+
+                          <div class="col-sm-7 clearfix">
+                            <select>
+                              <option value="1">Choose below</option>
+                              <option value="1">None</option>
+                              <option value="1"
+                                >Head of state or Head of government</option
+                              >
+                              <option value="1"
+                                >Senior civil servant in national government
+                              </option>
+                              <option value="2"
+                                >Head of regional government</option
+                              >
+                              <option value="1"
+                                >Senior/high profile politician</option
+                              >
+                              <option value="1"
+                                >Senior executive of any state owned enterprises
+                              </option>
+                              <option value="1">State agency official</option>
+                              <option value="1">Large City Mayor</option>
+                              <option value="1">
+                                Senior member of the national police service /
+                                law
+                              </option>
+                              <option value="1">
+                                Enforcement Agency or Intelligence Services
+                              </option>
+                              <option value="1">Ambassador</option>
+                              <option value="1"
+                                >Senior executive of any national NGO</option
+                              >
+                              <option value="1"
+                                >Political pressure group/labour group Snr
+                                Official
+                              </option>
+                              <option value="1"
+                                >Leader Or Senior Official In A Political
+                                Pressure
+                              </option>
+                              <option value="1"
+                                >Senior member of the judiciary</option
+                              >
+                              <option value="1"
+                                >Head Of A Supranational Body(United
+                                Nations,IMF,WB
+                              </option>
+                              <option value="1"
+                                >Senior Member Of A Diplomatic Group (E.G.
+                                Ambassador)
+                              </option>
+                              <option value="1"
+                                >Member of a Ruling Royal Family</option
+                              >
+                              <option value="1"
+                                >National government minister</option
+                              >
+                              <option value="1"
+                                >Member of the national legislature</option
+                              >
+                              <option value="1"
+                                >Deputy national government minister</option
+                              >
+                              <option value="1"
+                                >State corporation executive</option
+                              >
+                              <option value="1">
+                                Regional government executive</option
+                              >
+                              <option value="1">
+                                Political party officials</option
+                              >
+                              <option value="1"
+                                >High Ranking Military
+                                Official/Personnel</option
+                              >
+                            </select>
+                          </div>
+                        </div>
+
+                        <!-- Optional Fields -->
+                        <div class="row form-spacing student-block collapse">
+                          <div class="col-sm-6">
+                            <input
+                              type="text"
+                              name="name"
+                              class="border-input date-input"
+                              placeholder="Student Course End Date"
+                              required
+                            />
+                          </div>
+                        </div>
+
+                        <!-- Row Start -->
+                        <div class="row form-spacing">
+                          <div class="col-sm-6">
+                            <select>
+                              <option value="">Employment Type</option>
+                              <option value="1">Self Employed</option>
+                              <option value="2">Salaried</option>
+                            </select>
+                          </div>
+
+                          <div class="col-sm-6">
+                            <select>
+                              <option value="">Employment Status</option>
+                              <option value="1">Employed</option>
+                              <option value="2">Not Employed</option>
+                            </select>
+                          </div>
+                        </div>
+
+                        <!-- Row Start -->
+                        <div class="row form-spacing">
+                          <div class="col-sm-6">
+                            <select>
+                              <option value="">Industry</option>
+                              <option value="1">Option</option>
+                              <option value="2">Option</option>
+                            </select>
+                          </div>
+
+                          <div class="col-sm-6">
+                            <select>
+                              <option value="">Business sector</option>
+                              <option value="1">Option</option>
+                              <option value="2">Option</option>
+                            </select>
+                          </div>
+                        </div>
+
+                        <div class="row form-spacing">
+                          <div class="col-sm-6">
+                            <input
+                              type="text"
+                              name="name"
+                              class="border-input"
+                              placeholder="Company name"
+                              required
+                            />
+                          </div>
+                          <div class="col-sm-6 error">
+                            <input
+                              type="text"
+                              name="name"
+                              class="border-input"
+                              placeholder="Basic monthly salary"
+                              required
+                            />
+                            <div class="error-message">
+                              Please enter your salary amount
+                            </div>
+                          </div>
+                        </div>
+
+                        <!-- Row Start -->
+                        <div class="row form-spacing">
+                          <div class="col-sm-6">
+                            <input
+                              type="text"
+                              name="name"
+                              class="border-input date-input"
+                              placeholder="With current employer since"
+                              required
+                            />
+                          </div>
+                        </div>
+
+                        <!-- Fields - Relationship -->
+                        <div class="row form-spacing">
+                          <div class="col-sm-9">
+                            <div class="form-question">
+                              Do you have any additional income?
+                            </div>
+                          </div>
+
+                          <div class="col-sm-3 clearfix">
+                            <a class="radio-yes-12">
+                              yes
+                            </a>
+                            <a class="radio-no-12">
+                              no
+                            </a>
+                          </div>
+                        </div>
+
+                        <!-- Optional Fields -->
+                        <div
+                          class="collapse form-option-yes collapseExample-12"
+                        >
+                          <div class="row form-spacing">
+                            <div class="col-sm-6">
+                              <input
+                                type="text"
+                                name="name"
+                                class="border-input"
+                                placeholder="Rental Income (AED)"
+                                required
+                              />
+                            </div>
+
+                            <div class="col-sm-6">
+                              <input
+                                type="text"
+                                name="name"
+                                class="border-input"
+                                placeholder="Income from Commission (AED)"
+                                required
+                              />
+                            </div>
+                          </div>
+
+                          <div class="row form-spacing">
+                            <div class="col-sm-6">
+                              <input
+                                type="text"
+                                name="name"
+                                class="border-input"
+                                placeholder="Other fixed income & allowances"
+                                required
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <!-- End Fields - Relationship -->
+
+                        <!-- Start New Section -->
+                        <div class="form-subheading">
+                          <span>Office Address</span>
+                        </div>
+                        <!-- Row Start -->
+                        <div class="row form-spacing">
+                          <div class="col-sm-12">
+                            <input
+                              type="text"
+                              name="name"
+                              class="border-input location-input"
+                              placeholder="Where is your office located"
+                              required
+                            />
+                          </div>
+                        </div>
+
+                        <div class="row form-spacing">
+                          <div class="col-sm-6">
+                            <select>
+                              <option value="">Country</option>
+                              <option value="1">Option</option>
+                              <option value="2">Option</option>
+                            </select>
+                          </div>
+
+                          <div class="col-sm-6">
+                            <select>
+                              <option value="">Emirate / city</option>
+                              <option value="1">Option</option>
+                              <option value="2">Option</option>
+                            </select>
+                          </div>
+                        </div>
+
+                        <div class="row form-spacing">
+                          <div class="col-sm-6">
+                            <input
+                              type="text"
+                              name="name"
+                              class="border-input"
+                              placeholder="PO box"
+                              required
+                            />
+                          </div>
+                        </div>
+
+                        <div class="form-subheading">
+                          <span>Branch And Mailing Address</span>
+                        </div>
+
+                        <!-- Row Start -->
+                        <div class="row form-spacing">
+                          <div class="col-sm-8">
+                            <div class="form-question">
+                              We have chosen your preferred branch location
+                              based on your residence address.
+                            </div>
+                          </div>
+
+                          <div class="col-sm-4">
+                            <select>
+                              <option value="1">Al Wasl Road</option>
+                              <option value="2">Dubai Mall</option>
+                            </select>
+                          </div>
+                        </div>
+
+                        <div class="row form-spacing">
+                          <div class="col-sm-8">
+                            <div class="form-question">
+                              Preferred mailing address
+                            </div>
+                          </div>
+
+                          <div class="col-sm-4">
+                            <select>
+                              <option value="1">Residence Address</option>
+                              <option value="2">Office Address</option>
+                            </select>
+                          </div>
+                        </div>
+
+                        <div class="error-block">
+                          <div class="error-block-inner">
+                            We're sorry but to continue please fix the errors
+                            above
+                          </div>
+                        </div>
+
+                        <div class="row">
+                          <div class="col-md-12 text-center margin-bottom-20">
+                            <!-- The more complete each section is the more this will be completed -->
+                            <a
+                              href="#"
+                              class="status-button"
+                              style="background-position: -400px 0px;"
+                            >
+                              Continue
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End -->
+
+                  <div class="collapse" id="related-products">
+                    <!-- Related Products -->
+                    <div class="row margin-top-30">
+                      <div class="col-md-12">
+                        <div class="row">
+                          <div
+                            class="col-sm-6 mobile-spacing text-center"
+                            id="cancel-overdraft-hide"
+                          >
+                            <div class="cross-sell">
+                              <div class="row">
+                                <div
+                                  class="col-xs-4 col-sm-5 col-md-4 remove-padding"
+                                >
+                                  <img
+                                    src="../images/overdraft-image.png"
+                                    class="img-responsive cross-sell-image"
+                                  />
+                                </div>
+                                <div class="col-xs-8 col-sm-7 col-md-8">
+                                  <div class="cross-sell-title">
+                                    Free AED 30,000 Overdraft
+                                  </div>
+                                  <div class="cross-sell-description">
+                                    Your fee free Overdraft facility will be
+                                    <strong>AED 30,000</strong>. First
+                                    <strong>AED 15,000</strong> is interest
+                                    free.
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-xs-12">
+                                <input
+                                  type="button"
+                                  value="Cancel"
+                                  class="btn btn-dismiss btn-first"
+                                  href="#cancel-overdraft"
+                                  data-toggle="modal"
+                                />
+                                <input
+                                  type="button"
+                                  value="Reduce limit"
+                                  class="btn btn-dismiss"
+                                />
+                              </div>
+                            </div>
+
+                            <!-- Cancel Modal -->
+                            <div id="cancel-overdraft" class="modal fade">
+                              <div class="modal-dialog save-popup">
+                                <div class="modal-content">
+                                  <button
+                                    type="button"
+                                    class="close"
+                                    data-dismiss="modal"
+                                    aria-hidden="true"
+                                  >
+                                    &times;
+                                  </button>
+                                  <div class="col-sm-12">
+                                    <h2 class="sub-heading margin-bottom-30">
+                                      ARE YOU SURE?
+                                    </h2>
+                                  </div>
+                                  <div class="modal-body">
+                                    <div
+                                      class="row margin-bottom-40 fix-modal-padding"
+                                    >
+                                      <div class="col-md-12 text-center">
+                                        <p>
+                                          Cancelling the limit means that you
+                                          will not be covered for the cheque
+                                          bounce protection, which is an
+                                          integral part of our proposition.
+                                        </p>
+                                        <a
+                                          href="#"
+                                          class="red-button overdraft-remove"
+                                          data-dismiss="modal"
+                                          >Yes Remove</a
+                                        >
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div
+                            class="col-sm-6 text-center"
+                            id="cancel-card-hide"
+                          >
+                            <div class="cross-sell">
+                              <div class="row">
+                                <div
+                                  class="col-xs-4 col-sm-5 col-md-4 remove-padding"
+                                >
+                                  <img
+                                    src="../images/cash-card-image.png"
+                                    class="img-responsive cross-sell-image"
+                                  />
+                                </div>
+                                <div class="col-xs-8 col-sm-7 col-md-8">
+                                  <div class="cross-sell-title">
+                                    AED 50,000 Card Limit
+                                  </div>
+                                  <div class="cross-sell-description">
+                                    Your fee free HSBC Premier MasterCard credit
+                                    card limit will be
+                                    <strong>AED 50,000</strong>.
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="row">
+                              <div class="col-xs-12">
+                                <input
+                                  type="button"
+                                  value="Cancel"
+                                  class="btn btn-dismiss btn-first"
+                                  href="#cancel-card"
+                                  data-toggle="modal"
+                                />
+                                <input
+                                  type="button"
+                                  value="Reduce limit"
+                                  class="btn btn-dismiss"
+                                />
+                              </div>
+                            </div>
+
+                            <!-- Cancel Modal -->
+                            <div id="cancel-card" class="modal fade">
+                              <div class="modal-dialog save-popup">
+                                <div class="modal-content">
+                                  <button
+                                    type="button"
+                                    class="close"
+                                    data-dismiss="modal"
+                                    aria-hidden="true"
+                                  >
+                                    &times;
+                                  </button>
+                                  <div class="col-sm-12">
+                                    <h2 class="sub-heading margin-bottom-30">
+                                      ARE YOU SURE?
+                                    </h2>
+                                  </div>
+                                  <div class="modal-body">
+                                    <div
+                                      class="row margin-bottom-40 fix-modal-padding"
+                                    >
+                                      <div class="col-md-12 text-center">
+                                        <p>
+                                          Cancelling the limit means that you
+                                          will miss out on some of the key
+                                          benefits i.e. Free movie tickets,
+                                          Entertainer offers etc. which is an
+                                          integral part of our proposition.
+                                        </p>
+                                        <a
+                                          href="#"
+                                          class="red-button card-remove"
+                                          data-dismiss="modal"
+                                          >Yes Remove</a
+                                        >
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End Related Products -->
+                  </div>
+
+                  <!-- Almost there - PANEL 5 -->
+                  <div class="panel panel-default" id="almost-there">
+                    <div class="panel-heading" role="tab" id="headingFive">
+                      <h4 class="panel-title">
+                        <a
+                          role="button"
+                          data-toggle="collapse"
+                          data-parent="#accordion"
+                          href="#collapseFive"
+                          aria-expanded="false"
+                          aria-controls="collapseFive"
+                        >
+                          Almost there - just a few more details
+                        </a>
+                      </h4>
+                    </div>
+                    <div
+                      id="collapseFive"
+                      class="panel-collapse collapse"
+                      role="tabpanel"
+                      aria-labelledby="headingFive"
+                    >
+                      <div class="panel-body">
+                        <!--<p class="red-text">-->
+                        <!--Mohammed, we need to know a bit about your financial situation before we open your account.-->
+                        <!--</p>-->
+
+                        <div class="form-subheading remove-margin-top">
+                          <span>Global Information</span>
+                        </div>
+
+                        <!-- Fields - Relationship -->
+                        <div class="row form-spacing">
+                          <div class="col-sm-9">
+                            <div class="form-question">
+                              Do you have an existing relationship with HSBC?
+                            </div>
+                          </div>
+
+                          <div class="col-sm-3 clearfix">
+                            <a class="radio-yes-3">
+                              yes
+                            </a>
+                            <a class="radio-no-3">
+                              no
+                            </a>
+                          </div>
+                        </div>
+
+                        <!-- Optional Fields -->
+                        <div class="collapse form-option-yes collapseExample-3">
+                          <div class="row form-spacing">
+                            <div class="col-sm-12">
+                              <input
+                                type="text"
+                                name="name"
+                                class="border-input"
+                                placeholder="What other countries do you have an existing relationship in?"
+                                required
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <!-- End Fields - Relationship -->
+
+                        <!-- Fields - International Payments -->
+                        <div class="row form-spacing">
+                          <div class="col-sm-9">
+                            <div class="form-question">
+                              Do you intend to make or receive regular
+                              international payments?
+                            </div>
+                          </div>
+
+                          <div class="col-sm-3 clearfix">
+                            <a class="radio-yes-4">
+                              yes
+                            </a>
+                            <a class="radio-no-4">
+                              no
+                            </a>
+                          </div>
+                        </div>
+                        <!-- Optional Fields -->
+                        <div class="collapse form-option-yes collapseExample-4">
+                          <!-- Optional Fields -->
+                          <div class="row form-spacing">
+                            <div class="col-sm-12">
+                              <input
+                                type="text"
+                                name="name"
+                                class="border-input"
+                                placeholder="Countries you intend to make or receive regular international payments?"
+                                required
+                              />
+                            </div>
+                          </div>
+
+                          <div class="row form-spacing">
+                            <div class="col-sm-6">
+                              <div class="form-question">
+                                What is the reason for receiving these funds?
+                              </div>
+                            </div>
+
+                            <div class="col-sm-6">
+                              <input
+                                type="text"
+                                name="name"
+                                class="border-input"
+                                placeholder="Reason"
+                                required
+                              />
+                            </div>
+                          </div>
+
+                          <div class="row form-spacing">
+                            <div class="col-sm-6">
+                              <div class="form-question">
+                                What is the reason for sending these funds
+                              </div>
+                            </div>
+
+                            <div class="col-sm-6">
+                              <input
+                                type="text"
+                                name="name"
+                                class="border-input"
+                                placeholder="Reason"
+                                required
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <!-- End International Payments -->
+
+                        <div class="form-subheading remove-margin-top">
+                          <span>Your Money</span>
+                        </div>
+
+                        <div class="row form-spacing">
+                          <div class="col-sm-7">
+                            <div class="form-question">
+                              On average how much funds do you intend to retain
+                              in your account over the next 12 months
+                            </div>
+                          </div>
+
+                          <div class="col-sm-5">
+                            <input
+                              type="text"
+                              name="name"
+                              class="border-input"
+                              placeholder="AED"
+                              required
+                            />
+                          </div>
+                        </div>
+
+                        <div class="row form-spacing">
+                          <div class="col-sm-7">
+                            <div class="form-question">
+                              How are the initial funds going to be transferred
+                              to the account?
+                            </div>
+                          </div>
+
+                          <div class="col-sm-5">
+                            <select>
+                              <option value="">Cash</option>
+                              <option value="">Transfer</option>
+                            </select>
+                          </div>
+                        </div>
+
+                        <div class="row form-spacing">
+                          <div class="col-md-7">
+                            <div class="form-question">
+                              What is your approximate value of cash to be
+                              deposited each month ?
+                            </div>
+                          </div>
+
+                          <div class="col-md-5">
+                            <input
+                              type="text"
+                              name="name"
+                              class="border-input"
+                              placeholder="Amount"
+                              required
+                            />
+                          </div>
+                        </div>
+
+                        <div class="row form-spacing">
+                          <div class="col-md-7">
+                            <div class="form-question">
+                              What is your approximate value of cash to be
+                              withdrawn each month ?
+                            </div>
+                          </div>
+
+                          <div class="col-md-5">
+                            <input
+                              type="text"
+                              name="name"
+                              class="border-input"
+                              placeholder="Amount"
+                              required
+                            />
+                          </div>
+                        </div>
+
+                        <div class="row form-spacing">
+                          <div class="col-sm-7">
+                            <div class="form-question">
+                              What is the purpose of the cash
+                              deposits/withdrawals?
+                            </div>
+                          </div>
+
+                          <div class="col-sm-5">
+                            <select>
+                              <option value="">Purpose</option>
+                              <option value="hideotherform"
+                                >Personal Expenses</option
+                              >
+                              <option value="hideotherform"
+                                >Major Personal Purchases</option
+                              >
+                              <option value="hideotherform"
+                                >Regular Mandated credits</option
+                              >
+                              <option value="hideotherform"
+                                >Regular Mandated debits</option
+                              >
+                              <option value="hideotherform"
+                                >Major Purchase</option
+                              >
+                              <option value="hideotherform">Savings</option>
+                              <option value="hideotherform"
+                                >Children's Education / School fees
+                              </option>
+                              <option value="otherform">Other</option>
+                            </select>
+                          </div>
+                        </div>
+
+                        <div class="row">
+                          <div class="col-sm-12">
+                            <div class="form-subheading">
+                              <span
+                                >Customer's Jurisdiction of Tax Residency</span
+                              >
+                            </div>
+                          </div>
+                        </div>
+
+                        <!-- Optional Fields -->
+
+                        <div class="row form-spacing">
+                          <div class="col-sm-9">
+                            <div class="form-question">
+                              Do you have to pay taxes for another country?
+                            </div>
+                          </div>
+
+                          <div class="col-sm-3 clearfix">
+                            <a class="radio-yes-2">
+                              yes
+                            </a>
+                            <a class="radio-no-2">
+                              no
+                            </a>
+                          </div>
+                        </div>
+
+                        <div class="collapse form-option-yes collapseExample-2">
+                          <div class="row form-spacing">
+                            <div class="col-sm-6">
+                              <select>
+                                <option value="">Choose Country</option>
+                                <option value="AF">Afghanistan</option>
+                                <option value="AX">Åland Islands</option>
+                                <option value="AL">Albania</option>
+                                <option value="DZ">Algeria</option>
+                                <option value="AS">American Samoa</option>
+                                <option value="AD">Andorra</option>
+                              </select>
+                            </div>
+
+                            <div class="col-sm-6 text-center">
+                              <input
+                                type="text"
+                                name="name"
+                                class="border-input"
+                                placeholder="Tax Identification Number (TIN)"
+                                required
+                              />
+                              <a class="show-tin margin-top-10"
+                                ><small>I don't have a tin number</small></a
+                              >
+                            </div>
+                          </div>
+
+                          <div
+                            class="collapse form-option-no collapseExample-9"
+                          >
+                            <div class="row form-spacing margin-top-30-minus">
+                              <div class="col-sm-12">
+                                <input
+                                  type="text"
+                                  name="name"
+                                  class="border-input"
+                                  placeholder="Reason for no TIN"
+                                  required
+                                />
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="row">
+                            <div class="col-md-12 form-spacing text-center">
+                              <a class="add-country disabled" href="#">
+                                Add Another Country
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End -->
+                </div>
+              </div>
+            </div>
+
+            <div class="row margin-top-30">
+              <div class="col-md-6 col-sm-12">
+                <div class="footer-reference-number mobile-spacing">
+                  Application Reference Number: <strong>AE242528</strong>
+                </div>
+              </div>
+              <div class="col-md-6 col-sm-12">
+                <div class="clearfix">
+                  <div class="col-md-6">
+                    <a href="step-2.html" class="big-back-button hidden-xs">
+                      Back
+                    </a>
+                  </div>
+                  <div class="col-md-6 remove-padding text-center">
+                    <a href="step-4.html" class="big-continue-button">
+                      Submit
+                    </a>
+                    <a
+                      href="#save"
+                      data-toggle="modal"
+                      class="margin-top-10 save-link text-center"
+                    >
+                      Save for later
+                    </a>
+                  </div>
+                </div>
+
+                <!-- save for later Pop Up Styling -->
+                <div id="save" class="modal fade">
+                  <div class="modal-dialog save-popup">
+                    <div class="modal-content">
+                      <button
+                        type="button"
+                        class="close"
+                        data-dismiss="modal"
+                        aria-hidden="true"
+                      >
+                        &times;
+                      </button>
+                      <div class="col-sm-12">
+                        <h2 class="sub-heading margin-bottom-30">
+                          SAVE FOR LATER?
+                        </h2>
+                      </div>
+                      <div class="modal-body">
+                        <div class="row margin-bottom-40 fix-modal-padding">
+                          <div class="col-md-12 text-center">
+                            <p>
+                              <strong>Need to continue later?</strong><br />
+                              No problem, we have saved your application and you
+                              can come back later to finish it. Your application
+                              will remain for up 30 days.
+                            </p>
+                            <p>
+                              Your application reference number is
+                              <span>A4358734</span>
+                            </p>
+                            <a class="red-button" href="#"
+                              >Email me reference number</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4 hidden-xs hidden-sm">
+          <div class="sidebar">
+            <div class="sidebar-card">
+              <img src="../images/premier-card.png" class="img-responsive" />
+
+              <div class="position-relative">
+                <div class="card-example">
+                  <span class="card-example-first"></span>
+                  <span class="card-example-second"></span>
+                </div>
+              </div>
+
+              <div class="sidebar-account-added">
+                <div class="circle">
+                  <div class="circle__inner">
+                    <div class="circle__wrapper">
+                      <div class="circle__content">
+                        <div class="accounts-title">
+                          HSBC Premier Current Account
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="sidebar-account-added-spacing"></div>
+            <h1 class="main-heading-style-two">
+              HSBC Premier Credit Card &amp; Account
+            </h1>
+            <div class="title-style-one">At a glance</div>
+            <div class="small-divider"></div>
+            <div class="description-text margin-bottom-20">
+              Whether you're at home or travelling, your HSBC Premier Credit
+              Card is part of your seamless banking experience, providing you
+              with a complete range of exclusive... <a href="#">Read More</a>
+            </div>
+
+            <!-- Removing this for testing however will be there on journey from new products -->
+            <!--<div class="accordian-title">This card's benefits</div>-->
+            <!--<div class="panel-group " id="accordion-sidebar" role="tablist"-->
+            <!--aria-multiselectable="true">-->
+            <!--<div class="panel panel-default">-->
+            <!--<div class="panel-heading" role="tab" id="headingOne">-->
+            <!--<h4 class="panel-title"><a role="button" data-toggle="collapse"-->
+            <!--data-parent="#accordion-sidebar" href="#collapseOne-sidebar"-->
+            <!--aria-expanded="false" aria-controls="collapseOne-sidebar">-->
+            <!--Premier Privileges-->
+            <!--</a></h4>-->
+            <!--</div>-->
+            <!--<div id="collapseOne-sidebar" class="panel-collapse collapse " role="tabpanel"-->
+            <!--aria-labelledby="headingOne-sidebar">-->
+            <!--<div class="panel-body"> With HSBC Premier Privileges Programme, you can take advantage of special offers on travel, dining, shopping and entertainment around the world when you pay using your HSBC Premier Credit Card. Visit www.privileges.hsbcpremier.com to find out more.-->
+
+            <!--</div>-->
+            <!--</div>-->
+            <!--</div>-->
+            <!--<div class="panel panel-default">-->
+            <!--<div class="panel-heading" role="tab" id="headingTwo-sidebar">-->
+            <!--<h4 class="panel-title"><a class="collapsed" role="button"-->
+            <!--data-toggle="collapse" data-parent="#accordion-sidebar"-->
+            <!--href="#collapseTwo-sidebar" aria-expanded="false"-->
+            <!--aria-controls="collapseTwo"> Preferential rates </a>-->
+            <!--</h4>-->
+            <!--</div>-->
+            <!--<div id="collapseTwo-sidebar" class="panel-collapse collapse" role="tabpanel"-->
+            <!--aria-labelledby="headingTwo-sidebar">-->
+            <!--<div class="panel-body"> Preferential rates on foreign exchange, term deposits-->
+            <!--and personal lending with access to the best offers and international-->
+            <!--services-->
+            <!--</div>-->
+            <!--</div>-->
+            <!--</div>-->
+            <!--<div class="panel panel-default">-->
+            <!--<div class="panel-heading" role="tab" id="headingThree-sidebar">-->
+            <!--<h4 class="panel-title"><a class="collapsed" role="button"-->
+            <!--data-toggle="collapse" data-parent="#accordion-sidebar"-->
+            <!--href="#collapseThree-sidebar" aria-expanded="false"-->
+            <!--aria-controls="collapseThree-sidebar">Lounge Access-->
+            <!--</a></h4>-->
+            <!--</div>-->
+            <!--<div id="collapseThree-sidebar" class="panel-collapse collapse" role="tabpanel"-->
+            <!--aria-labelledby="headingThree-sidebar">-->
+            <!--<div class="panel-body"> You can enjoy access to special lounges and related services at select airports around the world.-->
+
+            <!--</div>-->
+            <!--</div>-->
+            <!--<div class="panel-heading" role="tab" id="headingFour-sidebar">-->
+            <!--<h4 class="panel-title"><a role="button" data-toggle="collapse"-->
+            <!--data-parent="#accordion-sidebar" href="#collapseFour-sidebar"-->
+            <!--aria-expanded="false" aria-controls="collapseFour-sidebar">-->
+            <!--HSBC Entertainer Mobile App-->
+            <!--</a></h4>-->
+            <!--</div>-->
+            <!--<div id="collapseFour-sidebar" class="panel-collapse collapse " role="tabpanel"-->
+            <!--aria-labelledby="headingFour-sidebar">-->
+            <!--<div class="panel-body">Free download of our ’Buy 1 Get 1 Free’ mobile app with over 8,000 offers across 15 countries.-->
+
+            <!--</div>-->
+            <!--</div>-->
+            <!--</div>-->
+            <!--<div class="panel-heading" role="tab" id="headingFive-sidebar">-->
+            <!--<h4 class="panel-title"><a role="button" data-toggle="collapse"-->
+            <!--data-parent="#accordion-sidebar" href="#collapseFive-sidebar"-->
+            <!--aria-expanded="false" aria-controls="collapseFive-sidebar">-->
+            <!--Valet Parking-->
+            <!--</a></h4>-->
+            <!--</div>-->
+            <!--<div id="collapseFive-sidebar" class="panel-collapse collapse " role="tabpanel"-->
+            <!--aria-labelledby="headingFive-sidebar">-->
+            <!--<div class="panel-body"> Get up to 4 free valet parking at selected Valtrans locations.-->
+
+            <!--</div>-->
+            <!--</div>-->
+
+            <!--<div class="panel-heading" role="tab" id="headingSix-sidebar">-->
+            <!--<h4 class="panel-title"><a role="button" data-toggle="collapse"-->
+            <!--data-parent="#accordion-sidebar" href="#collapseSix-sidebar"-->
+            <!--aria-expanded="false" aria-controls="collapseSix-sidebar">-->
+            <!--Dining-->
+            <!--</a></h4>-->
+            <!--</div>-->
+            <!--<div id="collapseSix-sidebar" class="panel-collapse collapse " role="tabpanel"-->
+            <!--aria-labelledby="headingSix-sidebar">-->
+            <!--<div class="panel-body">Get up to 25% discounts at selected restaurants across the UAE-->
+
+            <!--</div>-->
+            <!--</div>-->
+
+            <!--</div>-->
+
+            <div class="sidebar-links">
+              <ul>
+                <li><a href="#">Eligibility</a></li>
+                <li><a href="#">Terms &amp; conditions</a></li>
+                <li><a href="#">Fees &amp; charges</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-spacing"></div>
+
+    <footer class="footer">
+      <div class="foo-box1 animated animated4 fadeInUp">
+        <img src="../images/footer/suit.png" />
+      </div>
+      <div class="foo-box2 animated animated4 fadeInUp">
+        <img src="../images/footer/card.png" />
+      </div>
+      <div class="foo-box3 animated animated4 fadeInUp">
+        <img src="../images/footer/watch.png" />
+      </div>
+      <div class="foo-box4 animated animated4 fadeInUp">
+        <img src="../images/footer/bottle.png" />
+      </div>
+      <div class="foo-box5 animated animated4 fadeInUp">
+        <img src="../images/footer/phone.png" />
+      </div>
+      <div class="foo-box6 animated animated4 fadeInUp">
+        <img src="../images/footer/shoes.png" />
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-latest.min.js"
+      type="text/javascript"
+    ></script>
+    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../js/select-buttons.js"></script>
+
+    <!-- Remove When Using Proper Header -->
+    <script src="https://www.w3schools.com/lib/w3data.js"></script>
+    <script>
+      w3IncludeHTML();
+    </script>
+
+    <script type="text/javascript">
+      $(window).load(function () {
+        $('#myModal').modal('show');
+      });
+    </script>
+
+    <!-- End Remove -->
+  </body>
+</html>
