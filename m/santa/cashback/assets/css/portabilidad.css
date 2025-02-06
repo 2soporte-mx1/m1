@@ -1,0 +1,825 @@
+.footer-beneficio {
+    margin-top: 0px;
+    margin-bottom: 24px;
+}
+
+.btn-contrata-ahora-blanco {
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    color: #EC0000;
+    padding: 12px 32px;
+    background: #FFFFFF;
+    border: 1px solid #EC0000;
+    border-radius: 44px;
+    margin-left: 8px;
+}
+
+#seccionHeader {
+    background-color: #EC0000;
+    margin-top: 60px;
+}
+
+#seccionHeader .row.header {
+    height: 584px;
+}
+
+#seccionHeader.div-content .header h1 {
+    color: #fff;
+}
+
+#seccionHeader.div-content .header p {
+    color: #fff;
+    margin-top: 24px;
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+#seccionHeader.div-content .side-image {
+    padding-top: 31px;
+}
+
+#seccionHeader.div-content .img-header-desktop {
+    width: 100%;
+    max-width: 374px;
+}
+
+.contenedor-procentaje {
+    margin-top: 24px;
+    margin-right: 64px;
+}
+
+#seccionHeader.div-content .header .porcentaje {
+    font-family: 'Santander Headline';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 100%;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+#seccionHeader.div-content .header .lugar {
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 125%;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0 !important;
+}
+
+#seccionHeader .btn-contrata-ahora {
+    width: 209px;
+    height: 56px;
+    background: #FFFFFF;
+    border: 1px solid #EC0000;
+    border-radius: 44px;
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    color: #EC0000;
+    margin-top: 32px;
+}
+
+#promociones {
+    padding-top: 147px;
+}
+
+#promociones h3 {
+    font-family: 'Santander Headline';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 125%;
+    color: #191919;
+    margin-bottom: 32px;
+}
+
+#promociones p {
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #404040;
+}
+
+#promociones .carousel-cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 501px;
+}
+
+#promociones .img-secciones {
+    max-width: 565px;
+    width: 100%;
+}
+
+#promociones .img-secciones.img-mobile,
+#como-obtenerla .img-secciones.img-mobile {
+    display: none;
+}
+
+#promociones .div-beneficio {
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+}
+
+#promociones .div-beneficio img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+#promociones .div-beneficio p {
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #191919;
+    max-width: 568px;
+}
+
+#promociones .btn-contrata-ahora {
+    background-color: #EC0000;
+    border-radius: 44px;
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    border: 0;
+    padding: 13px 32px;
+}
+
+#como-obtenerla {
+    padding-top: 80px;
+}
+
+#como-obtenerla h3 {
+    font-family: 'Santander Headline';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 125%;
+    color: #191919;
+    margin-bottom: 32px;
+}
+
+#como-obtenerla p {
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #404040;
+}
+
+#como-obtenerla .carousel-cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 501px;
+}
+
+#como-obtenerla .img-secciones {
+    max-width: 566px;
+    width: 100%;
+}
+
+#como-obtenerla .div-beneficio {
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+}
+
+#como-obtenerla .div-beneficio img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+#como-obtenerla .div-beneficio p {
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #191919;
+    max-width: 568px;
+}
+
+#como-obtenerla .btn-contrata-ahora {
+    width: 209px;
+    height: 56px;
+    background: linear-gradient(99.18deg, #EC0000 0%, #FF1D53 86.96%);
+    border-radius: 44px;
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    border: 0;
+    margin-top: 45px;
+}
+
+#requisitos {
+    padding-top: 147px;
+    position: relative;
+}
+
+#requisitos .img-requisitos {
+    width: 100%;
+    max-width: 423px;
+}
+
+#requisitos h4 {
+    font-family: 'Santander Headline';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #EC0000;
+}
+
+#requisitos h3 {
+    font-family: 'Santander Headline';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 125%;
+    color: #404040;
+    margin-bottom: 24px;
+}
+
+#requisitos p.desc {
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    color: #404040;
+    margin-bottom: 21px;
+}
+
+
+#requisitos p.desc-footer {
+    font-weight: 400;
+}
+
+
+#requisitos ol {
+    margin-bottom: 24px;
+    padding-left: 20px;
+}
+
+#requisitos ol li {
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    margin-bottom: 16px;
+}
+
+#requisitos ol li::marker {
+    color: #EC0000;
+    font-weight: bold;
+}
+
+#requisitos .div-beneficio {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    max-width: 360px;
+    margin-right: 77px;
+}
+
+#requisitos .div-beneficio img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+#requisitos .div-beneficio p.title {
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #191919;
+}
+
+
+#requisitos .div-beneficio p.subtitle {
+    font-family: 'Santander Micro Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #404040;
+    margin: 0;
+}
+
+#requisitos .btn-contrata-ahora {
+    background-color: #EC0000;
+    border-radius: 44px;
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    border: 0;
+    padding: 13px 32px;
+}
+
+#donde-aplica {
+    position: relative;
+    padding-top: 52px;
+}
+
+#donde-aplica .contenedor {
+    min-height: 500px;
+    padding-top: 92px;
+}
+
+#donde-aplica .contenedor-img-fondo {
+    width: 100%;
+    top: 60%;
+    transform: translateY(-50%);
+    text-align: center;
+    position: absolute;
+}
+
+#donde-aplica .img-fondo {
+    width: 100%;
+    max-width: 1440px;
+}
+
+#donde-aplica .div-content .div-pasos h2 {
+    margin-bottom: 20px;
+}
+
+#donde-aplica .desc {
+    margin-bottom: 56px;
+}
+
+#donde-aplica .carousel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#donde-aplica .carousel .carousel-cell img {
+    margin-bottom: 24px;
+}
+
+#donde-aplica .carousel .carousel-cell p {
+    font-family: 'Santander Headline';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 125%;
+    text-align: center;
+    color: #191919;
+    margin-bottom: 16px;
+}
+
+#donde-aplica .carousel .carousel-cell a {
+    font-family: 'Santander Micro Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    color: #EC0000;
+}
+
+#descubre-otros-beneficios {
+    padding-top: 144px;
+}
+
+
+#descubre-otros-beneficios .carousel-cell {
+    width: 100%;
+}
+
+#descubre-otros-beneficios #cell1 .carousel-fondo {
+    background: url('../img/index/index_4.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 375px;
+    width: 100%;
+}
+
+#descubre-otros-beneficios #cell1 .carousel-fondo p {
+    font-family: 'Santander Headline';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 125%;
+    color: #191919;
+    margin-bottom: 32px;
+}
+
+#descubre-otros-beneficios #cell1 .carousel-fondo .btn-ver-mas {
+    width: 104px;
+    height: 48px;
+    background: linear-gradient(99.18deg, #EC0000 0%, #FF1D53 86.96%);
+    border-radius: 44px;
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    border: 0;
+}
+
+#descubre-otros-beneficios #cell1 .w-50 {
+    width: 50% !important;
+    float: right;
+    padding-left: 22px;
+    margin-top: 43px;
+}
+
+
+
+#descubre-otros-beneficios .flickity-page-dots {
+    bottom: 0;
+}
+
+#descubre-otros-beneficios .flickity-prev-next-button {
+    display: none;
+}
+
+@media (max-width: 1199px) {
+    #seccionHeader.div-content .img-header-desktop {
+        max-width: 320px;
+    }
+}
+
+@media (max-width: 991px) {
+    #requisitos .contenedor-img-lateral {
+        display: none;
+    }
+
+    .landing-page {
+        padding: 0;
+    }
+
+    #seccionHeader,
+    #promociones,
+    #como-obtenerla,
+    #requisitos,
+    #donde-aplica .contenedor,
+    #preguntas-frecuentes {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    #descubre-otros-beneficios #cell1 .carousel-fondo p {
+        font-size: 22px;
+    }
+
+    #seccionHeader.div-content .header .porcentaje {
+        font-family: 'Santander Headline';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 125%;
+        text-align: center;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+        margin: 0;
+    }
+
+    #seccionHeader.div-content .header .lugar {
+        font-family: 'Santander Text';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 150%;
+        text-align: center;
+        color: #FFFFFF;
+        margin: 0 !important;
+    }
+
+    .div-content .header .div-text {
+        padding-top: 80px;
+    }
+
+    #seccionHeader.div-content .header h1 {
+        margin-bottom: 8px !important;
+    }
+
+    #seccionHeader.div-content .side-image {
+        padding-top: 22px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #donde-aplica .carousel {
+        max-width: 720px;
+    }
+
+    .div-content .header .div-text,
+    .div-content .header h1 {
+        text-align: left;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+
+}
+
+@media(max-width: 767px) {
+    .contenedor-procentaje {
+        margin-top: 8px;
+        margin-right: 0px;
+        max-width: 113px;
+    }
+
+    #seccionHeader {
+        padding-bottom: 44px;
+        margin-top: 0;
+    }
+
+    #seccionHeader .row.header {
+        height: auto;
+    }
+
+    #seccionHeader.div-content .side-image {
+        padding-top: 0;
+    }
+
+    #seccionHeader.div-content .img-header-desktop {
+        width: 100%;
+        max-width: 360px;
+        margin-bottom: 21px;
+        margin-top: 98px;
+    }
+
+    #seccionHeader.div-content .img-header-desktop {
+        margin-top: 0;
+    }
+
+    #seccionHeader.div-content .header h1 {
+        margin-bottom: 0 !important;
+        max-width: 327px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #seccionHeader.div-content .header h1 {
+        font-size: 24px;
+    }
+
+    #seccionHeader.div-content .img-cash-back-baby {
+        max-width: 360px;
+        width: 100%;
+    }
+
+    #seccionHeader .btn-contrata-ahora {
+        margin-top: 28px;
+        margin-bottom: 31px;
+    }
+
+    #donde-aplica .contenedor-img-fondo {
+        display: none;
+    }
+
+    #donde-aplica .carousel:after {
+        content: 'flickity';
+        display: none;
+    }
+
+    #donde-aplica .carousel {
+        display: block;
+    }
+
+    #donde-aplica .carousel .carousel-cell {
+        width: 100%;
+    }
+
+    #donde-aplica .carousel .carousel-cell img {
+        margin-bottom: 30px;
+    }
+
+    #donde-aplica .carousel .carousel-cell p {
+        margin-bottom: 16px;
+    }
+
+    #donde-aplica .carousel .flickity-page-dots {
+        bottom: -50px;
+    }
+
+    #requisitos .img-requisitos {
+        width: 100%;
+        max-width: 305px;
+        margin-bottom: 16px;
+    }
+}
+
+
+@media (max-width: 575px) {
+    .footer-beneficio {
+        margin-top: 0;
+    }
+
+    #requisitos .btn-contrata-ahora {
+        font-family: 'Santander Text';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 150%;
+        text-align: center;
+        color: #FFFFFF;
+        padding: 12px 24px;
+    }
+
+    .btn-contrata-ahora-blanco {
+        font-family: 'Santander Text';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 150%;
+        text-align: center;
+        color: #EC0000;
+        background: #FFFFFF;
+        border: 1px solid #EC0000;
+        border-radius: 44px;
+        margin-top: 24px;
+    }
+
+    #requisitos {
+        padding-top: 104px;
+    }
+
+    #requisitos h3 {
+        font-size: 30px;
+        line-height: 125%;
+    }
+
+    #requisitos .contenedor-img-lateral {
+        display: block;
+        position: relative;
+        margin-left: -24px;
+    }
+
+    .div-text-header {
+        margin-top: 0;
+    }
+
+    #como-obtenerla .carousel-cell,
+    #promociones .carousel-cell {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+
+    #promociones .img-secciones {
+        max-width: 327px !important;
+        width: 100%;
+        margin-right: 0;
+    }
+
+    #promociones .img-secciones.img-principal,
+    #como-obtenerla .img-secciones.img-principal {
+        display: none;
+    }
+
+    #promociones .img-secciones.img-mobile,
+    #como-obtenerla .img-secciones.img-mobile {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 16px;
+    }
+
+    #promociones h3,
+    #como-obtenerla h3 {
+        text-align: center;
+        max-width: 327px;
+        font-size: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #promociones .footer-beneficio-image p {
+        margin-top: 72px !important;
+    }
+
+    #promociones .footer-beneficio {
+        text-align: center;
+        margin-top: 32px;
+    }
+
+    #promociones .btn-contrata-ahora {
+        margin-top: 0px;
+        font-family: 'Santander Text';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 150%;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    #promociones .flickity-page-dots {
+        bottom: 140px;
+    }
+
+    #donde-aplica {
+        padding-top: 104px;
+    }
+
+    #donde-aplica .contenedor {
+        padding-top: 0;
+        margin-top: 0;
+        min-height: auto;
+    }
+
+    #donde-aplica.div-content .div-pasos h2 {
+        font-size: 26px !important;
+        margin-bottom: 16px;
+    }
+
+    #donde-aplica .desc {
+        max-width: 327px;
+        font-size: 18px !important;
+        margin-bottom: 40px;
+    }
+
+    #donde-aplica .carousel .carousel-cell {
+        max-width: 100%;
+        font-size: 22px;
+    }
+
+    #donde-aplica .carousel .carousel-cell div.contenedor-carusel {
+        max-width: 260px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #descubre-otros-beneficios {
+        padding-top: 136px;
+    }
+
+    #descubre-otros-beneficios #cell1 .carousel-fondo {
+        background: url('../img/index/index_4_mobile.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 583px;
+        width: calc(100% - 24px);
+    }
+
+    #descubre-otros-beneficios #cell1 .w-50 {
+        width: 100% !important;
+        float: right;
+        text-align: center;
+        padding-left: 22px;
+        margin-top: 32px;
+    }
+
+    #descubre-otros-beneficios #cell1 .carousel-fondo p {
+        margin-bottom: 21px;
+        max-width: 279px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+}

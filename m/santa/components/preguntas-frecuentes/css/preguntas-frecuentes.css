@@ -1,0 +1,110 @@
+.div-preguntas-frecuentes {
+    padding-top: 188px;
+}
+
+#preguntas-frecuentes .div-preguntas-frecuentes h4 {
+    font-family: 'Santander Headline';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #EC0000;
+}
+
+#preguntas-frecuentes .div-preguntas-frecuentes h3 {
+    font-family: 'Santander Headline';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 125%;
+    color: #191919;
+}
+
+#preguntas-frecuentes .div-preguntas-frecuentes .pregunta {
+    font-family: 'Santander Headline';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 125%;
+    color: #191919;
+}
+
+#preguntas-frecuentes .div-preguntas-frecuentes .card {
+    border: 0;
+}
+
+#preguntas-frecuentes .div-preguntas-frecuentes .card .card-body {
+    background: #F2F2F2;
+    border-radius: 4px;
+}
+
+#preguntas-frecuentes .div-preguntas-frecuentes .card .card-body .icono {
+    font-family: 'Santander Micro Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    color: #EC0000;
+}
+
+#preguntas-frecuentes .div-preguntas-frecuentes .cursor {
+    cursor: pointer;
+}
+
+#preguntas-frecuentes .div-preguntas-frecuentes .card .card-body .respuesta {
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #404040;
+    max-width: 740px;
+    width: calc(100% - 105px)
+}
+
+#preguntas-frecuentes .div-preguntas-frecuentes .ver-ocultar {
+    min-width: 100px;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    #preguntas-frecuentes .div-preguntas-frecuentes h3 {
+        font-size: 26px;
+        line-height: 125%;
+    }    
+}
+
+@media (max-width: 991px) {
+    .div-preguntas-frecuentes {
+        padding-top: 96px;
+    }
+
+    #preguntas-frecuentes .div-content .div-preguntas-frecuentes h4 {
+        font-size: 16px;
+        line-height: 100%;
+        margin-bottom: 8px;
+    }
+
+    #preguntas-frecuentes .div-preguntas-frecuentes h3 {
+        font-size: 26px;
+        line-height: 125%;
+        margin-bottom: 24px;
+    }
+
+    #preguntas-frecuentes .div-preguntas-frecuentes .desktop {
+        display: none !important;
+    }
+
+    #preguntas-frecuentes .div-preguntas-frecuentes .pregunta {
+        font-size: 16px;
+        line-height: 150%;
+    }
+}
+
+@media (max-width: 767px) {
+    #preguntas-frecuentes .div-preguntas-frecuentes .card .card-body .respuesta {
+        width: 100%;
+    }
+}

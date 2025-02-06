@@ -1,0 +1,652 @@
+/** Seccion super linea*/
+#content-footer .seccion-superlinea {
+    background: #EC0000;
+    margin-top: 32px;
+}
+
+#content-footer .seccion-superlinea .telefono {
+    height: 57px;
+    margin-top: -30px;
+    margin-right: 10px;
+}
+
+#content-footer .seccion-superlinea .row-superlinea .title {
+    margin-left: initial !important;
+}
+
+/*@media (max-width: 991px) {
+    #content-footer .seccion-superlinea .row-superlinea .title {
+        margin-left: 0px;
+    }
+    
+}*/
+
+#content-footer .seccion-superlinea .row-superlinea .title h1 {
+    color: white;
+    font-family: 'Santander Headline';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 125%;
+}
+
+#content-footer .seccion-superlinea .contenedor-mexico .img-bandera,
+#content-footer .seccion-superlinea .contenedor-mundo .img-mundo {
+    width: 48px;
+    max-width: 48px;
+    margin-right: 20px;
+}
+
+@media (max-width: 991px) {
+    #content-footer .seccion-superlinea {
+        margin-top: 96px;
+    }
+
+    .seccion-superlinea .contenedor-mexico,
+    .seccion-superlinea .contenedor-mundo {
+        margin-bottom: 24px;
+    }
+}
+
+#content-footer .seccion-superlinea .contenedor-mexico, 
+#content-footer .seccion-superlinea .contenedor-mundo {
+    margin-bottom: 40px;
+}
+
+#content-footer .seccion-superlinea .contenedor-mexico {
+    margin-right: 90px;
+}
+
+@media (max-width: 991px) {
+    .seccion-superlinea .contenedor-mexico {
+        margin-right: 0px !important;
+    }
+    
+}
+
+#content-footer .seccion-superlinea .contenedor-mexico p,
+#content-footer .seccion-superlinea .contenedor-mundo p {
+    color: white;
+    font-family: 'Santander Headline';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+#content-footer .seccion-superlinea .contenedor-mexico a, 
+#content-footer .seccion-superlinea .contenedor-mundo a {
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    color: white;
+    text-decoration: none;
+}
+
+/** Seccion Nuestros productos*/
+
+#content-footer .div-content a {
+    text-decoration: none;
+}
+
+#content-footer .div-contrata-en-linea {
+    position: relative;
+    top: -15px !important;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    max-width: 83%;
+    height: 200px;
+    background: #FFFFFF !important;
+    box-shadow: 0px 32px 32px -4px rgba(0,0,0,0.12) !important;
+    border-radius: 4px;
+    z-index: 0;
+    padding-left: 2% !important;
+    padding-right: 2% !important;
+    padding-bottom: 2% !important;
+}
+
+@media screen and (max-width: 790px) {
+    #content-footer .div-contrata-en-linea {
+        width: 95%;
+        height: auto;
+        z-index: 5;
+    }
+    
+}
+
+@media screen and (min-width: 1363px) {
+    #content-footer .div-contrata-en-linea {
+        max-width: 1132px !important;
+    }
+    
+}
+
+#content-footer .div-contrata-en-linea .alinea-contendo {
+    width: 100%;
+    height: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+#content-footer .div-contrata-en-linea .h1-contrata-linea {
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Santander Headline';
+}
+
+#content-footer .div-contrata-en-linea .contenedor-items {
+    width: 100%;
+    height: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+#content-footer .div-contrata-en-linea .alinea-anchor {
+    display: block;
+    width: auto;
+    height: auto;
+    color: black;
+    text-decoration: none;
+}
+
+@media (min-width: 601px) {
+    #content-footer .div-contrata-en-linea .alinea-anchor {
+        width: 12%;
+    }
+}
+
+#content-footer .div-contrata-en-linea .item-contrata {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-left: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+#content-footer .div-contrata-en-linea .item-contrata:hover > .p-items{
+    color: red;
+}
+
+
+
+#content-footer .div-contrata-en-linea .icon1 {
+	background: url("../img/nuestros-productos/tdc.svg") no-repeat center center;
+	width: 30px;
+    height: 30px;
+    background-size: 100%;
+}
+
+#content-footer .div-contrata-en-linea .icon2 {
+	background: url("../img/nuestros-productos/cuentas.svg") no-repeat center center;
+	width: 30px;
+    height: 30px;
+    background-size: 100%
+}
+
+#content-footer .div-contrata-en-linea .icon3 {
+	background: url("../img/nuestros-productos/inversiones.svg") no-repeat center center;
+	width: 30px;
+    height: 30px;
+    background-size: 100%;
+}
+
+#content-footer .div-contrata-en-linea .icon4 {
+	background: url("../img/nuestros-productos/credit-hipotec.svg") no-repeat center center;
+	width: 30px;
+    height: 30px;
+    background-size: 100%
+}
+
+#content-footer .div-contrata-en-linea .icon5 {
+	background: url("../img/nuestros-productos/credit-automot.svg") no-repeat center center;
+	width: 30px;
+    height: 30px;
+    background-size: 100%
+}
+
+#content-footer .div-contrata-en-linea .icon6 {
+	background: url("../img/nuestros-productos/credit-personal.svg") no-repeat center center;
+	width: 30px;
+    height: 30px;
+    background-size: 100%
+}
+
+#content-footer .div-contrata-en-linea .icon7 {
+	background: url("../img/nuestros-productos/seguros.svg") no-repeat center center;
+	width: 30px;
+	height: 30px;
+	background-size: 100%
+}
+
+#content-footer .div-contrata-en-linea .icon8 {
+	background: url("../img/nuestros-productos/trae-tu-nomina.svg") no-repeat center center;
+	width: 30px;
+	height: 30px;
+	background-size: 100%
+}
+
+#content-footer .div-contrata-en-linea .p-items{
+    font-family: "SantanderText-Light", sans-serif;
+    text-align: center;
+    margin-top: 12px;
+    font-weight: 800;
+    height: 20px;
+    color: black;
+}
+
+#content-footer .div-contrata-en-linea .item-contrata:hover {
+    background: #EAEAEA;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+#content-footer .div-contrata-en-linea .item-contrata:hover > .p-items {
+    color: red;
+}
+
+@media screen and (max-width: 600px) {
+    #content-footer .div-contrata-en-linea {
+        width: 95%;
+        height: auto;
+        z-index: 5;
+    }
+
+    #content-footer .div-contrata-en-linea .alinea-contendo {
+        width: 100%;
+        height: 100%;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    #content-footer .div-contrata-en-linea .h1-contrata-linea {
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    #content-footer .div-contrata-en-linea .contenedor-items {
+        width: 100%;
+        height: 100%;
+    }
+
+    #content-footer .div-contrata-en-linea .alinea-anchor {
+        width: 50%;
+        height: auto;
+        margin-top: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/** Seccion acerca del banco */
+
+#content-footer footer {
+    clear: both;
+    display: block;
+    width: 100%;
+    padding: 20px 0;
+    padding-top: 72px;
+}
+
+#content-footer .site-footer .foot {
+    padding-left: 6em;
+    padding-top: 0px !important;
+}
+
+@media only screen and (max-width: 991px) {
+    #content-footer .site-footer .foot {
+        padding-left: 4.5em;
+    }
+}
+
+#content-footer .site-footer .flexFooter {
+    display: flex;
+    float: right;
+    width: 95%;
+}
+
+#content-footer .site-footer .logo-footer {
+    background: url("../img/logo-santander-footer.png") no-repeat center center;
+    width: 32px;
+    height: 32px;
+    display: block;
+    float: left;
+    top: -4px;
+    left: -40px;
+    position: relative;
+    background-size: contain;
+    margin-top: 0px !important;
+}
+
+@media only screen and (max-width: 992px) {
+    #content-footer .site-footer .logo-footer {
+        top: 28px;
+        left: -60px;
+    }
+}
+
+#content-footer .site-footer .flexFooter>div p {
+    padding: 0;
+    margin: 0 0 25px;
+    font-size: 21px;
+    font-family: "SantanderText-Regular", sans-serif;
+    color: #373737;
+}
+
+@media only screen and (max-width: 992px) {
+    #content-footer .site-footer .flexFooter>div p.accordion:after {
+        content: ' ';
+        background: url("../img/iconos/flecha.svg") no-repeat;
+        background-size: 100%;
+        width: 13px;
+        height: 24px;
+        margin: 0 auto;
+        top: 33%;
+        position: absolute;
+        right: 7%;
+        transform: rotate(90deg)
+    }
+
+    #content-footer .site-footer .flexFooter>div p.accordion.active:after {
+        content: ' ';
+        background: url("../img/iconos/flecha.svg") no-repeat;
+        background-size: 100%;
+        width: 13px;
+        height: 24px;
+        margin: 0 auto;
+        top: 33%;
+        position: absolute;
+        right: 7%;
+        transform: rotate(-90deg);
+    }
+
+    footer .flexFooter>div .panel {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    #content-footer .site-footer .flexFooter {
+        width: 90%;
+        flex-direction: column;
+
+    }
+
+    footer .flexFooter>div {
+        width: 100%;
+    }
+}
+
+
+#content-footer .site-footer .flexFooter>div .panel {
+    box-shadow: inherit;
+}
+
+#content-footer .site-footer .flexFooter>div a {
+    display: block;
+    font-size: 12px;
+    font-family: sans-serif;
+    color: #6c787a;
+    padding: 0;
+    margin: 0 0 15px;
+}
+
+#content-footer .site-footer .flexFooter>div a:hover {
+    text-decoration: underline;
+    color: #000;
+}
+
+#content-footer .site-footer .flexFooter>div a i {
+	display: block;
+	margin-right: 18px;
+	margin-top: -3px
+}
+
+#content-footer .site-footer .flexFooter>div a .ico-redsocial1 {
+	background: url("../img/iconos/redes-sociales/ico_facebook.svg") no-repeat;
+	float: left;
+	width: 22px;
+	height: 22px
+}
+
+#content-footer .site-footer .flexFooter>div a .ico-redsocial2 {
+	background: url("../img/iconos/redes-sociales/ico_instagram.svg") no-repeat;
+	float: left;
+	width: 22px;
+	height: 22px
+}
+
+#content-footer .site-footer .flexFooter>div a .ico-redsocial3 {
+	background: url("../img/iconos/redes-sociales/ico_twitter.svg") no-repeat;
+	float: left;
+	width: 22px;
+	height: 22px
+}
+
+#content-footer .site-footer .flexFooter>div a .ico-redsocial4 {
+	background: url("../img/iconos/redes-sociales/ico_linkedin.svg") no-repeat;
+	float: left;
+	width: 22px;
+	height: 22px
+}
+
+#content-footer .site-footer .flexFooter>div a .ico-redsocial5 {
+	background: url("../img/iconos/redes-sociales/ico_youtube.svg") no-repeat;
+	float: left;
+	width: 29px;
+	height: 21px;
+	margin-right: 12px
+}
+
+#content-footer .footSec {
+    margin: 1em auto;
+}
+
+#content-footer .footSec .row {
+    margin: 0 auto;
+}
+
+#content-footer .footSec .flex {
+    display: flex;
+}
+
+#content-footer .footSec .flex a {
+    display: block;
+    margin: 0 2em 0 0;
+}
+@media only screen and (max-width: 767px) {
+    #content-footer .footSec .flex a {
+        margin: 0 auto;
+        display: block;
+    }
+
+    #content-footer .footSec .logo-buro {
+        margin-left: 0px !important;
+    }
+    
+}
+
+
+#content-footer .footSec .logo-buro {
+	background: url("../img/Logo_BuroEntidadesFinancieras.png") no-repeat;
+	width: 60px;
+	height: 59px;
+	background-size: 100%;
+	margin-left: 4.5em;
+	float: left
+}
+
+#content-footer .footSec .logo-truster2 {
+    background: url("../img/truster2.svg") no-repeat;
+    width: 180px;
+    height: 90px;
+    background-size: contain;
+}
+
+
+
+#content-footer .footSec .txtCost {
+    font-size: 12px;
+    text-align: right;
+    display: block;
+    color: #6c787a;
+    padding: 3px 0;
+    font-family: sans-serif;
+    margin-right: 14em;
+}
+
+@media only screen and (max-width: 767px) {
+    #content-footer .footSec .txtCost {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    #content-footer .footSec .txtCost {
+        margin-right: 0;
+    }
+    
+}
+
+/** seccion comisionistas */
+#content-footer .cont-comisionistas {
+    padding: 2em 3em 0;
+    display: none;
+}
+
+#content-footer .cont-comisionistas p {
+    text-align: left;
+    font-size: 36px;
+    font-size: 2.25rem;
+    font-family: "SantanderText-Bold", sans-serif;
+    color: #4a4a4a;
+    padding: 0 1em;
+    margin: 0 0 14px;
+}
+
+#content-footer .cont-comisionistas span {
+    display: block;
+    text-align: left;
+    font-size: 24px;
+    font-size: 1.5rem;
+    font-family: "SantanderText-Regular", sans-serif;
+    color: #4a4a4a;
+    margin-bottom: 60px;
+    padding: 0 1.5em;
+}
+
+@media only screen and (max-width: 991px) {
+    #content-footer .cont-comisionistas span {
+        display: none;
+    }
+}
+
+#content-footer .cont-comisionistas .flex-brands {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+@media only screen and (max-width: 767px) {
+    #content-footer  .cont-comisionistas .flex-brands>div {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #content-footer .cont-comisionistas .flex-brands>div {
+        margin: 10px 5px;
+        width: calc(170% / 10);
+    }
+}*/
+/** Seccion informacion importante */
+
+#content-footer .content-info-important {
+    width: 100%;
+    background: #f6f6f6;
+}
+
+#content-footer .content-info-important p {
+    padding: 20px 6em;
+    margin: 0;
+    font-size: 14px;
+    font-size: 12px;
+    font-family: sans-serif;
+    color: #6C787A;
+    line-height: 20px;
+}
+
+@media only screen and (max-width: 991px) {
+    #content-footer .content-info-important p {
+        padding: 20px;
+    }
+}
+
+/** Seccion legal */
+#content-footer .legalPrincipal {
+    margin: 20px 0;
+}
+
+#content-footer .legalPrincipal p {
+    text-align: center;
+    font-size: 12px;
+    color: #4a4a4a;
+}
+
+.animated-modal img {
+    float: inherit;
+    margin-right: 0px;
+}

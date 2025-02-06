@@ -1,0 +1,604 @@
+/*************************************************/
+/* HEADER                                        */
+/*************************************************/
+
+.section-header {
+    margin-top: 122px;
+}
+
+.section-header .owl-carousel .item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 56px 52px 76px 52px
+}
+
+.section-header .owl-carousel .owl-nav {
+    position: absolute;
+    top: calc(50% - 58px);
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 0;
+}
+
+.section-header .owl-carousel .owl-nav.disabled {
+    display: none;
+}
+
+.section-header .owl-carousel .owl-nav .owl-prev,
+.section-header .owl-carousel .owl-nav .owl-next {
+    width: 32px;
+    height: 32px;
+    background: #FFFFFF !important;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.12);
+    border-radius: 44px;
+}
+
+.section-header .owl-carousel .owl-nav .owl-prev img,
+.section-header .owl-carousel .owl-nav .owl-next img {
+    width: 24px;
+}
+
+.section-header .owl-carousel .owl-nav .owl-prev img {
+    margin-right: 3px;
+}
+
+.section-header .owl-carousel .owl-nav .owl-next img {
+    margin-left: 3px;
+}
+
+.section-header .owl-carousel .owl-item .owl-image {
+    max-width: 530px;
+    width: 100%;
+    min-width: 327px;
+    filter: drop-shadow(15px 30px 35px rgba(251, 71, 71, 0.6));
+}
+
+.section-header .owl-carousel .owl-item .owl-image.no-filter {
+    filter: none;
+}
+
+.section-header .owl-carousel .owl-item .owl-title {
+    font-family: 'Santander Headline';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100%;
+    color: #EC0000;
+    margin-bottom: 24px;
+}
+
+.section-header .owl-carousel .owl-item .owl-description {
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #404040;
+    margin-bottom: 0;
+}
+
+.section-header .owl-carousel .owl-item .owl-description.small {
+    font-family: 'Santander Micro Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #404040;
+}
+
+.section-header .owl-carousel .owl-item .owl-container-button {
+    margin-top: 40px;
+}
+
+.section-header .owl-carousel .owl-item .owl-button {
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #EC0000;
+    border: 0;
+    border-radius: 48px;
+    padding: 12px 40px;
+}
+
+.section-header .owl-carousel .owl-item .left-side {
+    width: 100%;
+    max-width: 590px;
+}
+
+.section-header .owl-carousel .owl-dots {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    background-color: transparent;
+}
+
+.section-header .owl-carousel .owl-dots.disabled {
+    display: none;
+}
+
+.section-header .owl-carousel .owl-dot {
+    width: 20px;
+    height: 20px;
+    background: #FFFFFF !important;
+    border: 1px solid #767676 !important;
+    border-radius: 50%;
+}
+
+.section-header .owl-carousel .owl-dot.active {
+    background: #EC0000 !important;
+    border: 1px solid #EC0000 !important;
+    box-shadow: 0px 2px 5px rgba(60, 66, 87, 0.08), 0px 1px 1px rgba(0, 0, 0, 0.12);
+}
+
+@media(max-width: 991px) {
+    .section-header .owl-carousel .item {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        padding: 56px 0 40px 0;
+    }
+
+    .section-header .owl-carousel .item > div {
+        width: 100%;
+        text-align: center;
+    }
+
+    .section-header .owl-carousel .owl-item .owl-image {
+        min-width: 0;
+        width: 100%;
+        max-width: 327px;
+        margin: 0 auto 48px auto;
+    }
+
+    .section-header .owl-carousel .owl-item .owl-title {
+        font-size: 32px;
+        line-height: 125%;
+        text-align: center;
+        margin-bottom: 16px;
+    }
+
+    .section-header .owl-carousel .owl-item .owl-description {
+        font-size: 18px;
+        line-height: 150%;
+        text-align: center;
+    }
+
+    .section-header .owl-carousel .owl-item .owl-container-button {
+        text-align: center;
+        margin-top: 32px;
+    }
+
+    .section-header .owl-carousel .owl-item .owl-button {
+        padding: 12px 24px;
+        font-size: 16px;
+        line-height: 150%;
+    }
+
+    .section-header .owl-carousel .owl-dots {
+        position: static;
+        gap: 8px;
+    }
+
+    .section-header .owl-carousel .owl-dot {
+        width: 8px;
+        height: 8px;
+        background-color: #D9D9D9 !important;
+        border: 0 !important;
+    }
+
+    .section-header .owl-carousel .owl-dot.active {
+        width: 16px;
+        background: #000000 !important;
+        border-radius: 40px;
+        border: 0 !important;
+    }
+
+    .section-header .owl-carousel .owl-nav {
+        top: 186px;
+        transform: none;
+    }
+}
+
+@media(max-width: 767px) {
+    .section-header {
+        margin-top: 0;    
+    }
+
+    .section-header .owl-carousel .item {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        padding: 120px 0 40px 0;
+    }
+
+    .section-header .owl-carousel .owl-nav {
+        top: 250px;
+    }
+}
+
+@media(max-width: 575px) {
+    .section-header .contenedor {
+        padding: 0 !important;
+        overflow-x: hidden;
+    }
+
+    .section-header .owl-carousel .item {
+        padding: 120px 24px 0px 24px;
+    }
+
+    .section-header .owl-carousel .owl-dots {
+        padding-top: 40px;
+    }
+    
+    .section-header .owl-carousel .owl-nav button.owl-prev {
+        margin-left: 12px;
+    }
+
+    .section-header .owl-carousel .owl-nav button.owl-next {
+        margin-right: 12px;
+    }
+}
+
+
+/*************************************************/
+/* BENEFICIOS                                    */
+/*************************************************/
+
+
+.owl-beneficios .carousel-cell img {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.owl-beneficios .carousel-cell h3 {
+    font-family: 'Santander Headline';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 125%;
+    text-align: center;
+    color: #191919;
+    margin-bottom: 16px;
+}
+
+.owl-beneficios .carousel-cell p {
+    font-family: 'Santander Micro Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;    
+    line-height: 150%;
+    text-align: center;
+    color: #404040;
+    margin-bottom: 0;
+}
+
+@media(min-width:768px) {
+    .owl-beneficios {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 64px 24px;
+    }
+
+    .owl-beneficios .carousel-cell {
+        width: 30% !important;
+        min-width: 186px;
+        max-width: 320px;
+        margin-bottom: 0px !important;
+    }
+}
+
+@media(max-width: 767px) {
+    .owl-beneficios .carousel-cell {
+        width: 100% !important;
+        max-width: 248px !important;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0px !important;
+    }
+
+    .owl-beneficios .carousel-cell img {
+        width: 40px;
+        height: 40px;
+        margin-bottom: 24px;
+    }
+
+    .owl-beneficios .owl-stage-outer {
+        margin-bottom: 40px;
+    }
+
+    .owl-beneficios .owl-nav {
+        position: absolute;
+        top: calc(50% - 50px);
+        transform: translateY(-50%);
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        height: 0;
+    }
+
+    .owl-beneficios .owl-nav img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .owl-beneficios .owl-nav .owl-prev, 
+    .owl-beneficios .owl-nav .owl-next {
+        width: 32px;
+        height: 32px;
+        background-color: #FFFFFF !important;
+        box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.12);
+        border-radius: 44px
+    }
+
+    .owl-beneficios .owl-nav .owl-prev.disabled,
+    .owl-beneficios .owl-nav .owl-next.disabled {
+        background: #D9D9D9 !important;
+        color: #767676;
+    }
+
+    .owl-beneficios .owl-nav .owl-prev {
+        background-image: url(../img/left.png) !important;
+        background-size: 24px 24px !important;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+    }
+
+    .owl-beneficios .owl-nav .owl-prev.disabled {
+        background-image: url(../img/left-disabled.png) !important;
+        background-size: 24px 24px !important;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+    }
+
+    .owl-beneficios .owl-nav .owl-next {
+        background-image: url(../img/right.png) !important;
+        background-size: 24px 24px !important;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+    }
+
+    .owl-beneficios .owl-nav .owl-next.disabled {
+        background-image: url(../img/right-disabled.png) !important;
+        background-size: 24px 24px !important;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+    }
+
+    .owl-beneficios .owl-dots {
+        display: flex;
+        justify-content: center;
+        gap: 8px;
+    }
+
+    .owl-beneficios .owl-dot {
+        width: 8px;
+        height: 8px;
+        background-color: #D9D9D9 !important;
+        border: 0 !important;
+        border-radius: 50%;
+    }
+
+    .owl-beneficios .owl-dot.active {
+        width: 16px;
+        background: #000000 !important;
+        border-radius: 40px;
+        border: 0 !important;
+    }
+}
+
+/*************************************************/
+/* MAS BENEFICIOS                                    */
+/*************************************************/
+.owl-mas-beneficios .carousel-cell img {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 8px;
+}
+
+.owl-mas-beneficios .carousel-cell h4 {
+    font-family: 'Santander Headline';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 125%;
+    color: #191919;
+    margin-bottom: 16px;
+    max-width: 338.21px;
+}
+
+.owl-mas-beneficios .carousel-cell p {
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #333333;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 424px;
+}
+
+@media(min-width: 1200px) {
+    .owl-mas-beneficios .carousel-cell {
+        max-width: 46.6%;
+        width: 100%;
+    }
+}
+
+@media(min-width: 992px) and (max-width: 1199px) {
+    .owl-mas-beneficios .carousel-cell {
+        max-width: 45.9%;
+        width: 100%;
+    }
+}
+
+@media(max-width: 991px) {
+    .owl-mas-beneficios .carousel-cell h4 {
+        font-size: 22px;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 991px) {
+    .owl-mas-beneficios .carousel-cell {
+        max-width: 44.6%;
+        width: 100%;
+    }
+}
+
+@media(min-width: 768px) {
+    .owl-mas-beneficios {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 64px 47px;
+    }
+}
+
+@media(max-width: 767px) {
+    .owl-mas-beneficios .carousel-cell {
+        width: 100%;
+        max-width: none;
+        padding-right: 0px;
+        margin-bottom: 0px;
+    }
+
+    .owl-mas-beneficios .carousel-cell div {
+        width: 100%;
+        max-width: 327px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .owl-mas-beneficios .carousel-cell img {
+        width: 40px;
+        height: 40px;
+        margin-bottom: 24px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .owl-mas-beneficios .carousel-cell h4,
+    .owl-mas-beneficios .carousel-cell p {
+        max-width: 260px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .owl-mas-beneficios .carousel-cell h4 {
+        font-family: 'Santander Headline';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 125%;
+        text-align: center;
+        color: #191919;
+    }
+
+    .owl-mas-beneficios .carousel-cell p {
+        font-family: 'Santander Micro Text';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        text-align: center;
+        color: #404040;
+        margin-top: 8px;
+    }
+
+    .owl-mas-beneficios .owl-stage-outer {
+        margin-bottom: 40px;
+    }
+
+    .owl-mas-beneficios .owl-nav {
+        position: absolute;
+        top: calc(50% - 70px);
+        transform: translateY(-50%);
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        height: 0;
+    }
+
+    .owl-mas-beneficios .owl-nav img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .owl-mas-beneficios .owl-nav .owl-prev, 
+    .owl-mas-beneficios .owl-nav .owl-next {
+        width: 32px;
+        height: 32px;
+        background-color: #FFFFFF !important;
+        box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.12);
+        border-radius: 44px
+    }
+
+    .owl-mas-beneficios .owl-nav .owl-prev.disabled,
+    .owl-mas-beneficios .owl-nav .owl-next.disabled {
+        background: #D9D9D9 !important;
+        color: #767676;
+    }
+
+    .owl-mas-beneficios .owl-nav .owl-prev {
+        background-image: url(../img/left.png) !important;
+        background-size: 24px 24px !important;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+    }
+
+    .owl-mas-beneficios .owl-nav .owl-prev.disabled {
+        background-image: url(../img/left-disabled.png) !important;
+        background-size: 24px 24px !important;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+    }
+
+    .owl-mas-beneficios .owl-nav .owl-next {
+        background-image: url(../img/right.png) !important;
+        background-size: 24px 24px !important;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+    }
+
+    .owl-mas-beneficios .owl-nav .owl-next.disabled {
+        background-image: url(../img/right-disabled.png) !important;
+        background-size: 24px 24px !important;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+    }
+
+    .owl-mas-beneficios .owl-dots {
+        display: flex;
+        justify-content: center;
+        gap: 8px;
+    }
+
+    .owl-mas-beneficios .owl-dot {
+        width: 8px;
+        height: 8px;
+        background-color: #D9D9D9 !important;
+        border: 0 !important;
+        border-radius: 50%;
+    }
+
+    .owl-mas-beneficios .owl-dot.active {
+        width: 16px;
+        background: #000000 !important;
+        border-radius: 40px;
+        border: 0 !important;
+    }
+
+}

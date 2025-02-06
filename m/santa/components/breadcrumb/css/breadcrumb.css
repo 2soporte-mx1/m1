@@ -1,0 +1,35 @@
+.breadcrumb-header {
+    position: absolute !important;
+    top: -18px !important;
+    left: 20px !important;
+    display: flex !important;
+    align-items: center !important;
+    gap: 10px !important;
+}
+
+.breadcrumb-header a, 
+.breadcrumb-header h1 {
+    font-family: 'Santander Micro Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #767676;
+    margin: 0;
+}
+
+.breadcrumb-header .active {
+    color: #404040;
+}
+
+.breadcrumb-header img {
+    width: 16px;
+    height: 16px;
+    margin: 0 !important;
+}
+
+@media(max-width: 767px) {
+    .breadcrumb-header {
+        display: none !important;
+    }
+}
