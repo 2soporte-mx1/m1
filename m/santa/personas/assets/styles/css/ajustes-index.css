@@ -1,0 +1,86 @@
+.contenedor-descripciones-banner{
+    display: flex; 
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: flex-end;
+}
+
+.contenedor-opcion-encuentrame{
+    width: 120px; 
+    margin-right: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.contenedor-opcion-ayuda{
+    width: 80px; 
+    margin-right: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.contenedor-opcion-buscar{
+    width: auto; 
+    margin-right: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.opcion-navbar-actualizada{
+    font-size: 15px;
+    font-weight: 100;
+    color: black;
+    font-family:  "SantanderHeadline-Regular", sans-serif;
+}
+
+.opcion-navbar-actualizada:hover{
+    color: red;
+}
+
+.icono-opcion-navbar-actualizada{
+    width: 25px; 
+    height: 25px;
+}
+
+.anchor-link-opc{
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.anchor-link-opc:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.boton-activo{
+    width: 200px;
+    height: 45px;
+    background: #FC0000;
+    color: white;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:  SantanderText-Bold,sans-serif;
+    font-size: 18px;
+}
+
+.boton-activo:hover {
+    color: #fff !important;
+}
+
+.input-buscador{
+    width: 228px;
+    height: 48px;
+    background: white;
+    border: none;
+    text-align: left;
+    color: black;
+    padding-left: 3%;
+    font-weight: 100;
+}
