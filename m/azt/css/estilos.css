@@ -1,0 +1,210 @@
+@media only screen and (max-width: 600px) {
+	.can{
+		display:none;
+		}
+    .menuInf{
+        display: block!important;
+    }
+	}
+
+.acc{
+    background-color: #fff;
+    border-radius: 20px;
+    color:#11A83A;
+    margin: 0 auto;
+    text-align: left;
+    height: 260px;
+    width: 260px;
+    padding: 30px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+
+}
+
+button{
+    background-color: #11A83A;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 19px;
+    border-radius: 43px 43px 43px 43px;
+    padding: 4px;
+    width: 100%;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.contenedor-input {
+    text-align: center;
+}
+.bx {
+	font-size: 30px;
+	transform: translateX(5px);
+	cursor: pointer;
+}
+
+.barVerde{
+    background-color: #11A83A;
+    color: #fff;
+    font-weight: bold;
+    font-size: 27px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.bkPer{
+    background-image:url("../img/banner_banca_en_linea.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 5%;
+    height: 400px;
+    width: 100%;
+}
+.can{
+    background-image: url("../img/candado.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-color: white;
+    border-radius: 14px;
+    color:gray;
+    margin-top: 20px;
+    padding-right: 15px;
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    vertical-align: middle;
+    float: right;
+
+}
+
+input{
+    border: 1px solid #d7d7d7;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+
+}
+
+input:hover, input:active{
+    border: 1px solid #11A83A;
+}
+
+.registro {
+	display: none;
+}
+
+.registro.activo {
+	display: block;
+}
+
+.exito {
+	display: none;
+	height: 100%;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+}
+
+.exito.activo {
+	display: flex;
+}
+
+.exito svg {
+	width: 50px;
+	height: 50px;
+	color: var(--primario);
+}
+
+.folio{
+    color: #11A83A;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: -20px;
+}
+h1{
+    font-size: 19px;
+    font-weight: normal;
+}
+
+h2{
+    color: #272727;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+
+li {
+    list-style: none; 
+    color: gray;
+    line-height: 20px;
+    margin-left: -39px;
+}
+
+.menuInf, .copy{
+    color: gray;
+    display: flex;
+    font-size: 10px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.menuInf div{
+    margin-right: 100px;
+}
+
+.num{
+    font-size: 12px;
+    color: #272727;
+    margin-top: 10px;
+    text-align: right;
+}
+
+.logo{
+    float: left;
+    margin-left: -160px;
+    scale: .4;
+    
+}
+
+::placeholder {
+    color:#CACACA;
+    padding-left: 10px;
+  }
+
+.rojo{
+    font-size: 30px;
+    color: #b3242e;
+    font-size: 30px;
+    vertical-align: middle;
+}
+
+.topBar{
+    height: 90px;
+    width: 100%;
+
+}
+
+.txt{
+    color: gray;
+    font-size: 12px;
+    margin-top: -20px;
+}
+
+
+.txtFolio{
+    color: gray;
+    font-size: 20px;
+}
