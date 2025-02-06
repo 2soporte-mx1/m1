@@ -1,0 +1,486 @@
+.itemsNuestrosProds {
+    width: 100%;
+    height: 100px;
+}
+
+.colYrow {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.forma-contenedor {
+    background: #FFFFFF;
+    box-shadow: 0px 32px 32px -4px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+
+#contenedorFijo {
+    position: relative;
+    height: 250px;
+}
+
+#contenedorFlotante {
+    position: absolute;
+    width: 100%;
+    margin-top: -20px;
+    z-index: 1;
+}
+
+#contenedorProds {
+    padding: 0px 20px 0px 20px;
+}
+
+.title-nuestros-productos {
+    font-size: 32px;
+    line-height: 36px;
+    font-feature-settings: 'salt' on;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+
+/* =========== */
+
+
+/* CUADRITOS BOTONES */
+
+.button {
+    display: inline-block;
+    width: 12.5%;
+    height: 100px;
+    font-size: 2em;
+    color: black;
+    text-decoration: none;
+    position: relative;
+    background-color: #ccc;
+    background-image: linear-gradient(to top, white, white);
+    -webkit-backface-visibility: hidden;
+    z-index: 1;
+}
+
+.button:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, gainsboro, gainsboro);
+    transition: opacity 0.5s ease-out;
+    z-index: 2;
+    opacity: 0;
+}
+
+.button:hover:after {
+    opacity: 1;
+}
+
+.anchor-prods {
+    text-decoration: none;
+    color: black;
+}
+
+.anchor-prods:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.button div,
+span {
+    position: relative;
+    z-index: 3;
+}
+
+.contenido-btn-nuestros-prods {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* ICONOS CONTRATA EN LINEA */
+
+.icon1 {
+    background: url("../../nuevo-home/img/seccion-contrata-en-linea/tdc.svg") no-repeat center center;
+    width: 30px;
+    height: 30px;
+    background-size: 100%;
+}
+
+.icon2 {
+    background: url("../../nuevo-home/img/seccion-contrata-en-linea/cuentas.svg") no-repeat center center;
+    width: 30px;
+    height: 30px;
+    background-size: 100%
+}
+
+.icon3 {
+    background: url("../../nuevo-home/img/seccion-contrata-en-linea/inversiones.svg") no-repeat center center;
+    width: 30px;
+    height: 30px;
+    background-size: 100%;
+}
+
+.icon4 {
+    background: url("../../nuevo-home/img/seccion-contrata-en-linea/credit-hipotec.svg") no-repeat center center;
+    width: 30px;
+    height: 30px;
+    background-size: 100%
+}
+
+.icon5 {
+    background: url("../../nuevo-home/img/seccion-contrata-en-linea/credit-automot.svg") no-repeat center center;
+    width: 30px;
+    height: 30px;
+    background-size: 100%
+}
+
+.icon6 {
+    background: url("../../nuevo-home/img/seccion-contrata-en-linea/credit-personal.svg") no-repeat center center;
+    width: 30px;
+    height: 30px;
+    background-size: 100%
+}
+
+.icon7 {
+    background: url("../../nuevo-home/img/seccion-contrata-en-linea/seguros.svg") no-repeat center center;
+    width: 30px;
+    height: 30px;
+    background-size: 100%
+}
+
+.icon8 {
+    background: url("../../nuevo-home/img/seccion-contrata-en-linea/trae-tu-nomina.svg") no-repeat center center;
+    width: 30px;
+    height: 30px;
+    background-size: 100%
+}
+
+.p-btn-nuestros-prods {
+    font-family: "SantanderText-Light", sans-serif;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.button:hover>div .p-btn-nuestros-prods {
+    color: red;
+}
+
+.h1-nuestros-prods {
+    font-family: "SantanderText-Bold", sans-serif;
+    font-size: 23px;
+}
+
+
+/* @media screen and (max-width: 1200px) {
+    .icon1,
+    .icon2,
+    .icon3,
+    .icon4,
+    .icon5,
+    .icon6,
+    .icon7,
+    .icon8 {
+        width: 25px;
+        height: 25px;
+    }
+}
+
+@media screen and (max-width: 1117px) {
+    .icon1,
+    .icon2,
+    .icon3,
+    .icon4,
+    .icon5,
+    .icon6,
+    .icon7,
+    .icon8 {
+        width: 25px;
+        height: 25px;
+    }
+    .p-btn-nuestros-prods {
+        font-size: 12px;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 1037px) {
+    .icon1,
+    .icon2,
+    .icon3,
+    .icon4,
+    .icon5,
+    .icon6,
+    .icon7,
+    .icon8 {
+        width: 25px;
+        height: 25px;
+    }
+    .p-btn-nuestros-prods {
+        font-size: 12px;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 957px) {
+    .icon1,
+    .icon2,
+    .icon3,
+    .icon4,
+    .icon5,
+    .icon6,
+    .icon7,
+    .icon8 {
+        width: 25px;
+        height: 25px;
+    }
+    .p-btn-nuestros-prods {
+        font-size: 12px;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 873px) {
+    .icon1,
+    .icon2,
+    .icon3,
+    .icon4,
+    .icon5,
+    .icon6,
+    .icon7,
+    .icon8 {
+        width: 20px;
+        height: 20px;
+    }
+    .p-btn-nuestros-prods {
+        font-size: 11px;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 793px) {
+    .icon1,
+    .icon2,
+    .icon3,
+    .icon4,
+    .icon5,
+    .icon6,
+    .icon7,
+    .icon8 {
+        width: 20px;
+        height: 20px;
+    }
+    .p-btn-nuestros-prods {
+        font-size: 11px;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 711px) {
+    .icon1,
+    .icon2,
+    .icon3,
+    .icon4,
+    .icon5,
+    .icon6,
+    .icon7,
+    .icon8 {
+        width: 40px;
+        height: 40px;
+    }
+    .p-btn-nuestros-prods {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .estilo-contenedor-flotante {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .h1-nuestros-prods {
+        font-family: "SantanderText-Bold", sans-serif;
+        font-size: 23px;
+        text-align: center;
+    }
+    .contendor-nuestros-productos {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 649px) {
+    .icon1,
+    .icon2,
+    .icon3,
+    .icon4,
+    .icon5,
+    .icon6,
+    .icon7,
+    .icon8 {
+        width: 40px;
+        height: 40px;
+    }
+    .p-btn-nuestros-prods {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 621px) {
+    .icon1,
+    .icon2,
+    .icon3,
+    .icon4,
+    .icon5,
+    .icon6,
+    .icon7,
+    .icon8 {
+        width: 35px;
+        height: 35px;
+    }
+    .p-btn-nuestros-prods {
+        font-size: 13px;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 581px) {
+    .icon1,
+    .icon2,
+    .icon3,
+    .icon4,
+    .icon5,
+    .icon6,
+    .icon7,
+    .icon8 {
+        width: 35px;
+        height: 35px;
+    }
+    .p-btn-nuestros-prods {
+        font-size: 13px;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 489px) {
+    .icon1,
+    .icon2,
+    .icon3,
+    .icon4,
+    .icon5,
+    .icon6,
+    .icon7,
+    .icon8 {
+        width: 35px;
+        height: 35px;
+    }
+    .p-btn-nuestros-prods {
+        font-size: 13px;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .icon1,
+    .icon2,
+    .icon3,
+    .icon4,
+    .icon5,
+    .icon6,
+    .icon7,
+    .icon8 {
+        width: 35px;
+        height: 35px;
+    }
+    .p-btn-nuestros-prods {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .contendor-nuestros-productos {
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 389px) {
+    .icon1,
+    .icon2,
+    .icon3,
+    .icon4,
+    .icon5,
+    .icon6,
+    .icon7,
+    .icon8 {
+        width: 30px;
+        height: 30px;
+    }
+    .p-btn-nuestros-prods {
+        font-size: 12px;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 349px) {
+    .icon1,
+    .icon2,
+    .icon3,
+    .icon4,
+    .icon5,
+    .icon6,
+    .icon7,
+    .icon8 {
+        width: 30px;
+        height: 30px;
+    }
+    .p-btn-nuestros-prods {
+        font-size: 12px;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 329px) {
+    .icon1,
+    .icon2,
+    .icon3,
+    .icon4,
+    .icon5,
+    .icon6,
+    .icon7,
+    .icon8 {
+        width: 25px;
+        height: 25px;
+    }
+    .p-btn-nuestros-prods {
+        font-size: 11px;
+        margin-top: 10px;
+    }
+}
+ */
+
+@media screen and (max-width: 992px) {
+    .button {
+        width: 25%;
+    }
+    #contenedorFijo {
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 576px) {
+    .title-nuestros-productos {
+        text-align: center;
+        font-size: 30px;
+    }
+    .button {
+        width: 50%;
+    }
+    #contenedorFijo {
+        height: 550px;
+    }
+}
