@@ -1,0 +1,2202 @@
+#seccionHeader {
+    margin-top: 156px;
+}
+
+.scrollMenuRivs::-webkit-scrollbar,
+#sectionSubMenuSeguros .content-submenu::-webkit-scrollbar,
+.section-show-info .content-submenu::-webkit-scrollbar {
+    display: none;
+}
+
+.scrollMenuRivs,
+#sectionSubMenuSeguros .content-submenu,
+.section-show-info .content-submenu::-webkit-scrollbar {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.breadcrumb-header {
+    position: absolute;
+    top: -52px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumb-header a {
+    font-family: 'Santander Micro Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #767676;
+    width: max-content;
+}
+
+.breadcrumb-header a.title-active {
+    color: #404040;
+}
+
+.breadcrumb-header img,
+.breadcrumb-header-banner img {
+    width: 16px;
+    height: 16px;
+    margin: 0 10px;
+}
+
+.breadcrumb-header-banner a {
+    font-family: 'Santander Micro Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #767676;
+    width: max-content;
+}
+
+.breadcrumb-header-banner {
+    position: absolute;
+    top: -52px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+
+.div-content .header .div-text {
+    max-width: 611px;
+}
+
+#seccionHeader h1 {
+    margin-bottom: 16px;
+}
+
+.div-content .header h1,
+.div-content .header h2 {
+    font-family: 'Santander Headline';
+    font-size: 60px;
+    line-height: 64px;
+    font-weight: bold;
+    color: #EC0000;
+}
+
+.div-content .header p,
+.div-content .beneficios p,
+.div-content .div-pasos .row-title p {
+    font-family: 'Santander Text';
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #404040;
+}
+
+.div-content .header p {
+    max-width: 505px;
+    margin-bottom: 40px;
+}
+
+.header-image img {
+    padding-top: 0px !important;
+}
+
+.font-weight-bold no-wrap{
+    font-weight: 400 !important;
+    /* margin-bottom: 32px; */
+}
+
+#seccionHeader button,
+#sectionCasoSiniestro button {
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 12px 40px;
+    background: #EC0000;
+    border-radius: 48px;
+    border: 0;
+}
+
+.div-aplica-aqui button
+{
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 12px 40px;
+    background: #EC0000;
+    border-radius: 48px;
+    border: 0;
+    margin-top: 24px;
+}
+
+.quitarBordesPadding
+{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.quitarBordesPaddingArriba
+{
+    padding-top: 0px;
+}
+
+.div-aplica-aqui button
+{
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 12px 40px;
+    background: #EC0000;
+    border-radius: 48px;
+    border: 0;
+    margin-top: 24px;
+    margin-left: 5px;
+}
+
+.quitarBordesPadding
+{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#seccionHeader .forma-boton {
+    padding: 0px 0px;
+}
+
+#seccionHeader .forma-boton-aseguralo {
+    padding: 12px 40px;
+}
+
+
+#seccionHeader .parrafo_banner2 {
+    margin-top: 24px;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+#seccionHeader .texto-buenfin {
+    max-width: max-content;
+    margin-bottom: 16px;
+}
+
+.texto-banner-buenfin {
+    font-weight: 100;
+    font-size: 20px;
+}
+
+
+#seccionRequisitos button {
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 12px 40px;
+    background: #EC0000;
+    border-radius: 48px;
+    border: 0;
+    margin-top: 24px;
+}
+
+#buttonRequisitos {
+    justify-content: left;
+}
+
+.div-content a {
+    text-decoration: none;
+}
+
+.div-content .img-header-desktop {
+    width: calc(100% + 100px);
+    margin-top: -45px;
+}
+
+#sectionSubMenuSeguros .content-submenu,
+.section-show-info .content-submenu {
+    text-align: center;
+    overflow: auto;
+    white-space: nowrap;
+
+}
+
+.section-show-info .content-submenu {
+    margin-bottom: 52px;
+}
+
+#sectionSubMenuSeguros .content-submenu a,
+.section-show-info .content-submenu a {
+    font-family: 'Santander Text';
+    margin-right: 40px;
+    text-decoration: none;
+    display: inline-block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #404040;
+    cursor: pointer;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#sectionSubMenuSeguros .content-submenu a:last-child,
+.section-show-info .content-submenu a:last-child {
+    margin-right: 0px !important;
+}
+
+#sectionSubMenuSeguros .content-submenu a.active,
+.section-show-info .content-submenu a.active {
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    color: #404040;
+    cursor: pointer;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.content-submenu .active::after {
+    content: "";
+    display: block;
+    width: 50%;
+    height: 2px;
+    background-color: red;
+    margin: 0 auto;
+}
+
+.beneficios {
+    padding-top: 128px;
+}
+
+.beneficios .h1ComoObtenerla,
+.list-bullets .title {
+    font-family: 'Santander Headline';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    text-align: center;
+    color: #191919;
+    margin-bottom: 16px;
+}
+
+.beneficios .pComoObtenerla,
+.list-bullets .subtitle {
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    color: #404040;
+    margin-bottom: 80px;
+}
+
+
+.beneficios .bannerBeneficios {
+    width: 100%;
+    max-width: 1440px;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    margin-top: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.linea-express .bannerBeneficios {
+    width: 100%;
+    max-width: 1440px;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    margin-top: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.prestamos-personales .bannerBeneficios {
+    width: 100%;
+    max-width: 1440px;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    margin-top: 120px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.contenedorPsmall {
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #191919;
+}
+
+.divSmall  {
+    font-family: 'Santander Micro Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #767676;
+}
+
+#requisitosDetalles .divSmallP{
+    font-family: 'Santander Micro Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #767676;
+    text-align: start;
+    margin-bottom: 0;
+}
+
+.ajustePNumero{
+    font-family: 'Santander Micro Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #767676;
+}
+
+.smallCostoYbenef {
+    font-family: 'Santander Micro Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #404040;
+    margin-left: 5px;
+    max-width: 95%;
+}
+
+.spanBlack {
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    color: #404040;
+    letter-spacing: 0.05em;
+}
+
+.spanNormal {
+    font-family: 'Santander Micro Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #404040;
+}
+
+.smallCostoYb {
+    font-family: 'Santander Micro Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #404040;
+}
+
+.subRequisitos {
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    margin-bottom: 24px;
+    margin-left: 5px;
+}
+
+.caja-acordeon-tyc {
+    /* margin-bottom: 5px; */
+}
+
+.caja-acordeon-tyc .accordioncito {
+    background-color: white;
+    width: 100%;
+    /* height: 50px; */
+    border: none;
+    outline: none;
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+    /*Fuente*/
+    font-family: 'Santander Micro Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: left;
+    color: #404040;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 4px;
+    position: relative;
+    margin-left: 5px;
+
+
+    
+}
+
+.section-filtros-padding
+{
+    padding-bottom: 72px;
+}
+
+
+.caja-acordeon-tyc .accordioncito.active,
+.caja-acordeon-tyc .accordioncito:hover {
+    background-color: white;
+}
+
+
+.caja-acordeon-tyc .accordioncito::after {
+    content: url(../img/icons/flecha-down.html);
+    transform: scale(.5);
+    position: absolute;
+    left: 130px;
+    top: -10px;
+    bottom: 0;
+    margin: auto;
+}
+
+
+.caja-acordeon-tyc .accordioncito:not(.collapsed)::after
+{
+    content: url(../img/icons/flecha-up.html);
+    transform: scale(.5);
+    position: absolute;
+    left: 130px;
+    top: -10px;
+    bottom: 0;
+    margin: auto;
+    
+    
+}
+
+
+.caja-acordeon-tyc .accordioncito:disabled{
+    content: url(../img/icons/flecha-down.html);
+}
+
+
+
+ /* .caja-acordeon-tyc .accordioncito::before
+{
+    content: url(../img/icons/flecha-down.png);
+    transform: scale(.5);
+    position: absolute;
+    left: 130px;
+    top: -10px;
+    bottom: 0;
+    margin: auto;
+    background-color: #767676;
+}
+.caja-acordeon-tyc .accordioncito:hover {
+    background-color: red;
+}  */
+
+/* .caja-acordeon-tyc .accordioncito::before
+{
+    content: url(../img/icons/flecha-down.png);
+    transform: scale(.5);
+    position: absolute;
+    left: 130px;
+    top: -10px;
+    bottom: 0;
+    margin: auto;
+} */
+
+
+/* 
+.caja-acordeon-tyc .accordioncito:not(.collapsed)::before
+{
+    content: url(../img/icons/flecha-down.png);
+    transform: scale(.5);
+    position: absolute;
+    left: 130px;
+    top: -10px;
+    bottom: 0;
+    margin: auto;
+} */
+
+
+
+
+
+/* .caja-acordeon-tyc .accordioncito::after {
+    display: none;
+    
+} */
+
+/* .caja-acordeon-tyc .accordioncito.active {
+    box-shadow: 2px 2px 2px #000000;
+} */
+
+
+
+/* 
+.caja-acordeon-tyc .accordioncito::before {
+    content: url(../img/icons/flecha-down.png);
+    transform: scale(.5);
+    position: absolute;
+    left: 130px;
+    top: -10px;
+    bottom: 0;
+    margin: auto;
+}
+
+.caja-acordeon-tyc .accordioncito::after {
+    display: none;
+    
+}
+
+.caja-acordeon-tyc .accordioncito.active:after {
+    display: none;
+}
+
+
+.caja-acordeon-tyc .accordioncito.active {
+    content: url(../img/icons/flecha-up.png);
+    transform: scale(.5);
+    position: absolute;
+    left: 130px;
+    top: -10px;
+    bottom: 0;
+    margin: auto;
+} */
+
+.caja-acordeon-tyc .panel-cont {
+    background: white;
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transition: 0.6s ease-in-out;
+    -o-transition: 0.6s ease-in-out;
+    transition: 0.6s ease-in-out;
+    opacity: 0;
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.caja-acordeon-tyc .panel-cont.show {
+    opacity: 1;
+    max-height: 100%;
+}
+
+.caja-acordeon-tyc .info-preguntas {
+    font-family: "Santander Micro Text", sans-serif;
+    font-weight: 100;
+}
+
+.accordioncito {
+    font-family: 'Santander Micro Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+    color: #404040;
+
+    
+}
+
+.puntosSuspensivos {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+#anc-2 .info-preguntas {
+    font-family: 'Santander Micro Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #767676;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-top: 8px;
+    margin-bottom: 0;
+    margin-left: 0px;
+    max-width: 100%;
+    margin-right: 0px;
+    text-align: start;
+}
+
+#costosComi {
+    margin-bottom: 24px;
+}
+
+#anc-2 .requisitos {
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #EC0000;
+    text-align: start;
+    margin-bottom: 16px;
+}
+
+.beneficios .bannerBeneficios img {
+    width: 100%;
+}
+
+.beneficios .bannerHospitalizacionSegura {
+    margin-top: 140px;
+}
+
+
+.beneficios .carousel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.beneficios .carousel-cell {
+    width: 33%;
+    text-align: center;
+    margin-bottom: 72px;
+}
+
+.super-blindaje-beneficios .carousel-cell:nth-child(4),
+.super-blindaje-beneficios .carousel-cell:nth-child(5),
+.super-blindaje-beneficios .carousel-cell:nth-child(6) {
+    margin-bottom: 72px !important;
+}
+
+.super-blindaje-beneficios .carousel-cell:nth-child(7),
+.super-blindaje-beneficios .carousel-cell:nth-child(8) {
+    margin-bottom: 0px;
+}
+
+.beneficios .carousel-cell:nth-child(4),
+.beneficios .carousel-cell:nth-child(5),
+.beneficios .carousel-cell:nth-child(6) {
+    margin-bottom: 0px;
+}
+
+.beneficios .elipseExterior img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 22px;
+}
+
+.elipseExterior {
+    height: 55px;
+}
+
+
+.prestamos-personales .carousel-cell:nth-child(3) img{    
+    width: 32px;
+}
+
+.select-efectivo .carousel-cell:nth-child(3) img{    
+    height: 34px;
+}
+
+.linea-express .carousel-cell:nth-child(1) img{    
+    width: 31px;
+}
+
+.linea-express .carousel-cell:nth-child(2) img{    
+    height: 28px;
+}
+
+.linea-express .carousel-cell:nth-child(3) img{    
+    height: 32px;
+}
+
+.beneficiosAhorro .elipseExterior {
+    height: 46px;
+    margin-bottom: 24px;
+}
+
+.beneficios .h1IconosBeneficios {
+    font-family: 'Santander Headline';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 125%;
+    text-align: center;
+    color: #191919;
+    margin-bottom: 16px;
+}
+
+.beneficios .pIconosBeneficios {
+    font-family: 'Santander Micro Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    color: #404040;
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+.text-red {
+    color: #EC0000 !important;
+    font-weight: bold !important;
+}
+
+.text-black-telefono {
+    color: #404040 !important;
+    font-weight: bold !important;
+}
+
+.text-justify .parrafo-requisitos
+{
+    text-align: left;
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #191919;
+}
+
+
+.section-como a {
+    cursor: pointer;
+}
+
+.section-que-es .informes {
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #404040;
+    margin-top: 6px;
+}
+
+.section-show-info #caracteristicas h1,
+.section-show-info #coberturas-y-asistencias h1 {
+    margin-top: 0px;
+}
+
+.section-show-info #suma-asegurada .aviso-suma-asegurada {
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #191919;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.section-show-info #suma-asegurada h4 {
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 125%;
+    color: #191919;
+    margin-bottom: 16px;
+}
+
+.mas-beneficios h3 {
+    font-family: 'Santander Headline';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #EC0000;
+    margin-bottom: 8px;
+}
+
+.mas-beneficios h2 {
+    font-family: 'Santander Headline';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 125%;
+    color: #191919;
+    margin-bottom: 8px;
+}
+
+.mas-beneficios .carousel .carousel-cell {
+    max-width: 50%;
+    padding-right: 64px;
+    margin-bottom: 24px;
+    width: 100%;
+}
+
+.mas-beneficios img {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 8px;
+}
+
+.mas-beneficios h4 {
+    font-family: 'Santander Headline';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
+    margin-bottom: 16px;
+}
+
+.mas-beneficios .contenido {
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mas-beneficios .contenido-footer {
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #191919;
+    mix-blend-mode: normal;
+}
+
+.section-generico .contenedor-bullet {
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #191919;
+    /* margin-bottom: 16px; */
+    align-items: initial;
+    text-align: left;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.section-generico .contenedor-bullet img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.section-generico .contenedor-bullet .text {
+    padding-top: 3px;
+}
+
+.estudios-medicos .informes,
+.mas-beneficios .informes {
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #404040;
+    text-align: center;
+    margin-top: 56px;
+}
+
+.section-generico .img-fluid {
+    width: 100%;
+    max-width: 443px;
+}
+
+.section-generico h1 {
+    font-family: 'Santander Headline';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 125%;
+    color: #191919;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.section-generico p {
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #404040;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.section-generico .parrafoProteccionMedica {
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #404040;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.section-generico .terminos-y-condiciones {
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #404040;
+    margin-top: 96px;
+}
+
+.descarga-aplicacion .subtitle-descarga-aplicacion,
+.basico .subtitle {
+    margin-top: 8px;
+    margin-bottom: 32px;
+}
+
+.section-generico .contenedor-store {
+    width: 100%;
+    margin-top: 32px;
+    margin-bottom: 24px;
+}
+
+.section-generico .contenedor-store img {
+    width: auto;
+    height: 41px;
+    padding-right: 20px;
+}
+
+h2 {
+    font-family: 'Santander Headline';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 125%;
+    color: #191919;
+}
+
+.preguntas h2 {
+    font-family: 'Santander Headline';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 125%;
+    color: #191919;
+}
+
+.section-generico h3,
+.section-generico-credito-personal h3,
+#anc-2 .requisitos
+{
+    font-family: 'Santander Headline';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #EC0000;
+    margin-bottom: 40px;
+}
+
+#anc-2 .requisitos
+{
+    font-family: 'Santander Headline';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #EC0000;
+    margin-bottom: 28px;
+}
+
+.section-generico {
+    padding-top: 128px;
+}
+
+.section-que-es,
+.indemnizacion {
+    padding-top: 0px !important;
+}
+
+.descargas .content-btn-descarga {
+    /* padding-top: 32px; */
+    margin-bottom: 37.5px;
+}
+
+.descargas .formaDelBtn:hover {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    border: 2px solid #767676;
+    border-radius: 8px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    cursor: pointer;
+}
+
+.descargas .formaDelBtn:hover .icon-pdf {
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/icons/icon_pdf.html);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.descargas .formaDelBtn:focus {
+    background: #F3F8FA !important;
+    border: 2px solid #767676;
+    border-radius: 8px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.descargas .formaDelBtn {
+    padding: 0px;
+    width: 100%;
+    max-width: 291px;
+    height: 54px;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    box-sizing: border-box;
+    border-radius: 8px;
+    /* margin-bottom: 12px; */
+    margin-right: 24px;
+}
+
+.descargas .centraInteriorBtn {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.descargas .icon-pdf {
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/icons/icon_pdf.html);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.descargas .txtInteriorBtn {
+    font-family: 'Santander Micro Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    color: #4C4C4C;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 8px;
+    
+    white-space: nowrap; 
+    text-overflow: ellipsis; 
+    overflow: hidden;
+    max-width: 100%;
+    
+}
+
+.btn-group .btn-secondary
+{
+    margin-left: 0px;
+    margin-right: 10px;
+}
+
+.conAltura
+{
+    margin-left: 5px;
+}
+
+
+
+.aquiVerMasInformacion{
+    font-family: 'Santander Micro Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 150%;
+    color: #767676;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-top: 13.5px;
+    margin-bottom: 0;    
+}
+
+.conAltura:nth-child(3) div {
+    margin-bottom: 0;
+}
+
+.descargas .btn-privacidad {
+    max-width: 459px;
+}
+
+.descargas .btn-contratounico-credito {
+    max-width: 246px;
+    margin-bottom: 8px;
+}
+
+.descargas .btn-contratounico-consumo {
+    max-width: 396px;
+    margin-bottom: 8px;
+}
+
+.descargas .btn-contratounico-24x7 {
+    max-width: 355px;
+}
+
+.descargas .btn-contratounico-247Jur454 {
+    max-width: 421px;
+}
+
+.descargas .btn-credito-consumo {
+    max-width: 396px;
+}
+
+.descargas .btn-folleto-electronico {
+    max-width: 201px;
+}
+
+
+.descargas .btn-medios {
+    max-width: 201px;
+}
+
+.descargas .btn-motos {
+    max-width: 198px;
+}
+
+.descargas .btn-welcom {
+    max-width: 161px;
+}
+
+.descargas .btn-condiciones {
+    max-width: 226px;
+}
+
+
+.title-desktop {
+    display: block;
+}
+
+.title-mobil {
+    display: none;
+}
+
+.divotrosbeneficios {
+    margin-top: 88px;
+}
+
+.divotrosbeneficios .icon-insignia {
+    width: 32px;
+    height: 32px;
+}
+
+.divotrosbeneficios p {
+    display: inline;
+    width: 643px;
+    height: 33px;
+    left: 214px;
+    top: 1701px;
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #EC0000;
+    padding-left: 12px;
+
+}
+
+.listaotrosBeneficios {
+    margin: 16px 0px 0px 34px;
+}
+
+
+.listaotrosBeneficios li {
+    left: 214px;
+    top: 1750px;
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #404040;
+
+}
+
+.listaCaracteristicas {
+    padding: 24px 0px 0px 20px;
+}
+
+.listaCaracteristicas li {
+    width: auto;
+    height: auto;
+    left: 419px;
+    top: 3453px;
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #404040;
+}
+
+.quitarMargenInferior {
+    margin-bottom: 0px;
+}
+
+
+.visible {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 2s linear;
+}
+
+/* Fade-Out Effect */
+.hidden {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s 2s, opacity 2s linear;
+}
+
+.no-wrap {
+    white-space: nowrap;
+}
+
+.section-show-info #plan-basico h1,
+.section-show-info #plan-estandar h1,
+.section-show-info #plan-premium h1 {
+    font-size: 48px !important;
+}
+
+.section-pymes-coberturas h1 {
+    margin-bottom: 8px;
+}
+
+.descargas .dropdown-menu {
+    width: 100%;
+}
+
+.descargas .dropdown-menu .dropdown-item {
+    font-family: 'Santander Micro Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #767676;
+}
+
+#sectionCasoSiniestro ul {
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #404040;
+}
+
+#sectionCasoSiniestro .aviso-canal {
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 700;
+    text-align: justify;
+    font-size: 12px;
+    line-height: 150%;
+    color: #404040;
+    margin-bottom: 24px;
+}
+
+/* .img-lateral {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    position: absolute;
+    right: 0;
+    top: 1474.93px;
+    transform: translateY(-50%);
+    z-index: 1;
+} */
+
+#anc-2 hr {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    color: #D9D9D9;
+    border: 1px solid #D9D9D9;
+}
+
+@media(max-width: 2500px) {
+    .descargas .formaDelBtn {
+        margin-bottom: 8px;
+    }
+}
+
+@media(max-width: 991px) {
+
+    .conAltura
+    {
+        margin-left: 14px;
+    }
+
+    .contenedor-img-lateral{
+        width: auto;
+        text-align: center;
+    }
+
+    /* .contenedor-img-lateral .img-lateral
+    {
+        text-align: center;
+        content: url(../img/telefono-inclinado-completo.png);
+        max-width: 375px;
+        left: 2%;
+    }
+
+    .img-lateral {
+        max-width: 375px;
+        height: auto;
+        position: relative;
+        right: 0;
+        top: 0;
+        transform: translateY(0);
+        z-index: 1;
+    } */
+
+    #sectionCasoSiniestro ul {
+        font-size: 17px;
+    }
+
+    .section-show-info #plan-basico h1,
+    .section-show-info #plan-estandar h1,
+    .section-show-info #plan-premium h1 {
+        font-size: 28px !important;
+    }
+
+    .section-caracteristicas-agro h1 {
+        margin-top: 0px;
+    }
+
+    .div-content .header h1,
+    .div-content .header h2 {
+        font-size: 32px;
+        line-height: 125%;
+    }
+
+    #seccionHeader .img-header-desktop {
+        max-width: 400px;
+        margin-top: 0px;
+        width: calc(100% + 16px);
+    }
+
+    .div-content .header .div-text {
+        position: relative;
+    }
+
+    #seccionHeader .texto-buenfin {
+        max-width: initial;
+        margin-bottom: 16px;
+    }
+
+    .beneficios {
+        padding-top: 96px;
+    }
+
+    #seccionHeader p {
+        margin-bottom: 14px;
+    }
+
+    #sectionCondicionesGenerales {
+        padding-top: 24px;
+    }
+
+    .div-content .header p,
+    .div-content .desc-beneficios p {
+        font-size: 18px;
+        line-height: 150%;
+    }
+
+    #seccionHeader button,
+    #sectionCasoSiniestro button {
+        font-size: 15px;
+    }
+
+    #seccionRequisitos button {
+        font-size: 15px;
+    }
+
+
+    #sectionSubMenuSeguros .content-submenu a.active,
+    #sectionSubMenuSeguros .content-submenu a,
+    .section-show-info .content-submenu a.active,
+    .section-show-info .content-submenu a {
+        font-size: 17px;
+    }
+
+    .beneficios .bannerBeneficios {
+        margin-top: 170px;
+        left: 0;
+        transform: translateX(0);
+    }
+
+    .beneficios .h1ComoObtenerla,
+    .list-bullets .title {
+        font-size: 26px;
+        line-height: 125%;
+    }
+
+    .beneficios .pComoObtenerla,
+    .list-bullets .subtitle {
+        font-size: 18px;
+        line-height: 150%;
+        margin-bottom: 43.3px;
+    }
+
+    .beneficios .h1IconosBeneficios,
+    .mas-beneficios h4 {
+        font-size: 24px;
+        line-height: 125%;
+    }
+
+    .beneficios .pIconosBeneficios,
+    .mas-beneficios .contenido {
+        font-size: 14px;
+        line-height: 150%;
+    }
+
+    .mas-beneficios .contenido-footer {
+        padding-top: 48px;
+        text-align: center;
+    }
+
+    #sectionCondicionesGenerales p.center {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #sectionCondicionesGenerales p {
+        font-size: 14px;
+    }
+
+    .section-generico .contenedor-bullet {
+        font-size: 14px;
+        line-height: 150%;
+    }
+
+    .section-generico .contenedor-bullet img {
+        width: 24px;
+        height: 24px;
+        margin-right: 8px;
+        margin-left: 0;
+    }
+
+    .section-generico {
+        padding-top: 96px;
+    }
+
+    .section-que-es {
+        padding-top: 24px;
+    }
+
+    .section-generico h1 {
+        font-size: 28px !important;
+        line-height: 32px;
+    }
+
+    .list-bullets h1 {
+        text-align: center;
+        font-size: 21px;
+    }
+
+    .estudios-medicos .informes,
+    .mas-beneficios .informes {
+        font-family: 'Santander Micro Text';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 150%;
+        color: #404040;
+        margin-top: 18px;
+    }
+
+    .estudios-medicos .img-fluid,
+    .section-que-es .img-fluid,
+    #sectionCasoSiniestro .img-fluid {
+        max-width: 327px;
+        margin-bottom: 24px;
+    }
+
+    .basico h1 {
+        margin-top: 0px !important;
+    }
+
+    .section-generico p {
+        font-size: 17px;
+        margin-bottom: 24px;
+    }
+
+    .section-generico .parrafoProteccionMedica {
+        margin-bottom: 16px;
+    }
+
+    .preguntas h2,
+    #sectionCasoSiniestro h1 {
+        margin-top: 0px;
+        font-size: 28px;
+    }
+
+    h2 {
+        margin-top: 0px;
+        font-size: 28px;
+    }
+
+
+    .beneficios .elipseExterior img {
+        width: 40px;
+        height: 40px;
+        margin-bottom: 27.33px;
+    }
+
+    .beneficios .carousel,
+    .mas-beneficios .carousel,
+    .list-bullets .carousel {
+        display: block !important;
+    }
+
+    .beneficios .carousel-cell,
+    .list-bullets .carousel-cell {
+        margin-bottom: 60px;
+    }
+
+    .mas-beneficios .carousel-cell {
+        text-align: center;
+    }
+
+    .beneficios .carousel:after,
+    .mas-beneficios .carousel:after,
+    .list-bullets .carousel::after {
+        content: 'flickity';
+        display: none;
+    }
+
+    .beneficios .carousel .carousel-cell,
+    .list-bullets .carousel .carousel-cell {
+        width: 100%;
+    }
+
+    .list-bullets .carousel .carousel-cell {
+        padding: 0px 10%;
+    }
+
+    .mas-beneficios .carousel .carousel-cell {
+        width: 100%;
+        max-width: none;
+        padding-right: 0px;
+    }
+
+    .mas-beneficios .carousel .carousel-cell div {
+        width: 100%;
+        max-width: 327px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+
+    }
+
+    .beneficios .flickity-prev-next-button,
+    .mas-beneficios .flickity-prev-next-button {
+        top: 40px;
+    }
+
+    .list-bullets .flickity-prev-next-button {
+        top: 15px;
+    }
+
+    .beneficios .flickity-page-dots,
+    .mas-beneficios .flickity-page-dots,
+    .list-bullets .flickity-page-dots {
+        bottom: 0px;
+    }
+
+    .beneficios .flickity-page-dots .dot,
+    .mas-beneficios .flickity-page-dots .dot,
+    .list-bullets .flickity-page-dots .dot {
+        width: 8px;
+        height: 8px;
+        background-color: #D9D9D9;
+        border: 0;
+        margin: 0 4px;
+    }
+
+    .beneficios .flickity-button:disabled,
+    .mas-beneficios .flickity-button:disabled,
+    .list-bullets .flickity-button:disabled {
+        width: 32px;
+        height: 32px;
+        background: #CEDEE7;
+        border-radius: 44px;
+        color: #767676;
+    }
+
+    .beneficios .flickity-prev-next-button,
+    .mas-beneficios .flickity-prev-next-button,
+    .list-bullets .flickity-prev-next-button {
+        width: 32px;
+        height: 32px;
+        background: #FFFFFF;
+        box-shadow: 0px 6px 10px rgb(0 0 0 / 12%);
+        border-radius: 44px;
+        color: #EC0000;
+    }
+
+    .beneficios .flickity-prev-next-button.previous,
+    .mas-beneficios .flickity-prev-next-button.previous,
+    .list-bullets .flickity-prev-next-button.previous {
+        left: 0;
+    }
+
+    .beneficios .flickity-prev-next-button.next,
+    .mas-beneficios .flickity-prev-next-button.next,
+    .list-bullets .flickity-prev-next-button.next {
+        right: 0;
+    }
+
+    .beneficios .flickity-page-dots .dot.is-selected,
+    .mas-beneficios .flickity-page-dots .dot.is-selected,
+    .list-bullets .flickity-page-dots .dot.is-selected {
+        width: 16px;
+        background: #000000;
+        border: 1px solid #000000;
+        border-radius: 40px;
+    }
+
+    .beneficios .bannerBeneficios {
+        display: none;
+    }
+
+    .mas-beneficios h3 {
+        font-family: 'Santander Headline';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 100%;
+        text-align: center;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: #EC0000;
+    }
+
+    .mas-beneficios h2 {
+        font-family: 'Santander Headline';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 125%;
+        /* or 35px */
+
+        text-align: center;
+
+        /* Default / Primary / Onyx */
+
+        color: #000000;
+
+        margin-bottom: 48px;
+    }
+
+    .divotrosbeneficios {
+        margin-top: 32px;
+    }
+
+    .divotrosbeneficios p {
+        font-size: 18px;
+        padding-left: 8px;
+    }
+
+    .listaCaracteristicas {
+        padding: 32px 0px 0px 20px;
+    }
+
+    .section-generico .contenedor-store img {
+        width: 100%;
+        max-height: 32px;
+        padding-right: 12px;
+        margin-right: 0px;
+    }
+
+    .descarga-aplicacion .subtitle-descarga-aplicacion {
+        margin-top: 16px;
+        margin-bottom: 24px;
+    }
+
+    .section-generico .terminos-y-condiciones {
+        font-family: 'Santander Micro Text';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 150%;
+        color: #404040;
+        text-align: left;
+        margin-top: 78px;
+    }
+
+    .indemnizacion h1 {
+        margin-top: 0px;
+    }
+
+    .section-generico .col-md-10{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    #content-text-sinister{
+        text-align: center;
+    }
+}
+
+@media (max-width: 767px) {
+
+   
+
+    .breadcrumb-header {
+        display: none;
+    }
+
+    .breadcrumb-header-banner {
+        display: none;
+    }
+
+    #seccionHeader .div-text {
+        position: relative;
+        text-align: center;
+    }
+
+    #seccionHeader p {
+        max-width: none;
+    }
+
+    #seccionHeader .img-header-desktop {
+        margin-top: 0px;
+        width: calc(100% + 23px);
+    }
+
+    #seccionRequisitos button {
+        margin-top: 0px;
+    }
+
+    #buttonRequisitos {
+        justify-content: center;
+    }
+
+    .beneficios .bannerBeneficios {
+        display: none;
+    }
+
+    .mas-beneficios h3 {
+        font-size: 18px;
+        line-height: 100%;
+        text-align: center;
+        margin-bottom: 16px;
+    }
+
+    .mas-beneficios h2 {
+        font-size: 28px;
+        line-height: 32px;
+        text-align: center;
+    }
+
+    .section-generico h1,
+    .section-generico h2,
+    .section-generico p {
+        text-align: center;
+    }
+
+    .section-generico .parrafoProteccionMedica {
+        font-size: 12px;
+        text-align: left;
+    }
+
+    #sectionSubMenuSeguros .content-submenu a,
+    .section-show-info .content-submenu a {
+        margin-right: 15px;
+    }
+
+    .section-como h1,
+    #plan-basico h1,
+    #plan-estandar h1 {
+        margin-top: 0px;
+    }
+
+    .estudios-medicos .img-fluid {
+        margin-bottom: 0px;
+    }
+
+    .title-desktop {
+        display: none;
+    }
+
+    .title-mobil {
+        display: block;
+    }
+
+    #seccionHeader button,
+    #sectionCasoSiniestro button
+     {
+        font-size: 16px;
+    }
+
+    .div-aplica-aqui button
+    {
+        font-size: 16px;
+    }
+
+    #seccionHeader {
+        margin-top: 120px;
+    }
+
+    .beneficios .pIconosBeneficios,
+    .mas-beneficios .contenido {
+        font-size: 12px;
+        max-width: 248px;
+    }
+
+    .section-generico .contenedor-bullet {
+        max-width: 327px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .descargas .content-btn-descarga {
+        /* padding-top: 24px; */
+        margin-bottom: 32px;
+    }
+
+    .section-generico .contenedor-store {
+        justify-content: center;
+    }
+
+    .section-como .margenCoberturasTitulo {
+        margin-top: 0px;
+    }
+
+    .section-show-info h1 {
+        margin-top: 0px;
+    }
+
+    .section-pymes-coberturas h1 {
+        margin-top: 0%;
+    }
+
+    .div-aplica-aqui {
+        text-align: center;
+    }
+
+    .descargas .txtInteriorBtn {
+        
+        white-space: nowrap; 
+        text-overflow: ellipsis; 
+        overflow: hidden;
+        max-width: 100%;
+        
+    }
+    
+    .descargas .centraInteriorBtn {
+        display: inline-flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+        text-decoration: none;
+        padding-left: 24px;
+    }
+
+    
+    .smallCostoYb{
+        color: #767676;
+    }
+    
+
+    .col-12:nth-child(1) .smallCostoYb{
+        margin-bottom: 16px;
+    }
+
+    .col-12:nth-child(2) .smallCostoYb{
+        margin-bottom: 0;
+    }
+
+    .text-justify .parrafo-requisitos
+    {
+        font-size: 16px;
+    }
+
+    .section-generico h3,
+    .section-generico-credito-personal h3 {
+        margin-bottom: 24px;
+    }
+
+}
+
+@media (max-width: 380px) {
+    .section-generico .contenedor-bullet {
+        /* max-width: 295px; */
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+}
+
+
+
+@media (max-width: 374px) {
+
+    .btn-privacidad .txtInteriorBtn {
+        width: 80%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .descargas .centraInteriorBtn {
+        justify-content: start;
+    }
+
+    .descargas .formaDelBtn {
+        padding-left: 10px;
+    }
+}
+
+@media (min-width: 992px) {
+    .list-bullets .carousel {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+        -webkit-column-gap: 1.25rem;
+        -moz-column-gap: 1.25rem;
+        column-gap: 1.25rem;
+        orphans: 1;
+        widows: 1;
+        column-fill: auto;
+        height: 900px;
+        margin: 0px 15px;
+        display: inline-block;
+    }
+
+    .list-bullets .carousel-cell {
+        width: 100%;
+        padding-right: 24px;
+        margin-bottom: 24px;
+    }
+
+}
+
+@media (min-width: 993px) and (max-width: 1015px) {
+    .list-bullets .carousel {
+        height: 995px;
+    }
+}
+
+@media (min-width: 999px) and (max-width: 1015px) {
+    .list-bullets .carousel {
+        height: 990px;
+    }
+}
+
+@media (min-width: 1016px) and (max-width: 1032px) {
+    .list-bullets .carousel {
+        height: 963px;
+    }
+}
+
+
+@media (min-width: 1355px) {
+    .list-bullets .carousel {
+        height: 846px;
+    }
+}
+
+@media (min-width: 1390px) {
+    .list-bullets .carousel {
+        height: 840px;
+    }
+}
+
+@media(max-width: 500px) {
+
+    .descargas .txtInteriorBtn {
+        
+        white-space: nowrap; 
+        text-overflow: ellipsis; 
+        overflow: hidden;
+        max-width: 77%;
+        
+    }
+    
+}
+
+@media(max-width: 450px) {
+
+    .beneficios .h1IconosBeneficios,
+    .mas-beneficios h4 {
+        max-width: 260px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+@media(max-width: 767px) {
+    .header-image {
+        margin-bottom: 38.2px;
+    }
+
+        .breadcrumb-header {
+            display: none;
+        }
+    
+        .section-filtros-padding
+    {
+        padding-bottom: 48px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    #requisitosDetalles .col-12 {
+        flex: 0 0 50%;
+    }
+}
+
+
+@media(max-width: 575px) {
+
+    .centraInfoPromocional:hover {
+        background: #FFFFFF;
+        box-shadow: 0px 40px 40px -4px rgb(0 0 0 / 12%);
+        border-radius: 8px;
+    }
+    
+    
+
+    .conAltura .cell-margin
+    {
+        margin-bottom: 0px;
+    }
+
+    .contenedor-tipos-seguros div
+    {
+        padding-left: 0px;
+        padding-right: 0px;
+
+    }
+
+
+    #anc-2 .requisitos {
+        font-family: 'Santander Headline';
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 00.2em;
+        color: #EC0000;
+    }
+
+    #anc-2 .subRequisitos {
+        font-size: 16px;
+        text-align: justify;
+    }
+
+    .section-generico .contenedor-bullet img {
+        margin-top: 2px;
+    }
+
+    .contenedorPsmall {
+        font-size: 18px;
+    }
+
+    .divSmall {
+        font-size: 12px;
+        color: #404040;
+    }
+
+    #anc-2 .section-generico h3 {
+        margin-bottom: 24px;
+    }
+
+    .section-generico h3, .section-generico-credito-personal h3{
+        margin-bottom: 24px;
+    }
+
+    .prestamo-personal h2 {
+        margin-bottom: 16px;
+    }
+
+    #anc-2 .info-preguntas{
+        text-align: start;
+        max-width: 100%;
+    }
+
+    hr {
+        border: 1px solid #D9D9D9;        
+    }
+
+    #contratalo .section-generico h3{
+        margin-bottom: 24px;
+    }
+
+    #ajusteAltura{
+        margin-bottom: 16px;
+    }
+
+    #requisitosDetalles{
+        margin: 0;
+    }
+
+    .conAltura{
+        margin-left: 0;  
+    }
+}

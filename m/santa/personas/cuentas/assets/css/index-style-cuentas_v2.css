@@ -1,0 +1,2364 @@
+.section-tarjetas {
+    padding-top: 0px;
+}
+
+
+.tarjetaDetalleHorizontal {
+    width: 100%;
+    max-width: 493px;
+    height: 100%;
+    max-height: 308px;
+    z-index: 2;
+}
+
+.anchorOpcMenu{
+    cursor: pointer;
+} 
+
+/* Estilos Menú superior*/
+.barraMenuSuperior {
+    height: 64px;
+    left: 0px;
+    top: 64px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.14);
+}
+
+.menuSuperior {
+    height: 100%;
+    display: flex;
+}
+
+.contenedorOpcion {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icoTarjeta {
+    width: 32px;
+    height: 32px;
+}
+
+.txtOpc {
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #404040;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 24px;
+}
+
+.scrollMenuRivs {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.itemRivs {
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+}
+
+@media screen and (max-width:576px) {
+    .txtOpc {
+        margin: 0px 12px;
+    }
+}
+
+
+/*Estilos carrusel*/
+.seccionBannerPrincipal {
+    margin-top: 120px;
+    padding-top: 0 !important;
+    position: relative;
+}
+
+.tamSlide {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.espacioTxtBanners {
+    width: 499px;
+    height: auto;
+}
+
+.imgHeader {
+    width: 100%;
+    max-width: 460.76px;
+    height: auto;
+
+}
+
+.centraImg {
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+}
+
+
+.txtBicolor {
+    font-family: 'Santander Headline';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #EC0000;
+}
+
+.pNombreTarjeta {
+    font-family: 'Santander Headline';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100%;
+    color: #EC0000;
+}
+
+.checkRed {
+    position: static;
+    width: 20px;
+    height: 20px;
+    left: 0px;
+    top: 0px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px 0px 2px; 
+}
+
+.containerCheckRed {
+    display: flex;
+}
+
+.containerCheckRed p
+{
+    width: 259px;
+    height: auto;
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #404040;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px;
+}
+
+.btnRedSantander {
+    width: 168px;
+    height: 48px;
+    border: 1px solid #EC0000;
+    background: #EC0000;
+    border-radius: 48px;
+    margin-top: 40px;
+    color: white;
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+}
+
+@media screen and (max-width:768px) {
+    .seccionBannerPrincipal {
+        margin-top: 98px;
+    }
+
+    .tamSlide {
+        height: auto;
+    }
+
+    .espacioTxtBanners {
+        width: 100%;
+        height: 100%;
+    }
+
+    .imgHeader {
+        width: 100%;
+        max-width: 340.76px;
+        height: 333.82px;
+
+    }
+
+    .centraImg {
+        display: flex;
+        justify-content: center;
+        justify-content: center;
+    }
+
+    .txtBicolor {
+
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+
+    }
+
+    .pNombreTarjeta {
+        font-size: 32px;
+        text-align: center;
+
+    }
+
+    .contenedorBtnRed {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+
+@media screen and (max-width:576px) {
+    .seccionBannerPrincipal {
+        padding-top: 0 !important;
+    }
+
+    .tamSlide {
+        height: 216.91px;
+    }
+
+    .espacioTxtBanners {
+        width: 100%;
+        height: 100%;
+    }
+
+    .imgHeader {
+        width: 100%;
+        max-width: 312px;
+        height: 305.68px;
+
+    }
+
+    .centraImg {
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+    .espacioTxtBanners {
+        width: 100%;
+        height: auto;
+        margin-top: -40px;
+    }
+
+    .tamSlide {
+        height: auto;
+    }
+
+    .btnRedSantander {
+
+        margin-top: 28px;
+
+    }
+
+    .quitarBordesBotones
+    {
+        padding: 0px;
+    }
+
+}
+
+
+/* Estilo para sección botones*/
+.pTitulos {
+    font-family: 'Santander Headline';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 125%;
+    color: #191919;
+    margin-bottom: 0;
+    /* margin: 56px 0px 0px 0px; */
+    margin: 0px 0px 16px 0px;
+}
+.pTituloVida {
+    font-family: 'Santander Headline';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 125%;
+    color: #404040;
+    display: inline-block;
+    text-align: left;
+}
+
+.titleSmall {
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    color: #404040;
+    margin-bottom: 40px;
+}
+
+.contenedorBtnsCategorias {
+    margin-top: -40px;
+}
+
+.contenedorBotones {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.btnOpcGreen {
+    background: url(../img/iconos/01-mas-solicitadas-green.html);
+    background-repeat: no-repeat;
+    background-position: 20% 50%;
+    background-size: 10%;
+    width: 200px;
+    height: 100px;
+}
+
+
+
+
+@media screen and (max-width:768px) {
+
+
+    .titleSmall {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .contenedorBtnsCategorias {
+        margin-top: -50px;
+    }
+
+    .contenedorBotones {
+        justify-content: center;
+        align-items: center;
+        margin-top: 24px;
+    }
+
+    
+
+    .btnOpciones {
+        width: 155px;
+        height: 40px;
+    }
+
+    .opc1::before {
+        left: 5px;
+    }
+
+    .opc2::before {
+        left: 5px;
+    }
+
+    .opc3::before {
+        left: 5px;
+    }
+
+    .opc4::before {
+        left: 5px;
+    }
+
+    .opc5::before {
+        left: 30px;
+    }
+
+    .opc6::before {
+        left: 5px;
+    }
+
+
+    .opc7::before {
+        left: 5px;
+    }
+
+    .opc8::before {
+        left: 30px;
+    }
+
+
+}
+
+
+/*Estilos sección card promocional*/
+.seccionCardPromocional {
+    margin-top: 50px;
+}
+
+.centraInfoPromocional {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedorImgPromocional {
+    width: auto;
+    height: 100%;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.contenedorTxtPromocional {
+    width: 100%;
+    height: 100%;
+}
+
+.espacioImgPromocional {
+    width: 397.74px;
+    height: 500px;
+    position: relative;
+}
+
+.centraImgPromocional {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.img1 {
+    width: 360.48px;
+    height: 358px;
+}
+
+.img2 {
+    width: 397.74px;
+    height: 421.15px;
+}
+
+.img3 {
+    width: 347.39px;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.img4 {
+    width: 208.44px;
+    height: 331px;
+}
+
+.img4Vertical {
+    width: 208.44px;
+    height: 331px;
+}
+
+.img4Horizontal {
+    width: 331px;
+    height: 208.44px;
+}
+
+.containerInfoPromoc {
+    width: 100%;
+}
+
+.centraInfoPromocional {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.titleCardPromocional {
+    font-family: 'Santander Headline';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 52px;
+    color: #191919;
+}
+
+.contenedorBtnRedPromocional {
+    width: 100%;
+}
+
+#tituloMobilePromocional {
+    display: none;
+}
+
+.btnRedSantanderCardPromocional {
+    width: 155.89px;
+    height: 48px;
+
+
+    border: 1px solid #EC0000;
+    background: #EC0000;
+    border-radius: 48px;
+    margin-top: 48px;
+    color: white;
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+
+}
+
+.contImgCarNuevo
+{
+    position: relative;
+    text-align: left;
+}
+
+
+@media screen and (max-width:768px) {
+    #tituloMobilePromocional {
+        display: block;
+    }
+
+    .titleCardPromocional {
+        text-align: center;
+        font-size: 30px;
+        margin-top: -20px;
+    }
+
+    .contenedorBtnRedPromocional {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .containerInfoPromoc {
+        width: 90%;
+    }
+
+    .txtMobilePromo {
+        display: none;
+    }
+
+    .espacioImgPromocional {
+        width: 220.08px;
+        height: 249px;
+        position: relative;
+    }
+
+    .img1 {
+        width: 220px;
+        height: 218.57px;
+    }
+
+    .img2 {
+        width: 219.74px;
+        height: 232.68px;
+    }
+
+    .img3 {
+        width: 219.77px;
+        height: 50px;
+    }
+
+
+    .img4 {
+        width: 114.66px;
+        height: 184.19px;
+    }
+
+    .btnRedSantander {
+        width: 247px;
+        height: 48px;
+        margin-top: 18px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 150%;
+    }
+}
+
+@media screen and (max-width:576px){
+
+    .espacioImgPromocional {
+        width: 220.08px;
+        height: 400px;
+        position: relative;
+    }
+}
+
+
+
+/*Estilos Seccion Todas Las Tarjetas*/
+.seccionTarjetas {
+    margin-top: 100px;
+}
+
+.tamCard {
+    width: 602px;
+    /* height: 365px; */
+    height: auto;
+    padding-left: 52px;
+    padding-top: 26px;
+    padding-right: 52px;
+    padding-bottom: 39px;
+}
+
+.centraInfoPromocional:hover {
+    background: #FFFFFF;
+    box-shadow: 0px 32px 32px -4px rgba(0, 0, 0, 0.12);
+    border-radius: 8px;
+}
+
+.centrsInfoCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedorCard {
+    width: 100%;
+}
+
+.divTituloTarjeta {
+    line-height:34px;
+    height: 32px;
+}
+
+.fuenteTituloTarjeta {
+    font-family: 'Santander Headline';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    color: #191919;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+.apartadoImgCard {
+    margin-top: 28px;
+}
+
+.espacioInfoCards {
+    padding: 0 !important;
+}
+
+.contImgCard {
+    width: 207px;
+    height: auto;
+}
+
+.contTxtCard {
+    width: 100%;
+    height: auto;
+    padding-top: 0px;
+}
+
+.contenedorFijoBullets{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: scroll;
+}
+
+.botonConsulta
+{
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 0px 0px 24px;
+    width: 180px;
+    height: 56px;
+    background: #EC0000;
+    border-radius: 40px;
+    border: #EC0000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.botonCotizaCompara
+{
+    flex-direction: column;
+    justify-content: center;
+    /* width: auto; */
+    width: 166px;
+    height: 48px;
+    background: #EC0000;
+    border-radius: 40px;
+    border: #EC0000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 22px 0px 0px 42px;
+}
+
+.botonReportaSiniestro
+{
+    flex-direction: column;
+    justify-content: center;
+    /* width: auto; */
+    width: 166px;
+    height: 48px;
+    background: #EC0000;
+    border-radius: 40px;
+    border: #EC0000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 34px 0px 0px 0px;
+}
+
+
+
+.botonGadgets
+{
+/* flex-direction: column;
+justify-content: center;
+width: auto;
+height: 48px; */
+background: #EC0000;
+border-radius: 40px;
+border: #EC0000;
+/* flex: none;
+order: 0;
+flex-grow: 0;
+margin: 22px 10px 0px 0px; */
+
+width: 95%;
+margin-bottom: 15px;
+height: 30px;
+}
+
+.botonGadgets2
+{
+/* flex-direction: column;
+justify-content: center;
+width: auto;
+height: 48px; */
+background: #EC0000;
+border-radius: 40px;
+border: #EC0000;
+/* flex: none;
+order: 0;
+flex-grow: 0;
+margin: 22px 10px 0px 0px; */
+
+width: 95%;
+margin-bottom: 15px;
+height: 30px;
+}
+
+.botonPlayStore
+{
+flex-direction: column;
+justify-content: center;
+width: auto;
+height: 48px;
+background: #EC0000;
+border-radius: 40px;
+border: #EC0000;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 22px 10px 0px 0px;
+}
+
+.linkCotizaCompara
+{
+    color: #FFFFFF;
+    width: auto;
+    margin: 12px 0px 0px 34px;
+    font-size: 16px;
+
+    width: 118px;
+    height: 24px;
+
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    justify-content: center;
+}
+
+.linkReportaSiniestro
+{
+    color: #FFFFFF;
+    width: auto;
+    margin: 12px 0px 0px 34px;
+    font-size: 16px;
+
+    width: 118px;
+    height: 24px;
+
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    justify-content: center;
+}
+
+.linkDescarga
+{
+    font-size: 16px;
+    width: 300px;
+}
+
+
+.linkDescarga2
+{
+    padding: 7px 0px 0px 0px;
+    font-size: 16px;
+    width: 300px;
+}
+
+.botonConoceMas
+{
+    width: 141px;
+    height: 56px;   
+    background: #EC0000;
+    border-radius: 40px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    border: #EC0000;
+    margin: 40px 0px 48px 0px;
+
+}
+
+.botonTextoDescarga
+{
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.botonTextoConsulta
+{
+    width: 132px;
+font-family: 'Santander Text';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 150%;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+margin: 0px;
+
+justify-content: center;
+}
+
+
+.botonTextoConsultaGadgets
+{
+font-family: 'Santander Text';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.divBotonConoceMas
+{
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.botonTextoConsulta a,
+.botonTextoConsulta a::after
+{
+    color: #FFFFFF;
+}
+
+.botonTextoConsultaMas
+{
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+    width: 93px;
+    height: 27px;
+
+    margin: 12px 24px;
+}
+
+.botonTextoConsultaMas a,
+.botonTextoConsultaMas a:after
+{
+    color: #FFFFFF;
+}
+
+.parrafoSiniestroPregunta
+{
+    font-family: 'Santander Headline';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 125%;
+color: #191919;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 0px 8px 0px;
+}
+
+.parrafoSiniestroTexto
+{
+    font-family: 'Santander Text';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+color: #404040;
+flex: none;
+order: 1;
+flex-grow: 0;
+
+margin: 0px 0px 24px 0px;
+}
+
+.img1-elipses {
+    
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 10px 0px 0px 0px;
+    max-width: 207px;
+    width: 100%;
+    height: auto;
+}
+
+.img2-puntos {
+    position: absolute;
+    width: 71.19px;
+    left: 1px;
+}
+
+.img3-sombra {
+    position: absolute;
+    width: 207px;
+    height: 38.77px;
+    bottom: -5px;
+
+}
+
+.img4-card-mini {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.labelCardVertical{
+    width: 73.19px;
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+}
+.labelCardHorizontal{
+    width: 73.19px;
+    position: absolute;
+    z-index: 10;
+    top: 35px;
+}
+.sinLabel{
+    display: none;
+}
+
+.horizontal {
+    width: 174px;
+    height: 108px;
+}
+
+.vertical {
+    width: 108px;
+    height: 174px;
+
+}
+
+.contenedorIngresoAnualidad {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.txtIngresoMin {
+    border-right: 1px solid #F2F2F2;
+    padding-left: 5px;
+    padding-right: 8px;
+}
+
+.txtAnualidad {
+    padding-left: 8px;
+}
+
+.pIngMin {
+    font-family: 'Santander Micro Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    display: flex;
+    align-items: flex-end;
+    color: #767676;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 4px;
+}
+
+.pCantidadIngMin {
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    display: flex;
+    align-items: flex-end;
+    color: #404040;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+.spanSinIva {
+    font-family: 'Santander Micro Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #767676;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 3px;
+}
+
+
+.linkConoceMas
+{
+    margin: 0px 0px 0px 0px;
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.linkConoceMasCards
+{
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: left;
+    color: #EC0000;
+    margin: 34px 0px 0px 0px;
+    width: 83px;
+    /* width: auto; */
+}
+
+.linkConoceMás {
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #EC0000;
+}
+
+.contenedorLinkBtn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 48px;
+}
+
+.linkConoceMás:hover {
+    color: #EC0000;
+    text-decoration: none;
+}
+
+.btnRedSantanderCards {
+    width: 140px;
+    height: 48px;
+    border: 1px solid #EC0000;
+    background: #EC0000;
+    border-radius: 48px;
+    color: white;
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+
+}
+
+.botonsAppStoreAppStore
+{
+    margin-top: 32px;
+    margin-left: 16px;
+}
+
+.botonsAppStoreGoogle
+{
+    margin-top: 32px;
+    margin-right: 0px;
+    margin-left: 24px;
+}
+
+.ajuste_botones_app
+{
+    display: inline-flex;        
+}
+
+
+@media screen and (max-width:1200px) {
+    .tamCard {
+        width: 100%;
+        height: auto;
+    }
+
+    .tamCard:hover {
+        width: 100%;
+        height: auto;
+    }
+
+
+    .fuenteTituloTarjeta {
+
+        font-size: 20px;
+        line-height: 24px;
+        margin: 0px 0px;
+
+    }
+
+    .contenedorLinkBtn {
+        height: 38px;
+        ;
+    }
+
+    .btnRedSantanderCards {
+        width: 130px;
+        height: 38px;
+    }
+
+    .botonCotizaCompara
+    {
+        width: auto;
+    }
+
+    .linkCotizaCompara
+    {
+    color: #FFFFFF;
+    width: auto;
+    margin: 12px 0px 0px 0px;
+    }
+
+    .botonsAppStore
+    {
+        margin-left: 0px;
+        margin-top: 24px;
+    }
+
+    .ajuste_botones
+    {
+        display: inline-block;
+    }
+
+    
+
+}
+
+@media screen and (max-width:768px) {
+
+    .contenedor-img-lateral .img-lateral
+    {
+        padding-bottom: 48px;
+    }
+
+
+    .tamCard {
+        height: auto;
+    }
+
+    .tamCard:hover {
+        height: auto;
+    }
+
+    .img2-puntos {
+
+        position: absolute;
+        width: 71.19px;
+        height: 26px;
+        left: 20%;
+        top: 11px;
+
+    }
+
+    .divTituloTarjeta {
+        margin: 0px 0px 0px 0px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .contTxtCard {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .espacioInfoCards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    .containerBtns {
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+    .contenedorLinkBtn {
+        height: 48px;
+    }
+
+
+    .btnRedSantanderCards {
+        width: 247px;
+        height: 48px;
+    }
+
+
+
+    .labelCardVertical{
+        left: 30px;
+        
+    }
+    .labelCardHorizontal{
+        left: 30px;
+       
+    }
+    .sinLabel{
+        display: none;
+    }
+
+
+    .contenedorFijoBullets{
+        width: 100%;
+        /* height:auto; */
+        height:200px;
+        
+    }
+
+    .contenedorIngresoAnualidad {
+        margin-top: 20px;
+    }
+
+
+    .contenedorLinkBtn {
+        margin-top: 20px;
+    }
+
+    
+
+
+}
+
+@media screen and (max-width:767px) {
+    .ajuste_botones_app
+    {
+        display: inline-block;
+        
+    }
+
+}
+
+
+
+
+/*Efecto de la card*/
+
+
+
+
+.poster {
+    width: 108px;
+    height: 174px;
+    position: absolute;
+    overflow: hidden;
+    top: 150px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.poster .shine {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+}
+
+.poster div[class*="layer-"] {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    -webkit-transition: 0.1s;
+    transition: 0.1s;
+}
+
+
+.poster .layer-4 {
+    background: url("../img/tarjetas/fr-clasica.html");
+}
+
+
+.prueba {
+    position: relative;
+    width: 174px;
+    height: 108px;
+}
+
+
+.tdc {
+    position: absolute;
+    width: 174px;
+    height: 108px;
+    z-index: -1;
+
+}
+
+.noOfertable {
+    position: absolute;
+    background-image: url(../img/piezas/capa-no-ofertable.html);
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 3px;
+    margin: auto;
+    width: 167px;
+    height: 100px;
+    border-radius: 7px;
+}
+
+.noOfertableVertical {
+    position: absolute;
+    background-image: url(../img/piezas/noOfertable-vertical.html);
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 3px;
+    margin: auto;
+    width: 99px;
+    height: 160px;
+    border-radius: 7px;
+}
+
+
+
+/*Banner TDC*/
+#seccionBannerTdc {
+    margin-top: 250px;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+.contBannerTdc {
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+    color: black;
+    overflow: hidden;
+    background: linear-gradient(180deg, rgba(222, 237, 242, 0.6) 0%, #FFFFFF 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+}
+
+.contInfoBannerTdc {
+    position: absolute;
+    height: 400px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.altura100 {
+    height: 100%;
+}
+
+.imgBannerTdcPromo {
+    width: 418.92px;
+    height: 487.87px;
+    position: absolute;
+    top: -100px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.contTxtBannTdcPromo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+
+.pTitleBannTdcPromo {
+    font-family: 'Santander Headline';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 125%;
+    color: #EC0000;
+}
+
+.pTxtBannTdcPromo {
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #404040;
+}
+
+.btnWhiteSantander {
+    width: 168px;
+    height: 48px;
+    border: 1px solid #EC0000;
+    box-sizing: border-box;
+    border-radius: 100px;
+    background-color: white;
+    color: #EC0000;
+    font-weight: bold;
+}
+
+@media screen and (max-width:768px) {
+    .contBannerTdc {
+        height: auto;
+    }
+
+    #seccionBannerTdc {
+        margin-top: 250px;
+        margin-bottom: 500px;
+        position: relative;
+    }
+
+
+
+
+}
+
+@media screen and (max-width:576px) {
+
+    #seccionBannerTdc {
+        margin-top: 100px;
+
+    }
+
+    .imgBannerTdcPromo {
+        width: 327px;
+        height: 380.82px;
+        top: 200px;
+    }
+
+    .pTitleBannTdcPromo {
+        text-align: center;
+        font-weight: 700;
+        font-size: 26px;
+    }
+
+    .pTxtBannTdcPromo {
+        text-align: center;
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+    .contBtnTxtBannProm {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+/*Estilos Breadcrumbs*/
+.contenedorBreadcrums {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.bread {
+    margin-bottom: 4%;
+}
+
+ul.bread {
+    list-style: none;
+}
+
+ul.bread li {
+    display: inline;
+    font-size: 15px;
+}
+
+ul.bread li+li:before {
+    padding: 5px;
+    color: #767676;
+    content: ">";
+}
+
+ul.bread li a {
+    color: #767676;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+    .bread {
+        display: none;
+    }
+
+    .seccionTarjetas {
+        margin-top: 72px;
+    }
+
+    .img3-sombra{
+        left: 50% !important;
+        transform: translate(-50%) !important;
+    } 
+
+    
+
+    .tamCard {
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-bottom: 93px;
+    }
+
+    .seccion-superlinea {
+        margin-top: 93px;
+    }
+
+    .containerCheckRed p {
+        font-weight: 400;
+        font-size: 14px;
+        width: auto;
+        max-width: 231px;
+    }
+
+    .linkConoceMasCards
+    {
+        margin: 18px 0px 0px 0px;
+        text-align: center;
+        width: auto;
+    }
+
+    .botonCotizaCompara {
+        margin: 5px 0px 0px 42px;
+    }
+
+    .contenedorCard .btn-group {
+        display: flex;
+        flex-direction: column-reverse;
+        max-width: 247px;
+        margin-top: 18px;
+    }
+
+    .contenedorCard .btn-group .botonCotizaCompara {
+        margin: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contenedorCard .btn-group .botonCotizaCompara .linkCotizaCompara {
+        margin: 0px;
+    }
+
+}
+
+.icoMiniSant {
+    width: 44.2px;
+    height: 42.28px;
+    margin-bottom: 48px;
+}
+
+@media(min-width: 992px) and (max-width: 1200px)
+{
+    .botonCotizaCompara
+    {
+        margin: 22px 0px 0px 9px;
+    }
+    .linkConoceMasCards
+    {
+        width: 83px;
+    }
+
+    .ajuste_botones_app
+    {
+        display: inline-block;
+    }
+    .botonsAppStoreAppStore
+    {
+        margin: 0px;
+    }
+
+    .botonsAppStoreGoogle
+    {
+        margin: 0px;
+    }
+    .img-tiendasdigGadgets
+    {
+        margin-top: 20px;
+    }
+}
+
+/*ESTILOS PARA QUE LOS BOTONES SE PONGAN VERDES*/
+.contenedor-tipos-seguros {
+    text-align: left;
+}
+
+.content-buttons {
+    width: 19%;
+    display: inline-block;
+    padding-right: 15px;
+}
+
+@media(max-width: 991px) {
+    /*.contenedor-tipos-seguros {
+        text-align: center;
+    }*/
+
+    .content-buttons {
+        width: 33%;
+        padding: 0px 16px;
+    }
+}
+
+@media (max-width: 767px) {
+    
+    .content-buttons {
+        width: 49%;
+        padding: 0px 5px;
+    }
+}
+
+.formaDelBtn {
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    border-radius: 8px;
+    height: 54px;
+    margin: 0px 0px 16px 0px;
+    width: 224px;
+}
+
+.formaDelBtn[disabled],
+.formaDelBtn:hover[disabled] {
+    cursor: not-allowed;
+    background: #F2F2F2;
+    border-radius: 8px;
+    box-shadow: none;
+}
+
+.formaDelBtn:hover {
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    box-shadow: 0px 6px 14px rgba(153, 153, 153, 0.3);
+    border-radius: 8px;
+}
+
+
+.centraInteriorBtn {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.escudo {
+    width: 22px;
+    height: 26px;
+    background-image: url('../iconos/escudo-red.html');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 0px;
+    text-align: right;
+    float: left;
+    margin: 2.67px 5.33px;
+}
+
+
+.op1,
+.formaDelBtn:hover .op1 {
+    width: 24px;
+    height: 24px;
+    background-image: url('../iconos/escudo-black.html');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.op2,
+.formaDelBtn:hover .op2 {
+    width: 24px;
+    height: 24px;
+    background-image: url('../iconos/carrito-black.html');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.op3,
+.formaDelBtn:hover .op3 {
+    width: 24px;
+    height: 24px;
+    background-image: url('../iconos/manita-black.html');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.op4, 
+.formaDelBtn:hover .op4{
+    width: 24px;
+    height: 24px;
+    background-image: url('../iconos/cochinito-black.html');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.op5,
+.formaDelBtn:hover .op5 {
+    width: 24px;
+    height: 24px;
+    background-image: url('../iconos/casitateja-black.html');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.op6,
+.formaDelBtn:hover .op6{
+    width: 24px;
+    height: 24px;
+    background-image: url('../iconos/maletin-black.html');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.op7,
+.formaDelBtn:hover .op7 {
+    width: 24px;
+    height: 24px;
+    background-image: url('../iconos/casita-black.html');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.op8,
+.formaDelBtn:hover .op8 {
+    width: 24px;
+    height: 24px;
+    background-image: url('../iconos/telefono-black.html');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.op9,
+.formaDelBtn:hover .op9 {
+    width: 24px;
+    height: 24px;
+    background-image: url('../iconos/desempleo-black.html');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.op10,
+.formaDelBtn:hover .op10 {
+    width: 24px;
+    height: 24px;
+    background-image: url('../iconos/candado-black.html');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.opActivaNegritas
+{
+    font-weight: 700;
+}
+
+.opActiva,
+.formaDelBtn:hover.opActiva {
+    border: 2px solid #EC0000;
+}
+
+.opActiva .op1,
+.formaDelBtn:hover.opActiva .op1 {
+    width: 24px;
+    height: 24px;
+    background-image: url('../iconos/escudo-red.html');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    
+}
+.opActiva .op2, 
+.formaDelBtn:hover.opActiva .op2{
+    width: 24px;
+    height: 24px;
+    background-image: url('../iconos/carrito-red.html');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.opActiva .op3,
+.formaDelBtn:hover.opActiva .op3 {
+    width: 24px;
+    height: 24px;
+    background-image: url('../iconos/manita-red.html');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.opActiva .op4, 
+.formaDelBtn:hover.opActiva .op4 {
+    width: 24px;
+    height: 24px;
+    background-image: url('../iconos/cochinito-red.html');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.opActiva .op5,
+.formaDelBtn:hover.opActiva .op5 {
+    width: 24px;
+    height: 24px;
+    background-image: url('../iconos/casitateja-red.html');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.opActiva .op6,
+.formaDelBtn:hover.opActiva .op6 {
+    width: 24px;
+    height: 24px;
+    background-image: url('../iconos/maletin-red.html');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.opActiva .op7, 
+.formaDelBtn:hover.opActiva .op7 {
+    width: 24px;
+    height: 24px;
+    background-image: url('../iconos/casita-red.html');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.opActiva .op8, 
+.formaDelBtn:hover.opActiva .op8 {
+    width: 24px;
+    height: 24px;
+    background-image: url('../iconos/telefono-red.html');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.opActiva .op9, 
+.formaDelBtn:hover.opActiva .op9 {
+    width: 24px;
+    height: 24px;
+    background-image: url('../iconos/desempleo-red.html');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.opActiva .op10, 
+.formaDelBtn:hover.opActiva .op10 {
+    width: 24px;
+    height: 24px;
+    background-image: url('../iconos/candado-red.html');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.opActiva .txtInteriorBtn,
+.formaDelBtn:hover.opActiva .txtInteriorBtn{
+    color: #EC0000;
+}
+
+.txtInteriorBtn,
+.formaDelBtn:hover .txtInteriorBtn{
+    font-family: 'Santander Micro Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    color: #4C4C4C;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 8px;
+}
+
+
+.img-lateral {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    position: absolute;
+    right: 0;
+    top: 1474.93px;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+@media(max-width: 991px) {
+    .seccionRequisitosCostosYdescargas {
+        margin-top: 114px;
+    }
+
+    .seccionRequisitosCostosYdescargas .cuerpoPagina {
+        margin-top: 58px;
+    }
+
+    .contenedor-img-lateral {
+        text-align: right;
+    }
+    
+    .contenedor-img-lateral .img-lateral
+    {
+        text-align: center;
+        content: url(../img/img_requisitos_mujer.png);
+        max-width: 375px;
+        left: 2%;
+    }
+
+    .img-lateral {
+        max-width: 375px;
+        height: auto;
+        position: relative;
+        right: 0;
+        top: 0;
+        transform: translateY(0);
+        z-index: 1;
+    }
+
+
+    .contenedor-requisitos {
+        padding-top: 48px;
+    }
+
+    .botonCotizaCompara {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
+
+
+
+.seccion-superlinea {
+    background: linear-gradient(99.18deg, #EC0000 0%, #FF1D53 86.96%);
+    margin-top: 202px;
+}
+
+.seccion-superlinea .telefono {
+    height: 57px;
+    margin-top: -30px;
+    margin-right: 10px;
+}
+
+
+.seccion-superlinea .row-superlinea .title h1 {
+    color: white;
+    font-family: 'Santander Headline';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 125%;
+}
+
+.seccion-superlinea .contenedor-mexico,
+.seccion-superlinea .contenedor-mundo {
+    margin-bottom: 40px;
+}
+
+
+.seccion-superlinea .contenedor-mexico .img-bandera,
+.seccion-superlinea .contenedor-mundo .img-mundo {
+    width: 48px;
+    max-width: 48px;
+    margin-right: 20px;
+}
+
+.seccion-superlinea .contenedor-mexico p,
+.seccion-superlinea .contenedor-mundo p {
+    color: white;
+    font-family: 'Santander Headline';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.seccion-superlinea .contenedor-mexico a,
+.seccion-superlinea .contenedor-mundo a {
+    font-family: 'Santander Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    color: white;
+    text-decoration: none;
+}
+
+.div-contrata-en-linea {
+    position: relative;
+    top: -15px;
+    max-width: 1132px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.p-items {
+    margin-top: 12px;
+}
+
+@media(min-width: 601px) {
+    .alinea-anchor {
+        width: 12%;
+    }
+
+    
+}
+
+footer {
+    padding-top: 72px;
+}
+
+
+@media(max-width: 992px)
+{
+
+.formaDelBtn
+{
+    width: 156px;
+}
+
+.section-tarjetas {
+    padding-top: 0px;
+}
+
+.botonConsulta
+{
+    text-align: center;
+}
+
+.escudo
+{
+    width: 22px;
+    height: 26px;
+    background-image: url('../iconos/escudo-red.html');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 0px;
+    text-align: center;
+    float: inherit;
+    margin: 2.67px 5.33px;
+}
+
+
+.img1-elipses
+{
+    /* background-image: url('../img/card_vida_mobile.png'); */
+    text-align: center;
+    position: relative;
+    width: 207px;
+    height: 213px;
+}
+
+.contImgCard
+{
+    text-align: center;
+}
+
+.apartadoImgCard {
+    margin-top: 0px;
+}
+
+.linkConoceMas
+{
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.checkRed {
+    width: 24px;
+    height: 24px;
+    margin: 0px 10px 0px 2px; 
+    padding: 2px;
+}
+
+.pTituloVida
+{
+    font-family: 'Santander Headline';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 125%;
+text-align: center;
+color: #404040;
+margin: 0px;
+
+}
+
+.titleSmall {
+    font-weight: 400;
+    font-size: 18px;
+    margin: 8px 0px 16px 0px;
+    text-align: center;
+}
+
+.tamCard {
+    padding-top: 66px;
+    padding-bottom: 24px;
+    margin: 0px;
+    padding: 26px 32px 39px 34px;
+}
+
+.centraInteriorBtn {
+    padding: 0px 0px;
+}
+
+.parrafoSiniestroPregunta
+{
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.parrafoSiniestroTexto
+{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.botonConsulta
+{
+    width: 166px;
+    height: 48px;
+    padding: 0px 0px 0px 16px;
+}
+
+.botonTextoConsulta
+{
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.botonConoceMas
+{
+
+    width: 131px;
+    height: 48px; 
+    margin: 24px 0px 0px 0px;
+}
+
+.pTitulos {
+    text-align: center;
+    font-size: 26px;
+    margin: 0px 0px 0px 0px;
+}
+
+.botonTextoConsultaMas
+{
+    font-size: 16px;
+    display: flex;
+}
+
+.contImgCarNuevo
+{
+    position: relative;
+    text-align: center;
+
+}
+
+.divTituloTarjeta
+{
+    font-size: 26px;
+    justify-content: center;
+    margin: 0px 0px 24px 0px;
+}
+
+.containerCheckRed p
+{
+    width: auto;
+    flex: auto;
+}
+
+
+
+}
+
+@media screen and (max-width:768px) {
+    .divTituloTarjeta
+    {
+        font-size: 26px;
+        justify-content: center;
+        margin: 0px 0px 8px 0px;
+        min-width: 277px;
+        text-align: center;
+        line-height:125%;
+        font-weight: 700;
+        height: auto;
+        padding-left: 0px;
+        padding-right: 0px;
+        
+    }
+}
+
+
+@media(min-width: 992px) and (max-width: 1050px)
+{
+    /* .img1-elipses {
+        width: 156px;
+        height: 156px;
+    } */
+
+    .img1-elipses {
+        width: 107px;
+        height: 107px;
+    }
+    .containerCheckRed p
+    {
+        flex: auto;
+    }  
+}
+
+
+@media(min-width: 1050px) and (max-width: 1200px)
+{
+    /* .img1-elipses {
+        width: 156px;
+        height: 156px;
+    } */
+
+    .img1-elipses {
+        
+        width: 116px;
+        height: 116px;
+    }
+    .containerCheckRed p
+    {
+        flex: auto;
+    }  
+}
+
+
