@@ -1,0 +1,653 @@
+/*Actualizado 02-06-21*/
+
+.contenedor-contrata-en-linea{
+    width: 100%;
+    height: 170px;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.div-contrata-en-linea{
+    width: auto;
+    height: 200px;
+    background: #FFFFFF;
+    -webkit-box-shadow: 0px 32px 32px -4px rgba(0, 0, 0, 0.12);
+            box-shadow: 0px 32px 32px -4px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    position: absolute;
+    top: -30px;
+    z-index: 5;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    
+}
+
+.alinea-contendo{
+    width: 100%;
+    height: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+
+.h1-contrata-linea{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.p-items{
+    font-weight: 800;
+    font-family: "SantanderText-Light", sans-serif;
+    color: black;
+}
+
+.contenedor-items{
+    width: 100%;
+    height: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+
+.alinea-anchor{
+   display: block;
+   width: auto;
+   height: auto;
+   color: black;
+   text-decoration: none;
+}
+
+.alinea-anchor:hover{
+    text-decoration: none;
+ }
+
+.item-contrata{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+            width: 130px;
+            height: 120px;
+            margin-left: 5px;
+            padding-right: 5px;
+            padding-left: 5px;
+}
+
+.item-contrata:hover{
+    background: #EAEAEA;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+
+.item-contrata:hover > .icon1{
+    background: url("../img/seccion-contrata-en-linea/tdc.svg") no-repeat center center;
+    background-size: 100%
+}
+
+.item-contrata:hover > .icon2{
+    background: url("../img/seccion-contrata-en-linea/cuentas.svg") no-repeat center center;
+    background-size: 100%
+}
+
+.item-contrata:hover > .icon3{
+    background: url("../img/seccion-contrata-en-linea/inversiones.svg") no-repeat center center;
+    background-size: 100%
+}
+
+.item-contrata:hover > .icon4{
+    background: url("../img/seccion-contrata-en-linea/credit-hipotec.svg") no-repeat center center;
+    background-size: 100%
+}
+
+.item-contrata:hover > .icon5{
+    background: url("../img/seccion-contrata-en-linea/credit-automot.svg") no-repeat center center;
+    background-size: 100%
+}
+
+.item-contrata:hover > .icon6{
+    background: url("../img/seccion-contrata-en-linea/credit-personal.svg") no-repeat center center;
+    background-size: 100%
+}
+
+.item-contrata:hover > .icon7{
+    background: url("../img/seccion-contrata-en-linea/seguros.svg") no-repeat center center;
+    background-size: 100%
+}
+
+.item-contrata:hover > .icon8{
+    background: url("../img/seccion-contrata-en-linea/trae-tu-nomina.svg") no-repeat center center;
+    background-size: 100%
+}
+
+
+
+.item-contrata:hover > .p-items{
+    color: red;
+}
+
+
+
+.icon1 {
+	background: url("../img/seccion-contrata-en-linea/tdc.svg") no-repeat center center;
+	width: 45px;
+    height: 45px;
+    background-size: 100%;
+}
+
+.icon2 {
+	background: url("../img/seccion-contrata-en-linea/cuentas.svg") no-repeat center center;
+	width: 45px;
+    height: 45px;
+    background-size: 100%
+}
+
+.icon3 {
+	background: url("../img/seccion-contrata-en-linea/inversiones.svg") no-repeat center center;
+	width: 45px;
+    height: 45px;
+    background-size: 100%;
+}
+
+.icon4 {
+	background: url("../img/seccion-contrata-en-linea/credit-hipotec.svg") no-repeat center center;
+	width: 45px;
+    height: 45px;
+    background-size: 100%
+}
+
+.icon5 {
+	background: url("../img/seccion-contrata-en-linea/credit-automot.svg") no-repeat center center;
+	width: 45px;
+    height: 45px;
+    background-size: 100%
+}
+
+.icon6 {
+	background: url("../img/seccion-contrata-en-linea/credit-personal.svg") no-repeat center center;
+	width: 45px;
+    height: 45px;
+    background-size: 100%
+}
+
+.icon7 {
+	background: url("../img/seccion-contrata-en-linea/seguros.svg") no-repeat center center;
+	width: 45px;
+	height: 45px;
+	background-size: 100%
+}
+
+.icon8 {
+	background: url("../img/seccion-contrata-en-linea/trae-tu-nomina.svg") no-repeat center center;
+	width: 45px;
+	height: 45px;
+	background-size: 100%
+}
+
+.p-items{
+    font-family: "SantanderText-Light", sans-serif;
+    text-align: center;
+    }
+
+
+    @media screen and (max-width: 1125px){
+        .item-contrata{
+                    width: 110px;
+                    height: 120px;
+        }
+
+        .item-contrata:hover{
+            background: #EAEAEA;
+            width: 110px;
+                    height: 120px;
+            
+        }
+
+    }
+
+    @media screen and (max-width: 1000px){
+
+        .div-contrata-en-linea{
+            width: 90%;
+            height: auto;
+            top: -30px;
+            z-index: 5;
+        }
+
+        .item-contrata{
+            width: 100px;
+            height: 100px;
+}
+
+.item-contrata:hover{
+    background: #EAEAEA;
+    width: 100px;
+            height: 100px;
+    
+}
+
+    }
+
+
+    @media screen and (max-width: 976px){
+
+        .icon1 {
+            width: 30px;
+            height: 30px;
+        }
+        
+        .icon2 {
+            width: 30px;
+            height: 30px;
+        }
+        
+        .icon3 {
+            width: 30px;
+            height: 30px;
+        }
+        
+        .icon4 {
+            width: 30px;
+            height: 30px;
+        }
+        
+        .icon5 {
+            width: 30px;
+            height: 30px;
+        }
+        
+        .icon6 {
+            width: 30px;
+            height: 30px;
+        }
+        
+        .icon7 {
+            width: 30px;
+            height: 30px;
+        }
+
+        .icon8 {
+           
+            width: 30px;
+            height: 30px;
+        }
+
+        .item-contrata{
+            width: 90px;
+            height: 90px;
+}
+
+.item-contrata:hover{
+    background: #EAEAEA;
+    width: 90px;
+            height: 90px;
+    
+}
+
+
+
+    }
+
+    @media screen and (max-width: 884px){
+        .item-contrata{
+            width:80px;
+            height: 85px;
+}
+
+.item-contrata:hover{
+    background: #EAEAEA;
+    width:80px;
+            height: 85px;
+    
+}
+
+
+
+.div-contrata-en-linea{
+    width: 95%;
+    height: auto;
+    top: -30px;
+    z-index: 5;
+}
+
+    }
+
+    @media screen and (max-width: 790px){
+
+        .div-contrata-en-linea{
+            width: 95%;
+            height: auto;
+            top: -30px;
+            z-index: 5;
+        }
+    }
+
+    @media screen and (max-width: 747px){
+        .icon1 {
+            width: 25px;
+            height: 25px;
+        }
+        
+        .icon2 {
+            width: 25px;
+            height: 25px;
+        }
+        
+        .icon3 {
+            width: 25px;
+            height: 25px;
+        }
+        
+        .icon4 {
+            width: 25px;
+            height: 25px;
+        }
+        
+        .icon5 {
+            width: 25px;
+            height: 25px;
+        }
+        
+        .icon6 {
+            width: 25px;
+            height: 25px;
+        }
+        
+        .icon7 {
+            width: 25px;
+            height: 25px;
+        }
+
+        .icon8 {
+           
+            width: 25px;
+            height: 25px;
+        }
+
+        .item-contrata{
+            width:75px;
+            height: 85px;
+}
+
+.item-contrata:hover{
+    background: #EAEAEA;
+    width:75px;
+            height: 85px;
+    
+}
+
+    }
+
+
+    @media screen and (max-width: 704px){
+        .div-contrata-en-linea{
+            width: 100%;
+            height: auto;
+            top: -30px;
+            z-index: 5;
+        }
+
+    }
+
+    @media screen and (max-width: 667px){
+        .item-contrata{
+            width:70px;
+            height: 80px;
+}
+
+.item-contrata:hover{
+    background: #EAEAEA;
+    width:70px;
+            height: 80px;
+    
+}
+
+    }
+    
+    @media screen and (max-width: 624px){
+        .item-contrata{
+            width:65px;
+            height: 80px;
+}
+
+.item-contrata:hover{
+    background: #EAEAEA;
+    width:65px;
+            height: 80px;
+    
+}
+
+    }
+
+
+@media screen and (max-width: 600px){
+    .div-contrata-en-linea{
+        padding-top: 0px;
+    }
+
+    .icon1 {
+        width: 35px;
+        height: 35px;
+    }
+    
+    .icon2 {
+        width: 35px;
+        height: 35px;
+    }
+    
+    .icon3 {
+        width: 35px;
+        height: 35px;
+    }
+    
+    .icon4 {
+        width: 35px;
+        height: 35px;
+    }
+    
+    .icon5 {
+        width: 35px;
+        height: 35px;
+    }
+    
+    .icon6 {
+        width: 35px;
+        height: 35px;
+    }
+    
+    .icon7 {
+        width: 35px;
+        height: 35px;
+    }
+
+    .icon8 {
+       
+        width: 35px;
+        height: 35px;
+    }
+
+.item-contrata{
+        width:100px;
+        height: 100px;
+}
+}
+
+@media screen and (max-width: 600px){
+    .contenedor-contrata-en-linea{
+        width: 100%;
+        position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    
+    .div-contrata-en-linea{
+        width: 95%;
+        height: auto;
+        top: -30px;
+        z-index: 5;
+    }
+    
+    .alinea-contendo{
+        width: 100%;
+        height: 100%;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+                padding-top: 40px;
+                padding-bottom: 40px;
+    }
+    
+ .h1-contrata-linea{
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .contenedor-items{
+        width: 100%;
+        height: 100%;
+    }
+
+    
+    .alinea-anchor{
+        width: 50%;
+        height: auto;
+        margin-top: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+
+  /*    .alinea-anchor:hover{
+        width: 50%;
+        height: 100%;
+        background: #EAEAEA;
+     } */
+
+    .p-items{
+    font-family: "SantanderText-Light", sans-serif;
+    text-align: center;
+    }
+
+/*     .item-contrata{
+        width: 150px;
+        height:80px;
+} */
+
+}
+
+
+
+
+
+/* Para la Ipad */
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {  
+    .div-contrata-en-linea{
+        width: 95%;
+        height: 200px;
+      
+    }
+
+    .item-contrata{
+                width: 80px;
+                height: 90px;
+    }
+  
+    
+}
+
+/* Para la Ipad Acostada */
+@media all and (device-width: 1024px) and (device-height: 768px) and (orientation:landscape) {
+
+    .div-contrata-en-linea{
+        width: 80%;
+        height: 200px;
+      
+    }
+
+    .item-contrata{
+                width: 90px;
+                height: 100px;
+    }
+ 
+   
+}
+
+/* Para la Ipad PRO */
+@media all and (device-width: 1024px) and (device-height: 1366px) and (orientation:portrait) {
+
+    .div-contrata-en-linea{
+        width: 80%;
+        height: 200px;
+      
+    }
+
+    .item-contrata{
+                width: 90px;
+                height: 100px;
+    }
+  
+
+}
+
+/* Para la Ipad PRO Acostada */
+@media all and (device-width: 1366px) and (device-height: 1024px) and (orientation:landscape) {
+
+    .div-contrata-en-linea{
+        width: 80%;
+        height: 200px;
+      
+    }
+
+    .item-contrata{
+                width: 120px;
+                height: 100px;
+    }
+   
+
+}

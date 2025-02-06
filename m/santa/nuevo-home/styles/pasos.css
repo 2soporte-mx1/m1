@@ -1,0 +1,189 @@
+.contenedor-pasos{
+    width: 100%;
+    height: auto;
+    margin-bottom: 5%;
+    padding-right: 15%;
+    padding-left: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.contenedor-paso{
+    width:200px;
+    height: auto;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt-descr{
+    margin-top: 5%;
+    width: 90%;
+    height: auto;
+}
+
+.h1-paso{
+    text-align: center;
+    font-size: 18px;
+}
+
+.p-paso{
+    text-align: center;
+    font-size: 16px;
+    font-family: "SantanderText-Light", sans-serif;
+}
+
+.img-paso{
+    width: 100%;
+}
+
+#section-pasos .row-pasos .carousel-cell {
+    width: 25%;
+    float: left;
+}
+
+
+@media(max-width: 991px) {
+    #section-pasos .carousel:after {
+        content: 'flickity';
+        display: none;
+    }
+
+    #section-pasos .carousel-cell {
+        width: 100% !important;
+    }
+
+    #section-pasos .flickity-prev-next-button {
+        top: 45px;
+        background: #FFFFFF;
+        box-shadow: 0px 6px 10px rgb(0 0 0 / 12%);
+        border-radius: 44px;
+        color: #EC0000;
+        width: 32px;
+        height: 32px;
+    }
+
+    #section-pasos .flickity-prev-next-button {
+        top: 115px;
+    }
+
+    #section-pasos .flickity-prev-next-button.previous {
+        left: 0px;
+    }
+
+    #section-pasos .flickity-prev-next-button.next {
+        right: 0px;
+    }
+
+    #section-pasos .flickity-prev-next-button.previous:disabled {
+        background: #CEDEE7;
+        color: #767676;
+    }
+
+    #section-pasos .flickity-prev-next-button.next:disabled {
+        background: #CEDEE7;
+        color: #767676;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .contenedor-pasos{
+        display: block;
+        padding-right: 0%;
+        padding-left: 0%;
+    }
+
+    .scrollmenu {
+        overflow: auto;
+        white-space: nowrap;
+      }
+
+      .contenedor-paso{
+        width:350px;
+        height: auto;
+        margin-left: 0%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+      
+      .scrollmenu .contenedor-paso {
+        display: inline-block;
+        text-align: center;
+        text-decoration: none;
+      }
+
+      .txt-descr{
+        overflow: hidden;
+        white-space: normal;
+    }
+
+    .h1-paso{
+        text-align: center;
+        font-size: 25px;
+    }
+    
+    .p-paso{
+        text-align: center;
+        font-size: 20px;
+        font-family: "SantanderText-Light", sans-serif;
+    }
+
+}
+
+
+@media (min-width:320px) and (max-width:479px){
+    .contenedor-pasos{
+        display: block;
+        padding-right: 0%;
+        padding-left: 0%;
+    }
+
+    .scrollmenu {
+        overflow: auto;
+        white-space: nowrap;
+      }
+
+      .contenedor-paso{
+        width:100%;
+        height: auto;
+        margin-left: 0%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+      
+      .scrollmenu .contenedor-paso {
+        display: inline-block;
+        text-align: center;
+        text-decoration: none;
+      }
+
+      .txt-descr{
+          width: 100%;
+        overflow: hidden;
+        white-space: normal;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .h1-paso{
+        text-align: center;
+        font-size: 25px;
+    }
+    
+    .p-paso{
+        text-align: center;
+        font-size: 20px;
+        font-family: "SantanderText-Light", sans-serif;
+    }
+
+}

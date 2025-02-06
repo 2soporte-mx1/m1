@@ -1,0 +1,28 @@
+.container-checklist {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.container-checklist img {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+
+.container-checklist p {
+    font-family: 'Santander Text' !important;
+    font-style: normal !important;
+    font-weight: 400;
+    font-size: 18px !important;
+    line-height: 150% !important;
+    color: #191919 !important;
+    margin-bottom: 0 !important;
+    text-align: left !important;
+}
+
+@media(max-width: 991px) {
+    .container-checklist p {
+        font-size: 14px !important;
+        line-height: 150% !important;
+    }
+}
