@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="66px" viewBox="0 0 42 66" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="../../../../../../www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M7.5,0 C3.357,0 0,3.3585 0,7.5 L0,58.5 C0,62.6415 3.357,66 7.5,66 L34.5,66 C38.6415,66 42,62.6415 42,58.5 L42,7.5 C42,3.3585 38.6415,0 34.5,0 L7.5,0 Z M3,58.5 L3,7.5 C3,5.0145 5.016,3 7.5,3 L34.5,3 C36.984,3 39,5.0145 39,7.5 L39,58.5 C39,60.9855 36.984,63 34.5,63 L7.5,63 C5.016,63 3,60.9855 3,58.5 Z M18,54 C18,55.656 19.3425,57 21,57 C22.6575,57 24,55.656 24,54 C24,52.344 22.6575,51 21,51 C19.3425,51 18,52.344 18,54 Z" id="path-1"></path>
+    </defs>
+    <g id="Desktop-_V2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="6-Créditos-personal-santander" transform="translate(-235.000000, -1274.000000)">
+            <g id="Group-4" transform="translate(235.000000, 1274.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-2"></g>
+                <polygon id="Fill-1" fill="#000000" mask="url(#mask-2)" points="-7 74 50 74 50 -7 -7 -7"></polygon>
+                <polygon id="Fill-3" fill="#000000" mask="url(#mask-2)" points="-22 77 65 77 65 -10 -22 -10"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
