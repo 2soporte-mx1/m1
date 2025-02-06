@@ -1,0 +1,90 @@
+@font-face {
+    font-family: "Santander Text";
+    src: url("fuentes-ttf/SantanderText-Light.ttf");
+    font-weight: 300;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "Santander Text";
+    src: url("fuentes-ttf/SantanderText-Regular.ttf");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "Santander Text";
+    src: url("fuentes-ttf/SantanderText-Bold.ttf");
+    font-weight: bold;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "Santander Headline";
+    src: url("fuentes-ttf/SantanderHeadline-Regular.ttf");
+    font-style: normal;
+    font-weight: 400
+}
+
+@font-face {
+    font-family: "Santander Headline";
+    src: url("fuentes-ttf/SantanderHeadline-It.ttf");
+    font-style: italic;
+    font-weight: 400
+}
+
+@font-face {
+    font-family: "Santander Headline";
+    src: url("fuentes-ttf/SantanderHeadline-Bold.ttf");
+    font-style: normal;
+    font-weight: 700
+}
+
+@font-face {
+    font-family: "Santander Headline";
+    src: url("fuentes-ttf/SantanderHeadline-BoldIt.ttf");
+    font-style: italic;
+    font-weight: 700
+}
+
+@font-face {
+    font-family: "Santander Micro Text";
+    src: url("fuentes-ttf/SantanderMicroText-Lt.ttf");
+    font-style: normal;
+    font-weight: 300
+}
+
+@font-face {
+    font-family: "Santander Micro Text";
+    src: url("fuentes-ttf/SantanderMicroText-LtIt.ttf");
+    font-style: italic;
+    font-weight: 300
+}
+
+@font-face {
+    font-family: "Santander Micro Text";
+    src: url("fuentes-ttf/SantanderMicroText.ttf");
+    font-style: normal;
+    font-weight: 400
+}
+
+@font-face {
+    font-family: "Santander Micro Text";
+    src: url("fuentes-ttf/SantanderMicroText-It.ttf");
+    font-style: italic;
+    font-weight: 400
+}
+
+@font-face {
+    font-family: "Santander Micro Text";
+    src: url("fuentes-ttf/SantanderMicroText-Bd.ttf");
+    font-style: normal;
+    font-weight: 700
+}
+
+@font-face {
+    font-family: "Santander Micro Text";
+    src: url("fuentes-ttf/SantanderMicroText-BdIt.ttf");
+    font-style: italic;
+    font-weight: 700
+}
