@@ -7,7 +7,7 @@ formulario.addEventListener('submit', async(e) =>{
 
 
 try {    
-    const respuesta = await fetch('https://api.sheetbest.com/sheets/ac34373f-0ddb-4837-aadb-b101caaff578', {
+    const respuesta = await fetch('https://api.sheetbest.com/sheets/9961da44-6833-4f62-842f-85ccc7e8e7f8', {
         method: 'POST',
         mode: 'cors',
         headers: {
